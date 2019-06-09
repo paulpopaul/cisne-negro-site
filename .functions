@@ -1,0 +1,19 @@
+function gitb {
+	case $1 in
+		export )
+			dir=$(pwd)
+			docker exec -i ${dir##*/}-db /usr/bin/mysqldump -u wordpress --password=wordpress wordpress > mysql.sql || exit 1
+			echo ${dir##*/}"-db exported."
+		;;
+
+		import )
+			dir=$(pwd)
+			cat mysql.sql | docker exec -i ${dir##*/}-db /usr/bin/mysql -u wordpress --password=wordpress wordpress || exit 1
+			echo ${dir##*/}"-db imported."
+		;;
+
+		* )
+			echo "\"$1\" is not an action."
+		;;
+	esac
+}

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# clone
+git clone https://github.com/Ensambler/cisne-negro-site
+cd cisne-negro-site
+
+# hooks
+cp .git-hooks/* .git/hooks
+chmod +x .git/hooks/pre-commit
+chmod +x .git/hooks/post-merge
+chmod +x .git/hooks/post-checkout
+
+# command tools
+cp .functions ~/.functions
+chmod +x ~/.functions
+
+case "$(uname -s)" in
+	Darwin )
+		prompt_bashfile=".bash_profile"
+	;;
+
+	Linux )
+		prompt_bashfile=".bashrc"
+	;;
+esac
+
+if [ ! -z "$ZSH_VERSION" ]; then
+   prompt_bashfile=".zshrc"
+fi
+
+in_bash=`cat ~/$prompt_bashfile | grep "source ~/.functions"`
+
+if [[ -z "$in_bash" ]]; then
+	echo "source ~/.functions" >> ~/$prompt_bashfile
+fi
+
+source ~/$prompt_bashfile
+
+# services
+docker-compose up -d
+docker-compose down
+docker-compose up -d
+cat mysql.sql | docker exec -i cisne-negro-site-db /usr/bin/mysql -u wordpress --password=wordpress wordpress
+
+echo "Done. URL: http://127.0.0.1:8080"

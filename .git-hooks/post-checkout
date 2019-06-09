@@ -1,0 +1,1 @@
+cat mysql.sql | docker exec -i cisne-negro-site-db /usr/bin/mysql -u wordpress --password=wordpress wordpress

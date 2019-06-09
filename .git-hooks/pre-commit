@@ -1,0 +1,2 @@
+docker exec -i cisne-negro-site-db /usr/bin/mysqldump -u wordpress --password=wordpress wordpress > mysql.sql
+git add mysql.sql
