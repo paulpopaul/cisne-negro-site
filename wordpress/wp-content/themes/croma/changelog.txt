@@ -1,0 +1,341 @@
+﻿V.3.4.9 - 04.12.2018
+----------------------------------------------
+- Updated: Essential Grid 2.3
+- Updated: WPBakery Page Builder to 5.6 (Compatibility with Wordpress 5.0)
+- Updated: Croma-music 3.4.5
+    -Remove: Deprecated Favicon theme option
+- Fixed: Outdated Woocommerce template version
+- Fixed: RTL playlist issue
+- Fixed: Album Artwork could not be clicked twice
+- Menu loads faster on mobile
+
+V.3.4.8 - 26.10.2018
+----------------------------------------------
+- Updated: Croma-music to 3.4.4*
+- Updated: Iron-demo-Imprter to 1.4
+- Updated: WPBakery Page Builder to 5.5.5*
+- Fixed: Issue with php 7.2x
+- Fixed: Essential Grid loading with the "Menu over content" option enable
+- Fixed: Hotlink offset aligment on mobile
+- Fixed: Event widget applied in the footer widget area
+- Add Googlefonts IBM and Barlow 
+- Add autoplay MUTED for video background
+
+* To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+V.3.4.7 - 04.10.2018
+----------------------------------------------
+- Updated: WPBakery Page Builder to 5.5.4
+- Updated: Essential Grid to 2.2.5
+- Fixed: Woocommerce single product content issue.
+- Fixed: Issue when the feature "back to top button" is enable.
+- Fixed: BandintTown loading issue. 
+
+* To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+V.3.4.6 - 13.07.2018
+----------------------------------------------
+- Fixed: Audioplayer when multiple instance and Ajax is disabled.
+
+* To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+V.3.4.5 - 22.06.2018
+----------------------------------------------
+- Updated: Revolution Slider to 5.4.8
+- Fixed: Woocommerce duplicated review
+
+* To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+V.3.4.4 - 04.06.2018
+----------------------------------------------
+- Fixed: Issue with the third sub-menu
+- Updated: Croma-Music Plugin to 3.2
+    -Fixed: Past events now doesnts shows up in the upcoming event list
+
+* To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+V.3.4.3 - 17.05.2018
+----------------------------------------------
+- Updated: FontAwsome library to 5
+- Updated: Revolution Slider to 5.4.7.3(Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+
+V.3.4.2 - 26.04.2018
+----------------------------------------------
+*The Essential Grid plugin update will be required. When the theme is updated please go to wp-admin>appearance>install plugins to update Essential Grid to 2.2.4.(https://d.pr/free/i/W8QMIZ)
+
+- Updated: Essential Grid to 2.2.4.1 which fix the Instagram API feed issue. 
+
+V.3.4.1 - 15.03.2018
+----------------------------------------------
+*The Essential Grid plugin update will be required. When the theme is updated please go to wp-admin>appearance>install plugins to update Essential Grid to 2.2.4.(https://d.pr/free/i/W8QMIZ)
+
+- Updated: Essential Grid to 2.2.4 which fix the Instagram API feed issue. 
+- Updated: WPBackery Page Builder (Formerly Visual Composer) to 5.4.7 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+- Updated: Revolution Slider to 5.4.7.1 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+- Update Woocommerce template to be compatible with Woocommerce 3.3.1
+- Add layout options on Woocommerce pages
+- Add retina footer logo
+
+V.3.4 - 31.01.2018
+----------------------------------------------
+- Updated: Croma Music plugin to 3.3
+- Added: On the single-artist, the social icons now open a _blank window instead of a _self window.
+- Added: IMDB icon in font-awesome
+- Fixed: In single-album, the release date field do not show anymore if there's no release date set
+- Fixed: The countdown is not translatable
+- Fixed: Artists are now listed by order name in the event filter dropdown
+- Fixed: In the single-post when sidebar is not shown, we now show the large featured image instead of the medium.
+- Fixed: Issue with scroll to top when clicking the VC caroussel arrows.
+- Fixed: Minor display issues with WooCommerce and WooCommerce Related products
+- Fixed: Issue with safari and the menu resizing
+- Fixed: removed margin override on p tags
+- Updated: WPBackery Page Builder to 5.4.5 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+- Updated: Revolution Slider to 5.4.6.4 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+
+V.3.3.5 - 17.11.2017
+----------------------------------------------
+- Update WPBackery Page Builder to 5.4.4 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+
+- Updated: Revolution Slider to 5.4.6.3.1 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+
+- Updated: Essential Grid to 2.1.6.2.2 which fix the Instagram feed issue. (Instruction: Please BACKUP your grid before updating the plugin -- To update Essential Grid, make a backup of your grids first: Go to WP-Admin > Ess. Grid > Import/Export. Click Export then click Export Selected. Save the .json file on your computer. Then go to WP-Admin > plugins > and delete Essential Grid. Now go to WP-Admin > Appearance > Install Plugins and install Essential Grid again. Once its activated, go to WP-Admin > Ess. Grid > Import/Export. Click Import and Import the .json file you previously exported. then click the green READ FILE button.
+
+V.3.3.4 - 11.11.2017
+----------------------------------------------
+- Updated: Essential Grid to 2.1.6.2 which fix the Instagram feed issue. Please BACKUP your grid before updating the plugin (read below).
+
+* To update Essential Grid, make a backup of your grids first: Go to WP-Admin > Ess. Grid > Import/Export. Click Export then click Export Selected. Save the .json file on your computer. Then go to WP-Admin > plugins > and delete Essential Grid. Now go to WP-Admin > Appearance > Install Plugins and install Essential Grid again. Once its activated, go to WP-Admin > Ess. Grid > Import/Export. Click Import and Import the .json file you previously exported. then click the green READ FILE button.
+
+To use Instagram Feed, you are now required to use the Instagram API and provide Access Token.  Please refer to this screencast that we’ve prepared for RevSlider. It works similarly with Essential Grid. http://youtu.be/7iIhXAaLSoM?hd=1 . Ref : https://jelled.com/instagram/access-token
+
+
+V.3.3.3 - 11.09.2017
+----------------------------------------------
+- Added: Now we display the name of the artist in the single-event page if there is an artist associated to the event.
+- Fixed: Javascript conflict with Nicescroll. Nicescroll is no longer supported and shall be replaced by your own third party plugins
+- Fixed: Hotlinks order is now the same for desktop vs mobile
+- Fixed: Issue with the language switch widget when using Ajax
+- Fixed: Issue with the non-ajax player and the auto-play feature.
+- Fixed: Fix query posttype
+- Fixed: Anchor menu color issue (http://d.pr/i/6CbMTN)
+- Fixed: Countdown display
+- Fixed: The 'release date' string was not translatable.
+- Fixed: Deprecated WooCommerce template
+- Updated: Croma Music plugin to 3.2.3
+- Updated: WPBackery Page Builder (Formerly Visual Composer) to 5.4.2 **
+- Updated: Revolution Slider to 5.4.6.2 **
+- Updated: Font Awesome to 4.7.0 
+- Updated: Essential Grid to 2.1.6.1 *
+
+* To update Essential Grid, make a backup of your grids first: Go to WP-Admin > Ess. Grid > Import/Export. Click Export then click Export Selected. Save the .json file on your computer. Then go to WP-Admin > plugins > and delete Essential Grid. Now go to WP-Admin > Appearance > Install Plugins and install Essential Grid again. Once its activated, go to WP-Admin > Ess. Grid > Import/Export. Click Import and Import the .json file you previously exported. then click the green READ FILE button.
+
+** To update WPBackery Page Builder and Revolution Slider, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+
+V.3.3.2 - 09.12.2017
+----------------------------------------------
+- Added: Support for WP-CLI
+- Fixed: Player skip to the next track when song is finished instead of jumping to another song randomly.
+- Fixed: Minor visual adjustment of the play and pause button in tracklist
+- Fixed: Waveform now always shows up after being loaded
+- Updated: Croma-Music Plugin to 3.2.2 *
+
+* To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+
+V.3.3.1 - 08.30.2017
+----------------------------------------------
+- Updated: Better documentation on how to import demos.
+- Removed: Unused scripts for better performance.
+
+
+V.3.3 - 08.16.2017
+----------------------------------------------
+- Refactored the theme codes and scripts for best coding practice and security.
+- Added: When no retina logo is set, standard logo is applied.
+- Added: Artist name, album name and release date now shows up above the tracklist.
+- Added: Artist name now shows up on the album page below the Album name.
+- Added: Offline documentation
+- Fixed: Audio Player play/pause issue when coming from an artist page.
+- Fixed: Now the image of the album switch if you change tracks.
+- Fixed: Menu items alignment when the browser's window is resized
+- Fixed: Better behavior of the tracklist if your track title contains a very very long name.
+- Updated: Croma-Music Plugin to 3.2
+- * Updated: Iron Demo Importer to version 1.2
+- * Updated: Visual Composer to 5.2.1
+- * Updated: Revolution Slider to 5.4.5.2
+
+* To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.
+
+
+V.3.2.2 - 05.25.2017
+----------------------------------------------
+- Demo Importer Plugin is now included in the package.
+- Improved the color of the arrows in the push Menu 
+- Improved the color of the social media icons in the push menu
+- Fixed the visited: class color of the post-grid widget (used on The Grid demo)
+
+
+V.3.2.1 - 04.26.2017
+----------------------------------------------
+- Fixed an issue with the theme option when you hit save: it redirected you to the theme page instead of the theme options.
+- Disabled the parallax for IE and IE Edge browser because of a cross-browser incompatibility.
+
+V.3.2 - 04.24.2017
+----------------------------------------------
+- Refactored for WooCommerce 3.*
+- Updated Croma Music to 3.1.3
+- Updated Revolution Slider to 5.4.3. (Go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and install the new plugin)
+- Updated Visual Composer to 5.1.1. (Go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and install the new plugin)
+- Fixed compatibility issue with Yoast SEO plugin and page loading
+- Fixed other minor bugs
+- Removed unnecessary specific CSS files for browser detection.
+
+V.3.1.1 - 03.31.2017
+----------------------------------------------
+- Fixed audio player issue causing the playlist playing in random order
+- Fixed issue on the mobile menu
+- Added an option to disable redirection on event single
+- Updated Revolution Slider to 5.4.1
+- Updated Croma-Music plugin to 3.1.2
+- Added Freemius SDK
+
+
+V.3.1 - 03.10.2017
+----------------------------------------------
+- New feature! Option to redirect your event to an external link
+- Fixed scrollbar issue. The scrollbar was behind the menu and backgrounds and it's now fixed. * Action Required for people who have previously imported the Capital demo. Go to wp-admin > croma > look and feel and move your Content Background image to the Main Background option.
+- Fixed alignment for event list. It's now centered.
+- Fixed issue with Essential Grid that was not working with Ajax. - Updated Revolution Slider to 5.4.1
+- Updated Visual Composer to 5.1.1
+- Fixed minor issue with past events that redirect to a 404
+- Fixed Audio Player on mobile in the artist page
+- Updated some google fonts
+
+
+V.3.0 - 02.22.2017
+----------------------------------------------
+- New feature! Archive page for artists
+- New feature! Single page for artist
+- New feature! Events and Discography can now be associated with artist(s)
+- New feature! Events and Discography have categories
+
+V.2.2.4 - 02.10.2017
+----------------------------------------------
+- Audio streaming when Ajax is not enabled
+- Bug fix for the audioplayer
+
+V.2.2.3 - 01.23.2017
+----------------------------------------------
+- Updated the audio player to start the audio in streaming
+- updated Croma Music to 2.4
+- Bug fix when "current page item" was not updated in ajax
+- Fixed an issue with Revolution Slider and the Event shortcode
+
+V.2.2.2 - 01.11.2017
+----------------------------------------------
+- Fixed an issue when selecting the default archive option
+- Bug fix with essentialGrid and the ajax option
+- bug fix with Safari in IOS and the video grid
+- Bug fix with Woocommerce and the ajax option
+- Bug fix with inline js and the ajax option
+
+----------------------------------------------
+V.2.2.1 - 12.22.2016
+----------------------------------------------
+- New feature on Visual Composer shortcode button. You can choose an album to play on click event.
+- Updated Revolution Slider 5.3.1.5
+- Updated PSD file with the new demo.
+- Fixed the home link on the mobile menu.
+
+----------------------------------------------
+V.2.2 - 12.20.2016
+----------------------------------------------
+- New feature! Save the custom stylesheet in a file for speed improvement.
+- Updated Croma Music to version 2.3
+- Updated Visual Composer to 5.0.1
+- Fixed visual for checkbox in ContactForm plugin
+- Fixed visual for captcha in ContactForm plugin
+- Fixed the footer logo not appearing
+- Added class "no-ajax" to use when a link as to be treated without ajax
+
+----------------------------------------------
+V.2.1.5 - 11.25.2016
+----------------------------------------------
+- Updated the listing of songs in single album template
+- Updated template for single product woocommerce
+- Updated Visual Composer to 5.0
+- Updated Croma Music plugin to 2.2
+- Fixed Event message when there's no event
+- Improving the social share speed
+- Removed Addthis
+
+----------------------------------------------
+V.2.1.4 - 11.06.2016
+----------------------------------------------
+- Bug fix with the push menu
+
+----------------------------------------------
+V.2.1.3 - 11.03.2016
+----------------------------------------------
+- Bug fix with the logo on classic menu
+- Fixed some issues with the niceScroll
+
+
+----------------------------------------------
+V.2.1.2 - 10.26.2016
+----------------------------------------------
+- Bug fix with the footer and the continuous player and body Class
+
+
+----------------------------------------------
+V.2.1.1 - 10.25.2016
+----------------------------------------------
+- Fixed some issues with the footer and the continuous player
+- Fixed some issues when some inline script where loaded before their library
+
+
+----------------------------------------------
+V.2.1 - 10.21.2016
+----------------------------------------------
+- Updated the design of the single album template
+- Fixed some issues with the Classic Menu on mobile version
+- Fixed the audio player when the option Ajax is not enabled
+- Fixed the languages Area in the Classic Menu
+- Bug fix with the Ajax version
+- Updated Croma Music plugin to 2.1
+
+
+----------------------------------------------
+V.2.0 - 10.03.2016
+----------------------------------------------
+- Added an option to enable Ajax through all your page. This option automatically enable a continious audio player through your pages while users navigate your site. Page load time is also improved 2x faster;
+- Updated Visual Composer to 4.12.1;
+- Added a "Back" button when using sub-menus in Push menu mode;
+- Fixed some issues with touch-screen displays;
+- Fixed Google Fonts on the audio player.
+- Removed a call to a Facebook script if you are not using it.
+- Updated Croma Music plugin to 2.0
+
+
+----------------------------------------------
+V.1.2 - 08.18.2016
+----------------------------------------------
+- Adding a new universal widget areas for language selector
+
+----------------------------------------------
+V.1.1 - 08.03.2016
+----------------------------------------------
+- Fixed video lightbox on mobile.
+- Fixed error notices when using PHP 5.4 and less. Now it's 100% compatible.
+- Updated Revolution Slider to 5.2.6
+
+----------------------------------------------
+V.1.0.1 - 06.27.2016
+----------------------------------------------
+- Fixed older version of php
+
+----------------------------------------------
+V.1.0 - 03.01.2016
+----------------------------------------------
+- Initial Version

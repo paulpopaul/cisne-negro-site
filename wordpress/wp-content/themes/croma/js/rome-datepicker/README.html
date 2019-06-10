@@ -1,0 +1,335 @@
+<h1 id="rome">rome</h1>
+<p><a href="https://www.gittip.com/bevacqua/"><img src="http://gbindex.ssokolow.com/img/gittip-43x20.png" alt="help me on gittip"></a> <a href="https://flattr.com/submit/auto?user_id=nzgb&amp;url=https%3A%2F%2Fgithub.com%2Fbevacqua%2Frome"><img src="https://api.flattr.com/button/flattr-badge-large.png" alt="flattr.png"></a></p>
+<blockquote>
+<p>Customizable date <em>(and time)</em> picker. Opt-in UI, no jQuery!</p>
+</blockquote>
+<p>Rome wasn&#39;t built in a day. Browser support includes every sane browser and <strong>IE7+</strong>.</p>
+<h4 id="demo-">Demo!</h4>
+<p>You can <a href="https://bevacqua.github.io/rome">see a live demo here</a>.</p>
+<p><a href="https://bevacqua.github.io/rome"><img src="https://cloud.githubusercontent.com/assets/934293/3803583/387125ea-1c1c-11e4-974e-467984e4d1f0.png" alt="screenshot.png"></a></p>
+<p>Oh, <code>rome</code> synchronizes in real-time with inputs, never steals focus, and its CSS is entirely customizable!</p>
+<p><sub>Rome depends on <a href="http://momentjs.com"><code>moment</code></a>. It doesn&#39;t depend on jQuery or other weird frameworks, though.</p>
+<h2 id="install">Install</h2>
+<p>From npm or Bower.</p>
+<pre><code class="lang-shell">npm install --save rome
+</code></pre>
+<pre><code class="lang-shell">bower install --save rome
+</code></pre>
+<p>Note that if you&#39;re using the standalone version, the API is published under the <code>rome</code> global. If you&#39;re using CJS, then you&#39;ll have to <code>require(&#39;rome&#39;)</code>.</p>
+<h3 id="setup">Setup</h3>
+<p>You can use your own distribution of <a href="http://momentjs.com"><code>moment</code></a>, using <code>rome.standalone.js</code>.</p>
+<pre><code class="lang-html">&lt;script src=&#39;moment.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;rome.standalone.js&#39;&gt;&lt;/script&gt;
+</code></pre>
+<p>You could just use the bundled <code>rome.js</code> distribution, which comes with <a href="http://momentjs.com"><code>moment</code></a> in it.</p>
+<pre><code class="lang-html">&lt;script src=&#39;rome.js&#39;&gt;&lt;/script&gt;
+</code></pre>
+<p>If you need to do anything regarding internationalization, <a href="http://momentjs.com/docs/#/i18n/">refer to <code>moment</code> for that</a>. Ideally, make those changes before starting to create Rome calendar components.</p>
+<h2 id="api">API</h2>
+<p>The API in <code>rome</code> exposes a few properties.</p>
+<h3 id="-rome-find-elem-"><code>rome.find(elem)</code></h3>
+<p>If a calendar is associated to the provided <code>elem</code>, then that calendar is returned, otherwise returns <code>null</code>. DOM elements can only have one associated calendar.</p>
+<h3 id="-rome-elem-options-"><code>rome(elem, options={})</code></h3>
+<p>This method creates a calendar instance and associates it to the provided <code>elem</code>. This association can&#39;t be undone even by <code>.destroy()</code>ing the <code>rome</code> instance, because it can be <code>.restore()</code>d later. Subsequent calls to <code>rome(elem)</code> will return the associated calendar, instead of creating a new one <em><sub>(see <code>rome.find(elem)</code>)</sub></em>. Think of this as a <em>&quot;caching feature&quot;</em>.</p>
+<p>Creating a calendar has a ton of options. These have reasonable defaults that are easy to adjust, too. The options are listed below.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>appendTo</code></td>
+<td>DOM element where the calendar will be appended to. Takes <code>&#39;parent&#39;</code> as the parent element</td>
+</tr>
+<tr>
+<td><code>autoClose</code></td>
+<td>When set to <code>true</code>, the calendar is auto-closed when picking a day _(or a time if <code>time: true</code> and <code>date: false</code>). A value of <code>&#39;time&#39;</code> will only auto-close the calendar when a time is picked.</td>
+</tr>
+<tr>
+<td><code>autoHideOnBlur</code></td>
+<td>Hides the calendar when focusing something other than the input field</td>
+</tr>
+<tr>
+<td><code>autoHideOnClick</code></td>
+<td>Hides the calendar when clicking away</td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td>The calendar shows days and allows you to navigate between months</td>
+</tr>
+<tr>
+<td><code>dateValidator</code></td>
+<td>Function to validate that a given date is considered valid. Receives a native <code>Date</code> parameter.</td>
+</tr>
+<tr>
+<td><code>dayFormat</code></td>
+<td>Format string used to display days on the calendar</td>
+</tr>
+<tr>
+<td><code>initialValue</code></td>
+<td>Value used to initialize calendar. Takes <code>string</code>, <code>Date</code>, or <code>moment</code></td>
+</tr>
+<tr>
+<td><code>inputFormat</code></td>
+<td>Format string used for the input field as well as the results of <code>rome</code></td>
+</tr>
+<tr>
+<td><code>invalidate</code></td>
+<td>Ensures the date is valid when the field is blurred</td>
+</tr>
+<tr>
+<td><code>strictParse</code></td>
+<td>Compares input strictly against <code>inputFormat</code>, and partial matches are discarded</td>
+</tr>
+<tr>
+<td><code>max</code></td>
+<td>Disallow dates past <code>max</code>. Takes <code>string</code>, <code>Date</code>, or <code>moment</code></td>
+</tr>
+<tr>
+<td><code>min</code></td>
+<td>Disallow dates before <code>min</code>. Takes <code>string</code>, <code>Date</code>, or <code>moment</code></td>
+</tr>
+<tr>
+<td><code>monthFormat</code></td>
+<td>Format string used by the calendar to display months and their year</td>
+</tr>
+<tr>
+<td><code>monthsInCalendar</code></td>
+<td>How many months get rendered in the calendar</td>
+</tr>
+<tr>
+<td><code>required</code></td>
+<td>Is the field required or do you allow empty values?</td>
+</tr>
+<tr>
+<td><code>styles</code></td>
+<td>CSS classes applied to elements on the calendar</td>
+</tr>
+<tr>
+<td><code>time</code></td>
+<td>The calendar shows the current time and allows you to change it using a dropdown</td>
+</tr>
+<tr>
+<td><code>timeFormat</code></td>
+<td>Format string used to display the time on the calendar</td>
+</tr>
+<tr>
+<td><code>timeInterval</code></td>
+<td>Seconds between each option in the time dropdown</td>
+</tr>
+<tr>
+<td><code>timeValidator</code></td>
+<td>Function to validate that a given time is considered valid. Receives a native <code>Date</code> parameter.</td>
+</tr>
+<tr>
+<td><code>weekdayFormat</code></td>
+<td>Format used to display weekdays. Takes <code>min</code> <em>(Mo)</em>, <code>short</code> <em>(Mon)</em>, <code>long</code> <em>(Monday)</em>, or an array with seven strings of your choosing.</td>
+</tr>
+<tr>
+<td><code>weekStart</code></td>
+<td>Day considered the first of the week. Range: Sunday <code>0</code> - Saturday <code>6</code></td>
+</tr>
+</tbody>
+</table>
+<p>Note that in the case of input fields, when <code>initialValue</code> isn&#39;t provided the initial value is inferred from <code>elem.value</code> instead. In the case of inline calendars, <code>new Date()</code> will be used as a default if none is provided.</p>
+<h4 id="inlining-the-calendar">Inlining the Calendar</h4>
+<p>If you pass in an element other than an input tag, then this method behaves slightly differently. The difference is that <code>appendTo</code> becomes the provided <code>elem</code>, and the calendar won&#39;t attach itself to an input element. The options listed below will be ignored.</p>
+<ul>
+<li><code>autoHideOnBlur</code>, because there is no input field that can be tracked for <code>blur</code> events</li>
+<li><code>invalidate</code>, because there is no input field to keep consistent with the calendar component</li>
+<li><code>required</code>, because you can easily do that on an input field</li>
+<li><code>styles.positioned</code>, because the calendar will be considered inlined</li>
+</ul>
+<p>All of the other options still apply, and identical behavior should be expected.</p>
+<h4 id="default-options">Default Options</h4>
+<p>If you don&#39;t set an option, the default will be used. You can <a href="https://github.com/bevacqua/rome/blob/master/src/defaults.js">look up the defaults here</a>, or below.</p>
+<pre><code class="lang-json">{
+  &quot;appendTo&quot;: document.body,
+  &quot;autoClose&quot;: true,
+  &quot;autoHideOnBlur&quot;: true,
+  &quot;autoHideOnClick&quot;: true,
+  &quot;date&quot;: true,
+  &quot;dateValidator&quot;: Function.prototype,
+  &quot;dayFormat&quot;: &quot;DD&quot;,
+  &quot;initialValue&quot;: null,
+  &quot;inputFormat&quot;: &quot;YYYY-MM-DD HH:mm&quot;,
+  &quot;invalidate&quot;: true,
+  &quot;max&quot;: null,
+  &quot;min&quot;: null,
+  &quot;monthFormat&quot;: &quot;MMMM YYYY&quot;,
+  &quot;monthsInCalendar&quot;: 1,
+  &quot;required&quot;: false,
+  &quot;strictParse&quot;: false,
+  &quot;styles&quot;: {
+    &quot;back&quot;: &quot;rd-back&quot;,
+    &quot;container&quot;: &quot;rd-container&quot;,
+    &quot;date&quot;: &quot;rd-date&quot;,
+    &quot;dayBody&quot;: &quot;rd-days-body&quot;,
+    &quot;dayBodyElem&quot;: &quot;rd-day-body&quot;,
+    &quot;dayConcealed&quot;: &quot;rd-day-concealed&quot;,
+    &quot;dayDisabled&quot;: &quot;rd-day-disabled&quot;,
+    &quot;dayHead&quot;: &quot;rd-days-head&quot;,
+    &quot;dayHeadElem&quot;: &quot;rd-day-head&quot;,
+    &quot;dayRow&quot;: &quot;rd-days-row&quot;,
+    &quot;dayTable&quot;: &quot;rd-days&quot;,
+    &quot;month&quot;: &quot;rd-month&quot;,
+    &quot;next&quot;: &quot;rd-next&quot;,
+    &quot;positioned&quot;: &quot;rd-container-attachment&quot;,
+    &quot;selectedDay&quot;: &quot;rd-day-selected&quot;,
+    &quot;selectedTime&quot;: &quot;rd-time-selected&quot;,
+    &quot;time&quot;: &quot;rd-time&quot;,
+    &quot;timeList&quot;: &quot;rd-time-list&quot;,
+    &quot;timeOption&quot;: &quot;rd-time-option&quot;
+  },
+  &quot;time&quot;: true,
+  &quot;timeFormat&quot;: &quot;HH:mm&quot;,
+  &quot;timeInterval&quot;: 1800,
+  &quot;timeValidator&quot;: Function.prototype,
+  &quot;weekdayFormat&quot;: &quot;min&quot;,
+  &quot;weekStart&quot;: moment().weekday(0).day()
+}
+</code></pre>
+<h4 id="rome-api">Rome API</h4>
+<p>When you create a calendar with <code>rome(elem)</code>, you&#39;ll get a <code>cal</code> instance back. This has a few API methods. Most of these methods return the calendar instance whenever possible, allowing for method chaining.</p>
+<h5 id="-show-"><code>.show()</code></h5>
+<p>Shows the calendar. If associated with an input, the calendar gets absolutely position right below the input field.</p>
+<h5 id="-hide-"><code>.hide()</code></h5>
+<p>Hides the calendar.</p>
+<h5 id="-id-"><code>.id</code></h5>
+<p>Auto-generated unique identifier assigned to this instance of Rome.</p>
+<h5 id="-container-"><code>.container</code></h5>
+<p>The DOM element that contains the calendar.</p>
+<h5 id="-associated-"><code>.associated</code></h5>
+<p>The associated DOM element assigned to this calendar instance. This is the input field or parent element that you used to create the calendar.</p>
+<h5 id="-getdate-"><code>.getDate()</code></h5>
+<p>Returns the current date, as defined by the calendar, in a native <code>Date</code> object. If <code>required: false</code> you&#39;ll get <code>null</code> when the input field is empty.</p>
+<h5 id="-getdatestring-format-"><code>.getDateString(format?)</code></h5>
+<p>Returns the current date, as defined by the calendar, using the provided <code>options.inputFormat</code> format string or a format of your choosing. If <code>required: false</code> you&#39;ll get <code>null</code> when the input field is empty.</p>
+<h5 id="-getmoment-"><code>.getMoment()</code></h5>
+<p>Returns a copy of the <code>moment</code> object underlying the current date in the calendar. If <code>required: false</code> you&#39;ll get <code>null</code> when the input field is empty.</p>
+<h5 id="-destroy-"><code>.destroy()</code></h5>
+<p>Removes the calendar from the DOM and all of its associated DOM event listeners. The only responsive API method becomes the <code>.restore</code> method described below, the rest of the API becomes no-op methods. After emitting the <code>destroyed</code> event, all event listeners are removed from the instance.</p>
+<h5 id="-destroyed-"><code>.destroyed</code></h5>
+<p>Returns <code>true</code> when the calendar is in a destroyed state and <code>false</code> otherwise.</p>
+<h5 id="-restore-options-"><code>.restore(options?)</code></h5>
+<p>Restores the calendar, using the provided options (or the default options). The associated DOM element can&#39;t be changed. The API methods are restored to their original functionality.</p>
+<h5 id="-options-options-"><code>.options(options?)</code></h5>
+<p>If an options object is provided, it destroys the calendar and initializes it with the provided options. Effectively the same as calling <code>.restore(options)</code> immediately after calling <code>.destroy()</code>.</p>
+<p>If no options object is provided, a copy of the current options is returned.</p>
+<h5 id="-options-reset-"><code>.options.reset()</code></h5>
+<p>Resets the options to the factory defaults. Effectively the same as calling <code>.options({})</code> while preserving the <code>appendTo</code> option.</p>
+<h5 id="-emitvalues-"><code>.emitValues()</code></h5>
+<p>Emits all of the data events listed below. Mostly used internally, <strong>should be avoided</strong> in consumer-land.</p>
+<h5 id="-setvalue-value-"><code>.setValue(value)</code></h5>
+<p>Sets the current date to the provided <code>value</code>, but only if that value is valid according to the rules defined by the calendar. Takes <code>string</code>, <code>Date</code>, or <code>moment</code>. Mostly used internally, and it doesn&#39;t emit any events.</p>
+<h5 id="-refresh-"><code>.refresh()</code></h5>
+<p>Forces a refresh of the calendar. This method will redraw the month and update the dates that can be selected in accordance with <code>dateValidator</code> and <code>timeValidator</code>.</p>
+<h4 id="events">Events</h4>
+<p>Rome calendars also provide a few events you can subscribe to. These events are published through an event emitter created using <a href="https://github.com/bevacqua/contra"><code>contra</code></a>. These events are listed below.</p>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Arguments</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ready</code></td>
+<td><code>[options]</code></td>
+<td>The calendar has been <code>.restore</code>d</td>
+</tr>
+<tr>
+<td><code>destroyed</code></td>
+<td><code>[]</code></td>
+<td>The calendar has been <code>.destroy</code>ed</td>
+</tr>
+<tr>
+<td><code>data</code></td>
+<td><code>[value]</code></td>
+<td>The date may have been updated by the calendar. Value of <code>.getDateString()</code> is provided</td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td><code>[year]</code></td>
+<td>The year may have been updated by the calendar. Value of <code>moment.year()</code> is provided</td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td><code>[month]</code></td>
+<td>The month may have been updated by the calendar. Value of <code>moment.month()</code> is provided</td>
+</tr>
+<tr>
+<td><code>day</code></td>
+<td><code>[day]</code></td>
+<td>The day may have been updated by the calendar. Value of <code>moment.date()</code> is provided</td>
+</tr>
+<tr>
+<td><code>time</code></td>
+<td><code>[time]</code></td>
+<td>The time may have been updated by the calendar. Formatted time string is provided</td>
+</tr>
+<tr>
+<td><code>show</code></td>
+<td><code>[]</code></td>
+<td>The calendar has been displayed</td>
+</tr>
+<tr>
+<td><code>hide</code></td>
+<td><code>[]</code></td>
+<td>The calendar has been hidden</td>
+</tr>
+</tbody>
+</table>
+<h4 id="date-and-time-validator">Date and Time Validator</h4>
+<p>Please note that <code>dateValidator</code> and <code>timeValidator</code> both receive a native <code>Date</code> object as a parameter. These methods are expected to return <code>undefined</code> or <code>true</code> if the date is deemed valid, and <code>false</code> in case the date is invalid. If <code>dateValidator</code> returns <code>false</code>, the validation process will try to find a valid date near the desired date.</p>
+<p>If <code>dateValidator</code> passes for a given date, the <code>timeValidator</code> will attempt to validate that date as well. If the time is invalid, the day will be probed for a valid time. This validation starts at the desired time, and grows in <code>timeInterval</code> increments. When the end of the day is reached, validation resumes at the start of the day instead of leaping to the next day.</p>
+<h3 id="-rome-val-"><code>rome.val</code></h3>
+<p>There are a few default validator factories provided by Rome to make your life easier.</p>
+<p>These methods take a <code>moment</code>, a <code>Date</code>, a <code>string</code> that can be parsed into a <code>moment</code> using <code>inputFormat</code>, or a DOM element that Rome could use to look up another Rome instance.</p>
+<p>If you passed in a DOM element, the validator will look up the associated Rome instance and validate using its value. The first time the validator is executed on any inline calendar, the <code>&#39;data&#39;</code> event for that calendar will be hooked to refresh the related calendar.</p>
+<p>For usage examples you can <a href="https://bevacqua.github.io/rome">refer to the demos</a>.</p>
+<h4 id="-rome-val-aftereq-value-"><code>rome.val.afterEq(value)</code></h4>
+<p>Returns whether the date is after the provided value. The comparison uses <code>&gt;=</code>, meaning it&#39;s inclusive.</p>
+<h4 id="-rome-val-after-value-"><code>rome.val.after(value)</code></h4>
+<p>Returns whether the date is after the provided value. The comparison uses <code>&gt;</code>, meaning it&#39;s exclusive.</p>
+<h4 id="-rome-val-beforeeq-value-"><code>rome.val.beforeEq(value)</code></h4>
+<p>Returns whether the date is before the provided value. The comparison uses <code>&lt;=</code>, meaning it&#39;s inclusive.</p>
+<h4 id="-rome-val-before-value-"><code>rome.val.before(value)</code></h4>
+<p>Returns whether the date is before the provided value. The comparison uses <code>&lt;</code>, meaning it&#39;s exclusive.</p>
+<h4 id="-rome-val-except-left-right-"><code>rome.val.except(left, right)</code></h4>
+<p>Returns whether the date is any date except the provided value. You can provide a wide variety of input values. Keep in mind <code>Date</code>, <code>string</code>, <code>moment</code>, and the DOM element used to find another calendar are all valid input types.</p>
+<h5 id="providing-left-only-means-any-date-except-this-one-">Providing <code>left</code> only means <strong>&quot;any date except this one&quot;</strong></h5>
+<p>If you use <code>rome.val.except(&#39;2014-08-09&#39;)</code>, then <code>&#39;2014-08-09&#39;</code> is invalid.</p>
+<h5 id="providing-left-and-right-means-any-date-that-s-not-in-this-range-">Providing <code>left</code> and <code>right</code> means <strong>&quot;any date that&#39;s not in this range&quot;</strong></h5>
+<p>If you use <code>rome.val.except(&#39;2014-08-09&#39;, &#39;2014-09-01&#39;)</code>, then anything between <code>&#39;2014-08-09&#39;</code> and <code>&#39;2014-09-01&#39;</code> is invalid.</p>
+<h5 id="if-left-is-an-array-each-element-in-the-array-is-treated-as-the-simple-case-described-above">If <code>left</code> is an array, each element in the array is treated as the simple case described above</h5>
+<p>In this case, <code>right</code> is completely ignored. Every item in the array is treated as follows.</p>
+<h6 id="if-the-item-is-single-then-a-rule-is-built-on-that-single-date">If the item is single, then a rule is built on that single date</h6>
+<p>Using <code>rome.val.except([&#39;2014-08-09&#39;, &#39;2014-09-01&#39;])</code> means that <code>&#39;2014-08-09&#39;</code> and <code>&#39;2014-09-01&#39;</code> are both invalid dates.</p>
+<h6 id="if-the-item-is-an-array-the-first-two-items-are-used-to-determine-a-date-range">If the item is an array, the first two items are used to determine a date range</h6>
+<p>Using <code>rome.val.except([[&#39;2014-08-09&#39;, &#39;2014-09-01&#39;]])</code> means anything between <code>&#39;2014-08-09&#39;</code> and <code>&#39;2014-09-01&#39;</code> is invalid.</p>
+<p>These two types of entries can be combined in any way you like. Each entry will exclude additional dates.</p>
+<p>For instance, <code>[[&#39;2014-04-05&#39;, &#39;2014-04-15&#39;], [&#39;2014-04-25&#39;, &#39;2014-04-30&#39;], &#39;2014-05-05&#39;]</code> means that April 05 to 15, and April 25 to 30, along with May 05 are all invalid dates.</p>
+<h4 id="-rome-val-only-left-right-"><code>rome.val.only(left, right)</code></h4>
+<p>Identical behavior to <code>rome.val.except</code>, except for the fact that the selected dates become <strong>the only valid dates</strong>, rather than the <strong>only invalid dates</strong>.</p>
+<h3 id="-rome-moment-"><code>rome.moment</code></h3>
+<p>Exposes the <a href="http://momentjs.com"><code>moment</code></a> instance used by Rome. To change the <code>moment</code> instance, refer to <code>rome.use(moment)</code>.</p>
+<h3 id="-rome-use-moment-"><code>rome.use(moment)</code></h3>
+<p>Sets the instance of <code>moment</code> used by Rome.</p>
+<h2 id="development">Development</h2>
+<p>Start by installing any dependencies.</p>
+<pre><code class="lang-shell">npm install
+</code></pre>
+<p>Then run the Gulp <code>watch</code> task.</p>
+<pre><code class="lang-shell">gulp watch
+</code></pre>
+<p>Lastly open the page and any changes you make just need a browser refresh.</p>
+<pre><code class="lang-shell">open index.html
+</code></pre>
+<h2 id="license">License</h2>
+<p>MIT</p>
