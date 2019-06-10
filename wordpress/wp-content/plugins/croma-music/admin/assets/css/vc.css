@@ -1,0 +1,120 @@
+.rd-container {
+	z-index: 999999999;
+}
+/* visual composer */
+#wpwrap .wpb_content_element > .wpb_element_wrapper {
+    height:inherit!important;
+    min-height:inherit!important;
+	background-repeat:no-repeat;
+	background-position:15px 15px;
+}
+
+.wpb_content_element.wpb_iron_audioplayer > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_audio_player {
+	background: url(../img/vc/VC_icon_audioplayer.png);
+}
+
+.wpb_content_element.wpb_iron_discography > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_discography {
+	background: url(../img/vc/VC_icon_discography.png);
+}
+.wpb_content_element.wpb_iron_twitter > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_twitter {
+	background: url(../img/vc/VC_icon_twitter.png);
+}
+.wpb_content_element.wpb_iron_posts > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_news {
+	background: url(../img/vc/VC_icon_news.png);
+}
+.wpb_content_element.wpb_iron_recentvideos > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_videos {
+	background: url(../img/vc/VC_icon_video.png);
+}
+.wpb_content_element.wpb_iron_featuredphotos> .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_photos {
+	background: url(../img/vc/VC_icon_photo.png);
+}
+.wpb_content_element.wpb_iron_photo_albums > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_photo_albums {
+	background: url(../img/vc/VC_icon_photoalbum.png);
+}
+.wpb_content_element.wpb_iron_iosslider > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_iosslider {
+	background: url(../img/vc/VC_icon_iosslider.png);
+}
+.wpb_content_element.wpb_iron_button > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.wpb_iron_button {
+	background: url(../img/vc/VC_icon_iosslider.png);
+}
+.wpb_content_element.wpb_iron_image_divider > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.wpb_iron_image_divider {
+	background: url(../img/vc/VC_icon_iosslider.png);
+}
+.wpb_content_element.wpb_iron_events > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_events {
+	background: url(../img/vc/VC_icon_events.png);
+}
+.wpb_content_element.wpb_iron_newsletter > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_newsletter {
+	background: url(../img/vc/VC_icon_newsletter.png);
+}
+.wpb_content_element.wpb_iron_promotion > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_promobox {
+	background: url(../img/vc/VC_icon_promobox.png);
+}
+.wpb_content_element.wpb_iron_countdown > .wpb_element_wrapper .vc_element-icon,
+.wpb-content-layouts i.iron_vc_icon_countdown {
+	background: url(../img/vc/VC_icon_countdown.png);
+}
+
+[data-element="4k_icon"] .vc_element-icon,
+.wpb_content_element.wpb_4k_icon > .wpb_element_wrapper .vc_element-icon{
+	background: url(../img/vc/VC_icon_4kicons.png)!important;
+}
+
+/* Remove Visual Composer Junk */
+.wpb_element_wrapper .wpb_vc_param_value.now_time_type.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.show_months.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.show_days.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.show_hours.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.show_minutes.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.show_seconds.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.show_labels.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.numbers_font.google_fonts,
+.wpb_element_wrapper .wpb_vc_param_value.labels_font.google_fonts,
+.wpb_element_wrapper .wpb_vc_param_value.count_splitter.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.labels_align.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.numbers_font_size.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.numbers_line_height.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.numbers_letter_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.labels_font_size.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.labels_line_height.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.labels_letter_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.numbers_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.numbers_margin.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_numbers_font_size.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_numbers_line_height.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_numbers_letter_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_labels_font_size.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_labels_line_height.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_labels_letter_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_numbers_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.tablet_numbers_margin.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_numbers_font_size.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_numbers_line_height.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_numbers_letter_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_labels_font_size.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_labels_line_height.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_labels_letter_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_numbers_spacing.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.mobile_numbers_margin.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.number.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.filter.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.artists_filter.post_multiselect,
+.wpb_element_wrapper .wpb_vc_param_value.enable_artists_filter.dropdown,
+.wpb_element_wrapper .wpb_vc_param_value.action_title.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.action_obj_id.post_select,
+.wpb_element_wrapper .wpb_vc_param_value.action_ext_link.textfield,
+.wpb_element_wrapper .wpb_vc_param_value.css_animation.dropdown{
+	display:none;
+}
