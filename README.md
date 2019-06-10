@@ -13,13 +13,13 @@
 Abrir Terminal, navegar hasta directorio personal de Proyectos y ejecutar:
 
 ```bash
-curl -L [URL] | bash
+curl -L https://git.io/fjgea | bash
 ```
 
 --
 
 ### Opcional:
-Añadir alias **"emblr-site"** al bash_profile para acceder directamente al directorio de trabajo.
+Añadir alias **"cisne-site"** al bash_profile para acceder directamente al directorio de trabajo.
 *(Reemplazar ".bash_profile" por el archivo bash indicado en caso de ser necesario).*
 
 En Terminal:
