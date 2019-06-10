@@ -1,0 +1,48 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+.iron-audioplayer .playlist .audio-track, .iron-audioplayer .playlist .track-number { 
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}
+.iron-audioplayer .track-title, .continuousPlayer .track-name, .artist_player .track-name { 
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}
+.iron-audioplayer .album-title, .continuousPlayer .album-title, .artist_player .album-title { 
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+}
+.continuousPlayer .track-name { 
+	color: rgb(200, 255, 195);
+}
+.continuousPlayer .album-title { 
+	color: rgb(200, 255, 195);
+}
+.iron-audioplayer .playlist .audio-track:hover { 
+	color: rgb(200, 255, 195);
+}
+.iron-audioplayer .playlist li.current .audio-track { 
+	color: rgb(200, 255, 195);
+}
+.continuousPlayer { 
+	background-color: rgb(0, 0, 0);
+}
+.playlist .cr_it-playlist-title, .cr_it-playlist-artists, .cr_it-playlist-release-date { 
+	color: rgb(255, 255, 255);
+}
+.iron-audioplayer .control polygon, .iron-audioplayer .control path, .iron-audioplayer .control rect, .continuousPlayer .control rect, .continuousPlayer .control path, .continuousPlayer .control polygon{
+        	fill:rgb(200, 255, 195);
+        }
+        .iron-audioplayer .player .currentTime, .iron-audioplayer .player .totalTime{
+            color:rgb(200, 255, 195);
+        }
+        .iron-audioplayer .playlist .track-number svg path, .iron-audioplayer .playlist .track-number svg rect{
+            fill:rgb(200, 255, 195);
+        }.continuousPlayer .control rect, .continuousPlayer .control path, .continuousPlayer .control polygon{
+        	fill:rgb(200, 255, 195);
+        }
