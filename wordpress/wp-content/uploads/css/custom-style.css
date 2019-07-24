@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,700,600);
 #overlay { 
 	background-attachment: initial;
 	background-color: #000000;
@@ -778,17 +778,6 @@ span.heading-t3, span.heading-b3 {
 	background-color: rgba(0,0,0,0.7);
 }
 .classic-menu > ul > li a:hover, .classic-menu > ul > li.languages-selector > ul > li a:hover { 
-	background-color: rgb(115, 173, 155);
-	color: #ffffff;
-}
-.classic-menu > ul > li.current-menu-item > a[href*="#"] { 
-	font-family: Open Sans;
-	font-weight: 700;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #c8ffc3;
-}
-.classic-menu > ul > li.current-menu-item > a[href*="#"]:hover { 
 	background-color: rgb(115, 173, 155);
 	color: #ffffff;
 }
