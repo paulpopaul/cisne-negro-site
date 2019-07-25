@@ -153,7 +153,7 @@ article a.more-link:hover,
 .portfolio .portfolio-mid-wrap i.fa-th:hover,
 .player-title-box .track-name,
 .audio-holder .jp-playlist ul.tracks-list li.jp-playlist-current div a, .articles-classic .post-categories a:hover, .articles-classic .post-tags a:hover  { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 
 .store-list a.button:hover,
@@ -260,7 +260,7 @@ a.back-btn:hover,
 .news-grid-wrap a.sticky,
 .news-grid-wrap.isotope-item a.sticky,
 ins { 
-	background-color: rgb(115, 173, 155);
+	background-color: rgb(217, 110, 52);
 }
 
 .tab-circle,a.button-more,
@@ -303,7 +303,7 @@ article a.more-link:hover,
 .page-template-archive-posts-classic-php .media-block.sticky  .holder,
 blockquote,
 .portfolio .portfolio-rightside a.portfolio-button { 
-	border-color: rgb(115, 173, 155);
+	border-color: rgb(217, 110, 52);
 }
 
 .footer__widgets > .iron_widget_newsletter input[type="submit"],
@@ -370,7 +370,7 @@ ul.nav-menu ul a:hover,
 	blockquote,
 	.articles-classic .media-block .holder,
 	.pages a { 
-	background-color: #f7f7f7;
+	background-color: #ff0000;
 }
 
 #sidebar .panel-action:hover,
@@ -379,7 +379,7 @@ ul.nav-menu ul a:hover,
 a.button:hover,
 .wpb_accordion_section a,
 .ui-tabs-anchor { 
-	background-color: rgb(200, 255, 195);
+	background-color: #ffffff;
 }
 
 .comment-respond,
@@ -389,7 +389,7 @@ a.button:hover,
 .container .nm_mc_form input[type="submit"],
 .post-password-form input[type="password"],
 .wpb_tabs_nav { 
-	border-color: rgb(200, 255, 195);
+	border-color: #ffffff;
 }
 .footer-block.share { 
 	background-color: #000000;
@@ -506,7 +506,7 @@ play-button,
 	color: #ffffff;
 }
 .photo-wrap:hover .tab-circle, .comment-list > li:after, .comment-list .children > li:before, .comment-reply-title, .woocommerce-page.single-product div.product .woocommerce-Tabs-panel--additional_information.panel, .single-product table.shop_attributes, .woocommerce-page #reviews #comments ol.commentlist li .comment-text { 
-	border-color: rgb(115, 173, 155);
+	border-color: rgb(217, 110, 52);
 }
 
 body,
@@ -594,19 +594,19 @@ h3,
 .portfolio .portfolio-next i.fa-long-arrow-right,
 .portfolio .portfolio-mid-wrap i.fa-th,
 .panel-action:hover { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 ::-webkit-input-placeholder { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 :-moz-placeholder { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 ::-moz-placeholder { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 :-ms-input-placeholder { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 
 .side-menu,
@@ -714,10 +714,10 @@ span.heading-t3, span.heading-b3 {
 	background-color: #ffffff;
 }
 .lighter-overlay span.heading-t, .lighter-overlay span.heading-b { 
-	background-color: rgb(115, 173, 155);
+	background-color: rgb(217, 110, 52);
 }
 .lighter-overlay span.heading-t3, .lighter-overlay span.heading-b3 { 
-	background-color: rgb(115, 173, 155);
+	background-color: rgb(217, 110, 52);
 }
 .darker-overlay span.heading-t, .darker-overlay span.heading-b { 
 	background-color: #ffffff;
@@ -771,14 +771,14 @@ span.heading-t3, span.heading-b3 {
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #c8ffc3;
+	color: #ffffff;
 }
 .classic-menu > ul > li > ul > li a { 
 	color: #ffffff;
 	background-color: rgba(0,0,0,0.7);
 }
 .classic-menu > ul > li a:hover, .classic-menu > ul > li.languages-selector > ul > li a:hover { 
-	background-color: rgb(115, 173, 155);
+	background-color: rgb(217, 110, 52);
 	color: #ffffff;
 }
 .classic-menu > ul > li.current-menu-item > a { 
@@ -790,7 +790,7 @@ span.heading-t3, span.heading-b3 {
 	color: #ffffff;
 }
 .classic-menu > ul > li > ul > li a:hover { 
-	background-color: rgb(115, 173, 155);
+	background-color: rgb(217, 110, 52);
 	color: #ffffff;
 }
 .classic-menu > ul > li > ul > li.current-menu-item > a { 
@@ -807,10 +807,10 @@ span.heading-t3, span.heading-b3 {
 	text-decoration: none;
 }
 .color1_txt, .color1_txt p { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 .color1_bg { 
-	background-color: rgb(115, 173, 155);
+	background-color: rgb(217, 110, 52);
 }
 .color2_txt, .color2_txt p { 
 	color: #ffffff;
@@ -819,16 +819,16 @@ span.heading-t3, span.heading-b3 {
 	background-color: #ffffff;
 }
 .color3_txt, .color3_txt p { 
-	color: #f7f7f7;
+	color: #ff0000;
 }
 .color3_bg { 
-	background-color: #f7f7f7;
+	background-color: #ff0000;
 }
 .color4_txt, .color4_txt p { 
-	color: rgb(200, 255, 195);
+	color: #ffffff;
 }
 .color4_bg { 
-	background-color: rgb(200, 255, 195);
+	background-color: #ffffff;
 }
 .color5_txt { 
 	color: #ffffff;
@@ -837,10 +837,10 @@ span.heading-t3, span.heading-b3 {
 	background-color: #ffffff;
 }
 .color6_txt { 
-	color: rgb(115, 173, 155);
+	color: rgb(217, 110, 52);
 }
 .color6_bg { 
-	background-color: rgb(115, 173, 155);
+	background-color: rgb(217, 110, 52);
 }
 #footer, .footer-row { 
 	background-color: #000000;
