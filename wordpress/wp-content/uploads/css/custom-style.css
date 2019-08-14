@@ -153,7 +153,7 @@ article a.more-link:hover,
 .portfolio .portfolio-mid-wrap i.fa-th:hover,
 .player-title-box .track-name,
 .audio-holder .jp-playlist ul.tracks-list li.jp-playlist-current div a, .articles-classic .post-categories a:hover, .articles-classic .post-tags a:hover  { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 
 .store-list a.button:hover,
@@ -260,7 +260,7 @@ a.back-btn:hover,
 .news-grid-wrap a.sticky,
 .news-grid-wrap.isotope-item a.sticky,
 ins { 
-	background-color: rgb(217, 110, 52);
+	background-color: #d96e34;
 }
 
 .tab-circle,a.button-more,
@@ -303,7 +303,7 @@ article a.more-link:hover,
 .page-template-archive-posts-classic-php .media-block.sticky  .holder,
 blockquote,
 .portfolio .portfolio-rightside a.portfolio-button { 
-	border-color: rgb(217, 110, 52);
+	border-color: #d96e34;
 }
 
 .footer__widgets > .iron_widget_newsletter input[type="submit"],
@@ -506,7 +506,7 @@ play-button,
 	color: #ffffff;
 }
 .photo-wrap:hover .tab-circle, .comment-list > li:after, .comment-list .children > li:before, .comment-reply-title, .woocommerce-page.single-product div.product .woocommerce-Tabs-panel--additional_information.panel, .single-product table.shop_attributes, .woocommerce-page #reviews #comments ol.commentlist li .comment-text { 
-	border-color: rgb(217, 110, 52);
+	border-color: #d96e34;
 }
 
 body,
@@ -594,19 +594,19 @@ h3,
 .portfolio .portfolio-next i.fa-long-arrow-right,
 .portfolio .portfolio-mid-wrap i.fa-th,
 .panel-action:hover { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 ::-webkit-input-placeholder { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 :-moz-placeholder { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 ::-moz-placeholder { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 :-ms-input-placeholder { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 
 .side-menu,
@@ -714,10 +714,10 @@ span.heading-t3, span.heading-b3 {
 	background-color: #ffffff;
 }
 .lighter-overlay span.heading-t, .lighter-overlay span.heading-b { 
-	background-color: rgb(217, 110, 52);
+	background-color: #d96e34;
 }
 .lighter-overlay span.heading-t3, .lighter-overlay span.heading-b3 { 
-	background-color: rgb(217, 110, 52);
+	background-color: #d96e34;
 }
 .darker-overlay span.heading-t, .darker-overlay span.heading-b { 
 	background-color: #ffffff;
@@ -807,10 +807,10 @@ span.heading-t3, span.heading-b3 {
 	text-decoration: none;
 }
 .color1_txt, .color1_txt p { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 .color1_bg { 
-	background-color: rgb(217, 110, 52);
+	background-color: #d96e34;
 }
 .color2_txt, .color2_txt p { 
 	color: #ffffff;
@@ -837,10 +837,10 @@ span.heading-t3, span.heading-b3 {
 	background-color: #ffffff;
 }
 .color6_txt { 
-	color: rgb(217, 110, 52);
+	color: #d96e34;
 }
 .color6_bg { 
-	background-color: rgb(217, 110, 52);
+	background-color: #d96e34;
 }
 #footer, .footer-row { 
 	background-color: #000000;

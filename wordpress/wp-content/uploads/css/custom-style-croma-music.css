@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 .iron-audioplayer .playlist .audio-track, .iron-audioplayer .playlist .track-number { 
 	font-family: Open Sans;
 	font-weight: 600;
@@ -18,16 +18,16 @@
 	color: rgb(255, 255, 255);
 }
 .continuousPlayer .track-name { 
-	color: rgb(200, 255, 195);
+	color: rgb(229, 214, 206);
 }
 .continuousPlayer .album-title { 
-	color: rgb(200, 255, 195);
+	color: rgb(229, 214, 206);
 }
-.iron-audioplayer .playlist .audio-track:hover { 
-	color: rgb(200, 255, 195);
+.iron-audioplayer .playlist :not([data-audiopath = ""])>.audio-track:hover { 
+	color: rgb(69, 69, 69);
 }
-.iron-audioplayer .playlist li.current .audio-track { 
-	color: rgb(200, 255, 195);
+.iron-audioplayer .playlist li.current.playing .audio-track { 
+	color: rgb(0, 0, 0);
 }
 .continuousPlayer { 
 	background-color: rgb(0, 0, 0);
@@ -36,13 +36,13 @@
 	color: rgb(255, 255, 255);
 }
 .iron-audioplayer .control polygon, .iron-audioplayer .control path, .iron-audioplayer .control rect, .continuousPlayer .control rect, .continuousPlayer .control path, .continuousPlayer .control polygon{
-        	fill:rgb(200, 255, 195);
+        	fill:rgb(218, 185, 167);
         }
         .iron-audioplayer .player .currentTime, .iron-audioplayer .player .totalTime{
-            color:rgb(200, 255, 195);
+            color:rgb(218, 185, 167);
         }
         .iron-audioplayer .playlist .track-number svg path, .iron-audioplayer .playlist .track-number svg rect{
-            fill:rgb(200, 255, 195);
+            fill:rgb(0, 0, 0);
         }.continuousPlayer .control rect, .continuousPlayer .control path, .continuousPlayer .control polygon{
-        	fill:rgb(200, 255, 195);
+        	fill:rgb(241, 219, 207);
         }
