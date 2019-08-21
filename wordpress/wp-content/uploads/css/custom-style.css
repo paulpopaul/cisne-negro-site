@@ -370,7 +370,7 @@ ul.nav-menu ul a:hover,
 	blockquote,
 	.articles-classic .media-block .holder,
 	.pages a { 
-	background-color: #ff0000;
+	background-color: #ffffff;
 }
 
 #sidebar .panel-action:hover,
@@ -819,10 +819,10 @@ span.heading-t3, span.heading-b3 {
 	background-color: #ffffff;
 }
 .color3_txt, .color3_txt p { 
-	color: #ff0000;
+	color: #ffffff;
 }
 .color3_bg { 
-	background-color: #ff0000;
+	background-color: #ffffff;
 }
 .color4_txt, .color4_txt p { 
 	color: #ffffff;
