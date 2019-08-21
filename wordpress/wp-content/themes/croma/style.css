@@ -7978,8 +7978,8 @@ border:0;
 	display:    block;
 	width:      auto;
 	height:     auto;
-	max-width:  200px;
-	max-height: 100px;
+	max-width:  320px;
+	max-height: 300px;
 }
 .footer-row .footer-logo-wrap{
 	float:left;
@@ -8026,6 +8026,17 @@ border:0;
 		top:0px !important;
 		text-align:center;
 	}
+}
+
+@media only screen and (max-width:375px){
+	.footer-row img {
+		display:    block;
+		width:      auto;
+		height:     auto;
+		max-width:  290px;
+		max-height: 100px;
+	}
+
 }
 
 
