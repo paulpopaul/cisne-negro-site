@@ -1021,6 +1021,15 @@ color:#000;
 .woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs:before{
 border-color: #FFF;
 }
+
+/*-------------------------------------------------------------*\
+          #CONTACTO
+\*-------------------------------------------------------------*/
+.comment-form input, .wpcf7-form-control,
+.comment-form textarea, .wpcf7-textarea {
+background-color: #454545 !important;
+color: #fff;
+}
 .menu-toggle rect{
 	fill:#c8ffc3;
 
