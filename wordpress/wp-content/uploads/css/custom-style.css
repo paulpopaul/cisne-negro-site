@@ -1039,8 +1039,8 @@ color:#000;
 /*-------------------------------------------------------------*\
           #CONTACTO
 \*-------------------------------------------------------------*/
-.comment-form input, .wpcf7-form-control,
-.comment-form textarea, .wpcf7-textarea {
+.wpcf7-form-control:not(.wpcf7-submit),
+.wpcf7-textarea {
 	background-color: #454545 !important;
 	color: #fff;
 }
