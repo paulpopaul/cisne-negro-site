@@ -980,7 +980,7 @@ color:#000;
 }
 
 .footer-wrapper-backtotop.active {
-	bottom: 60px !important;
+	/*bottom: 60px !important;*/
 }
 
 @media only screen and (max-width: 640px) {
