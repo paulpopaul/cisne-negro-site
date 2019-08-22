@@ -628,10 +628,10 @@ ul.header-top-menu {
 	color: #c8ffc3;
 }
 .responsive-header a.sandwich-icon { 
-	color: #000000;
+	color: #ffffff;
 }
 .responsive-header a.sandwich-icon:hover { 
-	color: #000000;
+	color: #ffffff;
 }
 .sub-arrow i, .side-menu .social-networks a i { 
 	color: #000000;
@@ -755,7 +755,7 @@ span.heading-t3, span.heading-b3 {
 	padding-bottom: 0px;
 }
 .responsive-header { 
-	background-color: #ffffff;
+	background-color: #000000;
 }
 .listing-section .holder:hover h2 { 
 	color: #ffffff;
@@ -859,7 +859,7 @@ li.hotlink.pull-right {
     margin-right: -5px;
 }
 body p{ 
-letter-spacing: 2px;
+	letter-spacing: 2px;
 }
 
 
@@ -868,20 +868,26 @@ letter-spacing: 2px;
     max-height: 50px;
 }
 .classic-menu>ul>li.hotlink a{
-padding-left: 15px;
-padding-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
-@media only screen and (max-width: 768px) { 
-.artist_sidebar h1 {
-    margin-top: 85px;
-}
+.classic-menu.responsive > ul > li.current-menu-item > a {
+	color: #000;
 }
 
+@media only screen and (max-width: 768px) { 
+	.artist_sidebar h1 {
+	    margin-top: 85px;
+	}
+}
+
+
+
 @media screen and (max-width: 480px) { 
-[style*="font-size: 36px"], h3{
-    font-size: 23px !important;
-    line-height: 23px !important;
-} 
+	[style*="font-size: 36px"], h3{
+	    font-size: 23px !important;
+	    line-height: 23px !important;
+	} 
 }
 
 
@@ -925,7 +931,7 @@ color:#000;
 .page-title img, .imagedivider img{
     animation-name: divider;
     animation-duration: 1s;
-animation-timing-function: ease;
+	animation-timing-function: ease;
 }
 
 
@@ -953,6 +959,14 @@ animation-timing-function: ease;
     transform: scale(1.2);
 }
 
+.footer-wrapper-backtotop.active {
+	bottom: 60px !important;
+}
+
+@media only screen and (max-width: 640px) {
+	#footer .social-networks li { margin: 0; }
+}
+
 
 
 /*-------------------------------------------------------------*\
@@ -964,7 +978,7 @@ animation-timing-function: ease;
     color: #fff;
 }
 .event-line-wrap{
-text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 
@@ -1009,17 +1023,17 @@ text-transform: uppercase;
           #REVOLUTION SLIDER
 \*-------------------------------------------------------------*/
 .tp-caption a{
-color:inherit;
+	color:inherit;
 }
 
 /*-------------------------------------------------------------*\
           #WOOCOMMERCE
 \*-------------------------------------------------------------*/
 .entry .woocommerce-checkout-payment p{
-color:#000;
+	color:#000;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs:before{
-border-color: #FFF;
+	border-color: #FFF;
 }
 
 /*-------------------------------------------------------------*\
@@ -1027,12 +1041,14 @@ border-color: #FFF;
 \*-------------------------------------------------------------*/
 .comment-form input, .wpcf7-form-control,
 .comment-form textarea, .wpcf7-textarea {
-background-color: #454545 !important;
-color: #fff;
+	background-color: #454545 !important;
+	color: #fff;
 }
 .menu-toggle rect{
 	fill:#c8ffc3;
 
-}ul.header-top-menu li a{color:#c8ffc3;}.menu-toggle-off polygon{
-	fill:#c8ffc3;
+}
+ul.header-top-menu li a { color:#c8ffc3; }
+.menu-toggle-off polygon {
+	fill: #c8ffc3;
 }
