@@ -891,6 +891,10 @@ body p{
 	.classic-menu > ul > li.logo.pull-left { display: none; }
 }
 
+@media only screen and (max-width: 1143px) {
+	.classic-menu > ul > li.logo.pull-left { display: inherit; }
+}
+
 @media only screen and (max-width: 768px) { 
 	.artist_sidebar h1 {
 	    margin-top: 85px;
