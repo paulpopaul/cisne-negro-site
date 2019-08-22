@@ -956,25 +956,42 @@ color:#000;
 
 
 /*--footer--*/
-.footer__widgets .widget{
+.footer__widgets .widget {
     float: none;
     width:100%;
 }
-.social-networks a i{
+.social-networks a i {
     font-size: 28px;
+    line-height: 50px !important;
 }
-#footer h3{
+
+#footer h3 {
     font-weight: 700;
 }
-#footer ul, #footer li, .footer-block .social-networks a, .social-networks a i{
+
+
+#footer ul,
+#footer li {
     color: inherit;
 }
-.social-networks a{
+
+/*--social networks--*/
+div.social {
+	text-align: center;
+}
+
+.social-networks {
+	display: block;
+}
+
+.social-networks a {
     display: inline-block;
+    font-size: 20px !important;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
-.social-networks a:hover{
+
+.social-networks a:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
