@@ -693,7 +693,7 @@ class Iron_Widget_Radio extends Iron_Music_Widget
 					<div class="playlist">
 						<h1 class="cr_it-playlist-title">'. get_the_title($firstAlbum) .'</h1><div class="cr_it-playlist-artists">'. esc_html__('By', 'soundrise-music'). ' <span class="cr_it-artists-value">'.
 						( (get_artists($firstAlbum))? get_artists($firstAlbum): '') .'</span></div>
-						<div class="cr_it-playlist-release-date">'. esc_html__('Release date', 'croma-music') .': <span class="cr_it-date-value">'.
+						<div class="cr_it-playlist-release-date">'. esc_html__('Lanzamiento', 'croma-music') .': <span class="cr_it-date-value">'.
 						( (get_field('alb_release_date', $firstAlbum))? get_field('alb_release_date', $firstAlbum): ''). '</span></div>
 						<ul>' . $format_playlist . '</ul>
 					</div>

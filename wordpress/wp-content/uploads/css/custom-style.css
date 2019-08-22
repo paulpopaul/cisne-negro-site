@@ -1000,11 +1000,10 @@ div.social {
 	/*bottom: 60px !important;*/
 }
 
+/*--social networks responsive --*/
 @media only screen and (max-width: 640px) {
 	#footer .social-networks li { margin: 0; }
 }
-
-
 
 /*-------------------------------------------------------------*\
           #POST TYPE
@@ -1071,6 +1070,19 @@ div.social {
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs:before{
 	border-color: #FFF;
+}
+
+/*-------------------------------------------------------------*\
+          #MÚSICA
+\*-------------------------------------------------------------*/
+.iron-audioplayer .tracklist-item-title:hover {
+	color: #D96E34;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+}
+
+.cr_it-playlist-release-date {
+	color: #999;
 }
 
 /*-------------------------------------------------------------*\
