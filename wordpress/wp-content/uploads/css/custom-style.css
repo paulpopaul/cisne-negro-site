@@ -1144,10 +1144,21 @@ div.social {
 }
 .menu-toggle rect{
 	fill:#c8ffc3;
-
 }
+
 ul.header-top-menu li a { color:#c8ffc3; }
+
 .menu-toggle-off polygon {
 	fill: #c8ffc3;
+}
+
+@media only screen and (max-width: 768px) {
+	.after-wpcf7-contact .vc_column-inner {
+		margin-bottom: 40px !important;
+	}
+
+	.vc_empty_space.contact-details {
+		margin-bottom: 70px !important;
+	}
 }
 
