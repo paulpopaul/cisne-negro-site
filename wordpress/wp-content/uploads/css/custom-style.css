@@ -975,6 +975,11 @@ color:#000;
     color: inherit;
 }
 
+#footer .footer-author a:link,
+#footer .footer-author a:link:visited {
+	color: #1fbda2;
+}
+
 /*--social networks--*/
 div.social {
 	text-align: center;
