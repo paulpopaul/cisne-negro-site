@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ce32d7e-fbb0-4d77-ba24-95722983645f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/croma/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/croma/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/croma-child/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -34,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/croma/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="8030" column="37" selection-start-line="8030" selection-start-column="37" selection-end-line="8030" selection-end-column="37" />
+            <state relative-caret-position="1008">
+              <caret line="8019" column="26" selection-start-line="8019" selection-start-column="26" selection-end-line="8019" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -64,60 +63,16 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cisne-negro-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cisne-negro-site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cisne-negro-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cisne-negro-site" type="462c0819:PsiDirectoryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cisne-negro-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cisne-negro-site" type="462c0819:PsiDirectoryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cisne-negro-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cisne-negro-site" type="462c0819:PsiDirectoryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cisne-negro-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cisne-negro-site" type="462c0819:PsiDirectoryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="croma" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cisne-negro-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cisne-negro-site" type="462c0819:PsiDirectoryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="croma-child" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,18 +103,20 @@
       <option name="presentableId" value="Default" />
       <updated>1565673222836</updated>
       <workItem from="1565673225926" duration="673000" />
-      <workItem from="1566348903131" duration="836000" />
+      <workItem from="1566348903131" duration="1534000" />
+      <workItem from="1566433997594" duration="184000" />
+      <workItem from="1566528250514" duration="8000" />
+      <workItem from="1566528723170" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1509000" />
+    <option name="totallyTimeSpent" value="2432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26144835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -187,7 +144,14 @@
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/croma-child/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/croma/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="53" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -197,17 +161,10 @@
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/croma-child/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/croma/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/croma/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="8030" column="37" selection-start-line="8030" selection-start-column="37" selection-end-line="8030" selection-end-column="37" />
+        <state relative-caret-position="1008">
+          <caret line="8019" column="26" selection-start-line="8019" selection-start-column="26" selection-end-line="8019" selection-end-column="26" />
         </state>
       </provider>
     </entry>
