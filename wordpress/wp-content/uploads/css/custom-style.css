@@ -370,7 +370,7 @@ ul.nav-menu ul a:hover,
 	blockquote,
 	.articles-classic .media-block .holder,
 	.pages a { 
-	background-color: #ffffff;
+	background-color: #000;
 }
 
 #sidebar .panel-action:hover,
@@ -862,6 +862,10 @@ body p{
 	letter-spacing: 2px;
 }
 
+a.button-widget:hover {
+	border-color: rgb(217, 110, 52) !important;
+	transition: all 0.35s ease 0s, color 0.35s ease 0s;
+}
 
 /*--MENU--*/
 .classic-menu.fixed.mini.mini-fullwidth-active>ul>li.logo img {
@@ -978,6 +982,10 @@ color:#000;
 #footer .footer-author a:link,
 #footer .footer-author a:link:visited {
 	color: #1fbda2;
+}
+
+#footer .social-networks li {
+	margin: 0 20px 40px 20px;
 }
 
 /*--social networks--*/
