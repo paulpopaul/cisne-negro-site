@@ -1088,14 +1088,50 @@ div.social {
 /*-------------------------------------------------------------*\
           #MÚSICA
 \*-------------------------------------------------------------*/
-.iron-audioplayer .tracklist-item-title:hover {
-	color: #D96E34;
+.iron-audioplayer a.audio-track:hover .tracklist-item-title {
+	color: #fff;
 	transition: all 0.2s ease;
 	-webkit-transition: all 0.2s ease;
 }
 
+.iron-audioplayer .playlist li.current.playing .audio-track {
+	color: #D96E34;
+	font-weight: 600;
+}
+
+.iron-audioplayer .playlist li.current.playing .audio-track:hover .tracklist-item-title {
+	color: #D96E34;
+}
+
 .cr_it-playlist-release-date {
 	color: #999;
+}
+
+.iron-audioplayer .track-number svg {
+	top: 5px !important;
+}
+
+.iron-audioplayer .playlist .track-number svg path,
+.iron-audioplayer .playlist .track-number svg rect {
+	fill: #D96E34;
+}
+
+.iron-audioplayer a.button:hover {
+	background-color: #454545;
+	color: #fff;
+}
+
+.iron-audioplayer .playlist {
+	padding-right: 20px;
+}
+
+/*-------------------------------------------------------------*\
+          #VIDEO
+\*-------------------------------------------------------------*/
+@media only screen and (max-width: 639px) {
+	.videogrid {
+		margin-bottom: 15px;
+	}
 }
 
 /*-------------------------------------------------------------*\
@@ -1114,3 +1150,4 @@ ul.header-top-menu li a { color:#c8ffc3; }
 .menu-toggle-off polygon {
 	fill: #c8ffc3;
 }
+
