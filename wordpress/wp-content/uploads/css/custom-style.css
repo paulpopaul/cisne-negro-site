@@ -988,13 +988,17 @@ color:#000;
 	margin: 0 20px 40px 20px;
 }
 
-/*--social networks--*/
+/*--social networks------------------------------------------*/
 div.social {
 	text-align: center;
 }
 
 .social-networks {
 	display: block;
+}
+
+div.social social-circle li a {
+background: red !important; 
 }
 
 .social-networks a {
@@ -1015,7 +1019,9 @@ div.social {
 
 /*--social networks responsive --*/
 @media only screen and (max-width: 640px) {
-	#footer .social-networks li { margin: 0; }
+	#footer .social-networks li { 
+		margin: 0; 
+	}
 }
 
 /*-------------------------------------------------------------*\
