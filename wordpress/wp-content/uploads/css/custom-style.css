@@ -1376,7 +1376,7 @@ transition: 0s all !important;
 }
 div.social {
 text-align: center;
-margin-top: 400px;
+margin-top: 430px;
 }
 
 .tp-parallax-wrap {
@@ -1392,7 +1392,7 @@ z-index: 5;
 .tp-mask-wrap .tp-caption img{
 padding-top: 0;
 padding-bottom: 0;
-width:360px !important;
+width:380px !important;
 height: auto !important;
 }
 
@@ -1425,7 +1425,7 @@ text-align: center !important;
 font-weight: 200 !important;
 font-style: normal;
 font-size: 16px !important;
-padding-top: 28px;
+padding-top: 30px;
 padding-bottom: 20px;
 }
 }
