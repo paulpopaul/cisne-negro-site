@@ -1356,6 +1356,8 @@ padding-bottom: 20px;
 }
 }
 
+
+
 /* ----------- 1024 / 1366 ----------- */
 @media (min-width:1024px) and (max-width:1399px){
 .classic-menu.responsive ul li.logo a img {
