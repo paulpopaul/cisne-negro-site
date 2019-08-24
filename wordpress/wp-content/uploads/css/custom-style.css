@@ -1382,7 +1382,7 @@ position: relative;
 display: inline-block;
 visibility: visible;
 left: 110px;
-top:200px !important;
+top:160px !important;
 bottom: 0px !important;
 z-index: 5;
 }
@@ -1395,20 +1395,20 @@ height: auto !important;
 }
 
 .social-circle li i {
-width: 42px;
-height: 42px;
-line-height: 42px;
+width: 44px;
+height: 44px;
+line-height: 44px;
 text-align: center;
 margin: 0;
 }
 .social-circle li a { 
-width: 42px;
-height: 42px; 
+width: 44px;
+height: 44px; 
 display: inline-block;
 position: relative;
 margin: 0 auto 10px auto;
 font-size: 22px;
-line-height: 42px !important;
+line-height: 44px !important;
 
 }
 ul.social-network a {
@@ -1423,7 +1423,7 @@ text-align: center !important;
 font-weight: 200 !important;
 font-style: normal;
 font-size: 16px !important;
-padding-top: 40px;
+padding-top: 30px;
 padding-bottom: 20px;
 }
 }
@@ -1590,7 +1590,7 @@ transition: 0s all !important;
 }
 div.social {
 text-align: center;
-margin-top:800px;
+margin-top:700px;
 }
 
 .tp-parallax-wrap {
@@ -1606,25 +1606,25 @@ z-index: 5;
 .tp-mask-wrap .tp-caption img{
 padding-top: 0;
 padding-bottom: 0;
-width:700px !important;
+width:600px !important;
 height: auto !important;
 }
 
 .social-circle li i {
-width: 90px;
-height: 90px;
-line-height: 90px;
+width: 70px;
+height: 70px;
+line-height: 70px;
 text-align: center;
 margin: 0;
 }
 .social-circle li a { 
-width: 90px;
-height: 90px; 
+width: 70px;
+height: 70px; 
 display: inline-block;
 position: relative;
 margin: 0 auto 10px auto;
-font-size: 38px;
-line-height: 90px !important;
+font-size: 30px;
+line-height: 70px !important;
 
 }
 ul.social-network a {
