@@ -18,6 +18,11 @@
  * @package WordPress
  */
 
+// ** Upload, post and memory max size overwrite ** //
+@ini_set( 'upload_max_size' , '10M' );
+@ini_set( 'post_max_size', '10M');
+@ini_set( 'memory_limit', '10M' );
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress');
@@ -46,14 +51,14 @@ define( 'DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'c2f757d23bad3958d642a6286b19df800db20947');
-define( 'SECURE_AUTH_KEY',  'dce821ad2a23adcfb961b77abcc820a26af93b95');
-define( 'LOGGED_IN_KEY',    'a3a1d301f40017f6c77ead4c32f08fe908485153');
-define( 'NONCE_KEY',        '3f9386a1fbae159b50105aa25170081fee66b4f3');
-define( 'AUTH_SALT',        '3ded0c3e2e3d582305fa44e94172f42d6f6fc040');
-define( 'SECURE_AUTH_SALT', 'd3a5d4a60f0d79fbff39fe8ce1a5c778a166d57b');
-define( 'LOGGED_IN_SALT',   '60226f9849086215be50475f056170f3fd697d63');
-define( 'NONCE_SALT',       '49d7d1b8f9b192577dc64493a1eed6a9acb7d75d');
+define( 'AUTH_KEY',         'bdba79e5560869be601ca10c38beb704e4329c02');
+define( 'SECURE_AUTH_KEY',  '1e291e1456dd005a0d0f8e085481830c204fb9ab');
+define( 'LOGGED_IN_KEY',    'f79b9dea6de75855360a5347594a4e15b41a2684');
+define( 'NONCE_KEY',        '577c441cf4b5ab519e80c1910bf08cfbd86808d7');
+define( 'AUTH_SALT',        'd497f3277417d06265f3b7fcc62433037f9e9f80');
+define( 'SECURE_AUTH_SALT', '1b52a41d8f22ce0d8d416f2a867ed4959c5e0bff');
+define( 'LOGGED_IN_SALT',   'e7594892fc0d7755ecdb6317beb8e4cd0bd11dc6');
+define( 'NONCE_SALT',       '7b7e551d222f7a4101104ae71bc55babd2a1bb52');
 
 /**#@-*/
 

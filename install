@@ -42,4 +42,4 @@ docker-compose down
 docker-compose up -d
 cat mysql.sql | docker exec -i cisne-negro-site-db /usr/bin/mysql -u wordpress --password=wordpress wordpress
 
-echo "Done. URL: http://127.0.0.1:8080"
+echo "Done. URL: http://127.0.0.1:8081"

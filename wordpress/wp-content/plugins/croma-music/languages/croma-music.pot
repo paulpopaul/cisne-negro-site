@@ -1,0 +1,5341 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Croma Music\n"
+"POT-Creation-Date: 2018-01-24 11:58-0500\n"
+"PO-Revision-Date: 2018-01-24 11:57-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: croma-music.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/options.php:99
+msgid ""
+"<p>Brought to you by <a target=\"_blank\" href=\"http://irontemplates.com"
+"\">IronTemplates</a></p>"
+msgstr ""
+
+#: admin/options.php:105
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: admin/options.php:134
+msgid "Croma"
+msgstr ""
+
+#: admin/options.php:138
+msgid "Croma Options"
+msgstr ""
+
+#: admin/options.php:210
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:220
+msgid "Getting Started"
+msgstr ""
+
+#: admin/options.php:232 admin/options.php:238
+msgid "Import Default Data"
+msgstr ""
+
+#: admin/options.php:233
+msgid "Here you can clone our theme demo contents."
+msgstr ""
+
+#: admin/options.php:239
+msgid ""
+"This will flush all your current data and clone our theme demo contents."
+"<br><font color=\"red\">Please note that this could take up to 3 minutes.</"
+"font>"
+msgstr ""
+
+#: admin/options.php:240
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:355
+msgid "Important"
+msgstr ""
+
+#: admin/options.php:240
+msgid ""
+"If the spinner is still spinning for more than 3 minutes and you can't "
+"import the data, please follow this <a target=\"_blank\" href=\"http://docs."
+"irontemplates.com/croma/import-our-live-demo/downloads-data/\">link</a> for "
+"another solution."
+msgstr ""
+
+#: admin/options.php:252 includes/options.php:26
+msgid "General Settings"
+msgstr ""
+
+#: admin/options.php:253
+msgid "These are some general settings that you can edit."
+msgstr ""
+
+#: admin/options.php:258
+msgid "Enable Continious Audio Player and AJAX"
+msgstr ""
+
+#: admin/options.php:259
+msgid ""
+"This option enable the continuous audio player. When a user navigate through "
+"your site, the audio player will continue to play without stoping the music. "
+"It also make your theme ajaxified which mean your pages will load faster."
+msgstr ""
+
+#: admin/options.php:259
+msgid "* VERY IMPORTANT:"
+msgstr ""
+
+#: admin/options.php:259
+msgid ""
+"Ajax loading is an advanced feature. Third party plugins that use Javascript "
+"might stop to work or make your site not works."
+msgstr ""
+
+#: admin/options.php:259
+msgid "If you have issues with your site, please turn off this feature."
+msgstr ""
+
+#: admin/options.php:266 includes/options.php:372
+msgid "Move Dynamic/Custom CSS Into External Stylesheet?"
+msgstr ""
+
+#: admin/options.php:267
+msgid ""
+"This gives you the option move all the dynamic css that lives in the head by "
+"default into its own file for aesthetic & caching purposes. If you use this "
+"feature, you might have to clear your browser cache after any change you "
+"make in the theme options"
+msgstr ""
+
+#: admin/options.php:277
+msgid "Pagination Settings"
+msgstr ""
+
+#: admin/options.php:278
+msgid ""
+"You can control settings related to the reading and navigation of posts."
+msgstr ""
+
+#: admin/options.php:278
+msgid ""
+"Enter the number of posts per page for each content type to be displayed "
+"within archive page templates."
+msgstr ""
+
+#: admin/options.php:278
+msgid ""
+"You can control the number of posts for the Posts content type on the <a "
+"href=\"options-reading.php\">Reading Settings</a> page."
+msgstr ""
+
+#: admin/options.php:284
+msgid "Videos listings show at most"
+msgstr ""
+
+#: admin/options.php:290
+msgid "Pagination Style"
+msgstr ""
+
+#: admin/options.php:291
+msgid ""
+"Choose how to provide \"paged\" navigation of posts, categories, and archive "
+"pages."
+msgstr ""
+
+#: admin/options.php:291
+msgid ""
+"You can set how many posts to list on each page on the <a href=\"options-"
+"reading.php\">Reading Settings</a> page."
+msgstr ""
+
+#: admin/options.php:293
+msgid "Displays links for next and previous pages"
+msgstr ""
+
+#: admin/options.php:293 admin/options.php:294
+#, php-format
+msgctxt "Abbreviation of Latin exemplī grātiā (“for example”)."
+msgid "e.g. : %s"
+msgstr ""
+
+#: admin/options.php:293
+msgid "« Previous Page — Next Page »"
+msgstr ""
+
+#: admin/options.php:294
+msgid "Displays a row of paginated links"
+msgstr ""
+
+#: admin/options.php:294
+msgid "« Prev 1 … 3 4 5 6 7 … 9 Next »"
+msgstr ""
+
+#: admin/options.php:312
+msgctxt "Theme Options"
+msgid "Widgets Areas"
+msgstr ""
+
+#: admin/options.php:313
+msgctxt "Theme Options"
+msgid ""
+"Manage your WordPress Widget Areas and additional settings related to page "
+"templates and widgets."
+msgstr ""
+
+#: admin/options.php:318
+msgctxt "Theme Options"
+msgid "Widget Areas"
+msgstr ""
+
+#: admin/options.php:319
+msgctxt "Theme Options"
+msgid "Manage dynamic sidebars for your widgets."
+msgstr ""
+
+#: admin/options.php:323
+msgctxt "Theme Options"
+msgid "Sidebar widget area found on Blog post-related page templates."
+msgstr ""
+
+#: admin/options.php:329
+msgctxt "Theme Options"
+msgid "Sidebar widget area found on Video-related page templates."
+msgstr ""
+
+#: admin/options.php:335
+msgctxt "Theme Options"
+msgid "Site footer widget area."
+msgstr ""
+
+#: admin/options.php:342
+msgctxt "Theme Options"
+msgid "Widget Area"
+msgstr ""
+
+#: admin/options.php:349
+msgctxt "Theme Options"
+msgid "Sidebar name"
+msgstr ""
+
+#: admin/options.php:354
+msgctxt "Theme Options"
+msgid "Sidebar description (optional)"
+msgstr ""
+
+#: admin/options.php:362
+msgid "Single Post Default Sidebar"
+msgstr ""
+
+#: admin/options.php:368
+msgid "Single Video Default Sidebar"
+msgstr ""
+
+#: admin/options.php:374
+msgid "Single Event Default Sidebar"
+msgstr ""
+
+#: admin/options.php:380
+msgid "Single Discography Default Sidebar"
+msgstr ""
+
+#: admin/options.php:389
+msgid "Events Settings"
+msgstr ""
+
+#: admin/options.php:390
+#, php-format
+msgid "The events setting are in the plugin %s"
+msgstr ""
+
+#: admin/options.php:396
+msgid "Look and feel"
+msgstr ""
+
+#: admin/options.php:397
+msgid "These are some look & feel options that you can edit."
+msgstr ""
+
+#: admin/options.php:403
+msgid "Color 1"
+msgstr ""
+
+#: admin/options.php:404
+msgid ""
+"Hyperlinks & Buttons color (eg: Buy Tracks, Buy Tickets, Back buttons, Share "
+"icons) + Hover color of the news list + Hover color of the social media "
+"icons in the footer"
+msgstr ""
+
+#: admin/options.php:411
+msgid "Color 2"
+msgstr ""
+
+#: admin/options.php:412
+msgid "When Push Menu is used, this is the item hover color"
+msgstr ""
+
+#: admin/options.php:419
+msgid "Color 3"
+msgstr ""
+
+#: admin/options.php:420
+msgid ""
+"Background color of the news list & grid + Background color of the category "
+"labels + Store buttons (eg: iTunes) in the discography page"
+msgstr ""
+
+#: admin/options.php:427
+msgid "Color 4"
+msgstr ""
+
+#: admin/options.php:428
+msgid ""
+"Hover color of the Call-to-action buttons in Audio Player (eg: iTunes) & "
+"Event page (eg: Buy Tickets)"
+msgstr ""
+
+#: admin/options.php:435
+msgid "Text Color 1"
+msgstr ""
+
+#: admin/options.php:436
+msgid ""
+"Text color of the Call-To-Action buttons + News titles when using News Grid "
+"3-Columns and 4-columns"
+msgstr ""
+
+#: admin/options.php:443
+msgid "Text Color 2"
+msgstr ""
+
+#: admin/options.php:444
+msgid ""
+"Text color of the categories and meta-tags of the posts + Event details "
+"(Date, Time, Venue)"
+msgstr ""
+
+#: admin/options.php:452
+msgid "Content Background"
+msgstr ""
+
+#: admin/options.php:453
+msgid ""
+"If you are using the \"Push-menu\", this is your page background. If you are "
+"using the \"Classic Menu\", use the \"Main Background\" below instead."
+msgstr ""
+
+#: admin/options.php:464
+msgid "Main Background"
+msgstr ""
+
+#: admin/options.php:465
+msgid ""
+"This is your main background. *Important: If you do not see it on your site, "
+"make sure that the \"Content Background\" above is set to \"rgba(255, 255, "
+"255, 0). This is also the background you will see when you use the 3D Push "
+"Menu\"."
+msgstr ""
+
+#: admin/options.php:477
+msgid "Page Title Divider Image"
+msgstr ""
+
+#: admin/options.php:478 admin/options.php:509
+msgid "Upload a .jpg or .png image"
+msgstr ""
+
+#: admin/options.php:485
+msgid "Page Title Divider Color"
+msgstr ""
+
+#: admin/options.php:492
+msgid "Page Title Divider Margin Top"
+msgstr ""
+
+#: admin/options.php:493 admin/options.php:500 admin/options.php:524
+#: admin/options.php:531
+msgid ""
+"Eg: 30. The value is in pixels. Do not add \"px\" after the value. Leave "
+"blank for theme default"
+msgstr ""
+
+#: admin/options.php:499
+msgid "Page Title Divider Margin Bottom"
+msgstr ""
+
+#: admin/options.php:508
+msgid "Widget Title Divider Image"
+msgstr ""
+
+#: admin/options.php:516
+msgid "Widget Title Divider Color"
+msgstr ""
+
+#: admin/options.php:523
+msgid "Widget Title Divider Margin Top"
+msgstr ""
+
+#: admin/options.php:530
+msgid "Widget Title Divider Margin Bottom"
+msgstr ""
+
+#: admin/options.php:540 includes/options.php:52 includes/options.php:105
+msgid "Typography"
+msgstr ""
+
+#: admin/options.php:541
+msgid ""
+"These are some typography options that you can edit. These options will "
+"override the selected preset."
+msgstr ""
+
+#: admin/options.php:547
+msgid "Body Typography"
+msgstr ""
+
+#: admin/options.php:548 admin/options.php:563 admin/options.php:577
+#: admin/options.php:591 admin/options.php:608 admin/options.php:626
+#: admin/options.php:644 admin/options.php:658 admin/options.php:672
+#: admin/options.php:923 admin/options.php:1205 admin/options.php:1273
+#: admin/options.php:1416 includes/options.php:53 includes/options.php:106
+#: includes/options.php:168 includes/options.php:218 includes/options.php:231
+#: includes/options.php:244
+msgid "Choose a font, font size and color"
+msgstr ""
+
+#: admin/options.php:554
+msgid "News title color on hover"
+msgstr ""
+
+#: admin/options.php:556
+msgid ""
+"* This only apply on the page template: Blog Posts (list). Screenshot: "
+"http://d.pr/i/1gWvq "
+msgstr ""
+
+#: admin/options.php:562
+msgid "Widget Call To Action Button Typography"
+msgstr ""
+
+#: admin/options.php:569
+msgid "Widget Call To Action Button Letter Spacing"
+msgstr ""
+
+#: admin/options.php:570 admin/options.php:584
+msgid "Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:576
+msgid "Button Widget Typography"
+msgstr ""
+
+#: admin/options.php:583
+msgid "Button Widget Letter Spacing"
+msgstr ""
+
+#: admin/options.php:590
+msgid "Heading 1 Typography"
+msgstr ""
+
+#: admin/options.php:600
+msgid "Heading 1 Letter Spacing"
+msgstr ""
+
+#: admin/options.php:601
+msgid "Heading 1 Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:607
+msgid "Heading 2 Typography"
+msgstr ""
+
+#: admin/options.php:618
+msgid "Heading 2 Letter Spacing"
+msgstr ""
+
+#: admin/options.php:619
+msgid "Heading 2 Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:625
+msgid "Heading 3 Typography"
+msgstr ""
+
+#: admin/options.php:636
+msgid "Heading 3 Letter Spacing"
+msgstr ""
+
+#: admin/options.php:637
+msgid "Heading 3 Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:643
+msgid "Heading 4 Typography"
+msgstr ""
+
+#: admin/options.php:650
+msgid "Heading 4 Letter Spacing"
+msgstr ""
+
+#: admin/options.php:651
+msgid "Heading 4 Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:657
+msgid "Heading 5 Typography"
+msgstr ""
+
+#: admin/options.php:664
+msgid "Heading 5 Letter Spacing"
+msgstr ""
+
+#: admin/options.php:665
+msgid "Heading 5 Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:671
+msgid "Heading 6 Typography"
+msgstr ""
+
+#: admin/options.php:678
+msgid "Heading 6 Letter Spacing"
+msgstr ""
+
+#: admin/options.php:679
+msgid "Heading 6 Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:688
+msgid "Logos"
+msgstr ""
+
+#: admin/options.php:689
+msgid "These are some header options that you can edit."
+msgstr ""
+
+#: admin/options.php:694
+msgid "Header Logo"
+msgstr ""
+
+#: admin/options.php:695
+msgid "Upload your logo"
+msgstr ""
+
+#: admin/options.php:702
+msgid "Retina Header Logo"
+msgstr ""
+
+#: admin/options.php:703
+msgid ""
+"Upload your retina logo for retina devices. Should be 2X larger than your "
+"header logo"
+msgstr ""
+
+#: admin/options.php:710
+msgid "Alternative Logo"
+msgstr ""
+
+#: admin/options.php:711
+msgid ""
+"Alternative logo can be turned on/off in each of your pages. This is useful "
+"if you have by exemple, a different header in a specific page and want the "
+"alternative logo to show instead of the standard logo."
+msgstr ""
+
+#: admin/options.php:717
+msgid "Retina Alernative Logo"
+msgstr ""
+
+#: admin/options.php:718
+msgid "Should be 2X larger than your alternative logo"
+msgstr ""
+
+#: admin/options.php:724
+msgid "Use Alternative Logo when Responsive"
+msgstr ""
+
+#: admin/options.php:725
+msgid ""
+"The alternative logo will be used when the menu bar appears on tablet and "
+"mobile."
+msgstr ""
+
+#: admin/options.php:737
+msgid "Footer Options"
+msgstr ""
+
+#: admin/options.php:738
+msgid "These are some footer options that you can edit."
+msgstr ""
+
+#: admin/options.php:743
+msgid "Site Footer"
+msgstr ""
+
+#: admin/options.php:748
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:27
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:27
+msgid "Widget Area"
+msgstr ""
+
+#: admin/options.php:754
+msgid "Footer Social Media Enabled"
+msgstr ""
+
+#: admin/options.php:755
+msgid "If you want to add your social medias, go to Social Media section."
+msgstr ""
+
+#: admin/options.php:762
+msgid "Footer Social Media Background Color"
+msgstr ""
+
+#: admin/options.php:768
+msgid "Back To Top Button"
+msgstr ""
+
+#: admin/options.php:775
+#: admin/options/fields/background/field_background.php:188
+#: includes/options.php:126 includes/options.php:188
+msgid "Background Color"
+msgstr ""
+
+#: admin/options.php:781
+msgid "Footer Padding (px)"
+msgstr ""
+
+#: admin/options.php:782
+msgid "Enter unit with px. (eg: 20px)"
+msgstr ""
+
+#: admin/options.php:788
+msgid "Copyright & Notices"
+msgstr ""
+
+#: admin/options.php:793
+msgid "Bottom Logo"
+msgstr ""
+
+#: admin/options.php:794
+msgid ""
+"Upload a mini logo that will appear on the bottom. Could be a partner or a "
+"record label, for example."
+msgstr ""
+
+#: admin/options.php:795
+msgid "Maximum Size : 200 x 100 px"
+msgstr ""
+
+#: admin/options.php:802
+msgid "Bottom Logo URL"
+msgstr ""
+
+#: admin/options.php:803
+msgid ""
+"Add a URL to the mini logo that will appear on the bottom. The link opens in "
+"a new window."
+msgstr ""
+
+#: admin/options.php:809
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: admin/options.php:810
+msgid "Shown at the bottom left of your site."
+msgstr ""
+
+#: admin/options.php:816
+msgid "Footer Credits Text"
+msgstr ""
+
+#: admin/options.php:817
+msgid "Shown at the bottom right of your site."
+msgstr ""
+
+#: admin/options.php:828
+msgid "Menu Options"
+msgstr ""
+
+#: admin/options.php:829
+msgid "Choose between a classic or push menu."
+msgstr ""
+
+#: admin/options.php:834
+msgid "Menu Type"
+msgstr ""
+
+#: admin/options.php:836
+msgid "Push Menu"
+msgstr ""
+
+#: admin/options.php:837
+msgid "Classic Menu"
+msgstr ""
+
+#: admin/options.php:845
+msgid "Menu Effect on Push"
+msgstr ""
+
+#: admin/options.php:847
+msgid "Push only"
+msgstr ""
+
+#: admin/options.php:848
+msgid "Rotate and push"
+msgstr ""
+
+#: admin/options.php:849
+msgid "3D Perspective"
+msgstr ""
+
+#: admin/options.php:859
+msgid "Fix menu at the top of the screen"
+msgstr ""
+
+#: admin/options.php:860
+msgid "This will make the menu fixed on page scroll"
+msgstr ""
+
+#: admin/options.php:868 admin/options.php:986
+msgid "Menu Position"
+msgstr ""
+
+#: admin/options.php:870 admin/options.php:975 admin/options.php:1029
+msgid "Left"
+msgstr ""
+
+#: admin/options.php:871 admin/options.php:976 admin/options.php:1030
+msgid "Right"
+msgstr ""
+
+#: admin/options.php:879
+msgid "Logo"
+msgstr ""
+
+#: admin/options.php:880
+msgid "Upload your menu logo"
+msgstr ""
+
+#: admin/options.php:887
+msgid "Retina Logo"
+msgstr ""
+
+#: admin/options.php:888
+msgid "Upload your retina logo (should be 2x larger than your standard logo)"
+msgstr ""
+
+#: admin/options.php:896
+#: admin/options/fields/typography/field_typography.php:239
+msgid "Background"
+msgstr ""
+
+#: admin/options.php:897
+msgid "Menu background options / Upload a custom background image"
+msgstr ""
+
+#: admin/options.php:908
+msgid "Menu Open Icon Color"
+msgstr ""
+
+#: admin/options.php:915
+msgid "Menu Close Icon Color"
+msgstr ""
+
+#: admin/options.php:922
+msgid "Menu Typography"
+msgstr ""
+
+#: admin/options.php:930
+msgid "Item Margin (px)"
+msgstr ""
+
+#: admin/options.php:931
+msgid "Set a menu item margin"
+msgstr ""
+
+#: admin/options.php:938
+msgid "Display Main Menu Icon"
+msgstr ""
+
+#: admin/options.php:940
+msgid "Show"
+msgstr ""
+
+#: admin/options.php:941
+msgid "Show on mobile only"
+msgstr ""
+
+#: admin/options.php:942
+msgid "Hide"
+msgstr ""
+
+#: admin/options.php:954
+msgid "General Options"
+msgstr ""
+
+#: admin/options.php:961
+msgid "Menu Width"
+msgstr ""
+
+#: admin/options.php:963 admin/options.php:1448
+msgid "Full Width"
+msgstr ""
+
+#: admin/options.php:964
+msgid "In Container"
+msgstr ""
+
+#: admin/options.php:973
+msgid "Items Alignment"
+msgstr ""
+
+#: admin/options.php:977 admin/options.php:1031
+#: includes/advanced-custom-fields/core/fields/google-map.php:162
+msgid "Center"
+msgstr ""
+
+#: admin/options.php:988
+msgid "Not Fixed"
+msgstr ""
+
+#: admin/options.php:989
+msgid "Fixed"
+msgstr ""
+
+#: admin/options.php:998
+msgid "Menu Effect On Scroll"
+msgstr ""
+
+#: admin/options.php:1000
+msgid "Default"
+msgstr ""
+
+#: admin/options.php:1001
+msgid "Mini"
+msgstr ""
+
+#: admin/options.php:1002
+msgid "Mini + Full Width"
+msgstr ""
+
+#: admin/options.php:1010
+msgid "Header Logo On Mini"
+msgstr ""
+
+#: admin/options.php:1011
+msgid ""
+"This will override the main logo by this logo when you will start scrolling "
+"your website. Menu Effect On Scroll above shall be set to Mini."
+msgstr ""
+
+#: admin/options.php:1020
+msgid "Logo Options"
+msgstr ""
+
+#: admin/options.php:1027
+msgid "Logo Alignment"
+msgstr ""
+
+#: admin/options.php:1032
+msgid "Center & Above items"
+msgstr ""
+
+#: admin/options.php:1041
+msgid "Logo Padding Left (px)"
+msgstr ""
+
+#: admin/options.php:1048
+msgid "Logo Padding Right (px)"
+msgstr ""
+
+#: admin/options.php:1055
+msgid "Logo Padding Top (px)"
+msgstr ""
+
+#: admin/options.php:1062
+msgid "Logo Padding Bottom (px)"
+msgstr ""
+
+#: admin/options.php:1070
+msgid "Menu Container"
+msgstr ""
+
+#: admin/options.php:1077
+msgid "Menu Background Color"
+msgstr ""
+
+#: admin/options.php:1078
+msgid ""
+"If you would like to display the menu above or over your page content, go to "
+"your page > page settings > Show Classic Menu & Header Over Content."
+msgstr ""
+
+#: admin/options.php:1085
+msgid ""
+"Menu Background Color When \"Menu Effect On Scroll > MINI is activated\""
+msgstr ""
+
+#: admin/options.php:1092
+msgid "Menu Inner/boxed Background Color"
+msgstr ""
+
+#: admin/options.php:1100
+msgid "Top Margin (px)"
+msgstr ""
+
+#: admin/options.php:1107
+msgid "Bottom Margin (px)"
+msgstr ""
+
+#: admin/options.php:1114
+msgid "Horizontal Margin (px)"
+msgstr ""
+
+#: admin/options.php:1121
+msgid "Horizontal Padding (px)"
+msgstr ""
+
+#: admin/options.php:1128
+msgid "Vertical Padding (px)"
+msgstr ""
+
+#: admin/options.php:1137
+msgid "Mobile Settings"
+msgstr ""
+
+#: admin/options.php:1144
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: admin/options.php:1151
+msgid "Mobile Menu Icon Color"
+msgstr ""
+
+#: admin/options.php:1158
+msgid "Mobile Menu Icon Hover Color"
+msgstr ""
+
+#: admin/options.php:1168
+msgid "Items"
+msgstr ""
+
+#: admin/options.php:1175
+msgid "Item Horizontal Margin (px)"
+msgstr ""
+
+#: admin/options.php:1182
+msgid "Item Vertical Margin (px)"
+msgstr ""
+
+#: admin/options.php:1190
+msgid "Item Horizontal Padding (px)"
+msgstr ""
+
+#: admin/options.php:1197
+msgid "Item Vertical Padding (px)"
+msgstr ""
+
+#: admin/options.php:1204
+msgid "Main Item Typography"
+msgstr ""
+
+#: admin/options.php:1214
+msgid "Item Letter Spacing (px)"
+msgstr ""
+
+#: admin/options.php:1221
+msgid "Main Item Hover Background Color"
+msgstr ""
+
+#: admin/options.php:1228
+msgid "Main Item Hover Text Color"
+msgstr ""
+
+#: admin/options.php:1235
+msgid "Main Item Active Background Color"
+msgstr ""
+
+#: admin/options.php:1242
+msgid "Main Item Active Text Color"
+msgstr ""
+
+#: admin/options.php:1249
+msgid "Menu Item Hover Effect"
+msgstr ""
+
+#: admin/options.php:1251 admin/options.php:1450
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:374
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:383
+#: includes/vc-extend/vc-map.php:78
+msgid "None"
+msgstr ""
+
+#: admin/options.php:1252
+msgid "Underline"
+msgstr ""
+
+#: admin/options.php:1253
+msgid "Strikethrough"
+msgstr ""
+
+#: admin/options.php:1265
+msgid "Sub Items"
+msgstr ""
+
+#: admin/options.php:1272
+msgid "Sub Item Typography"
+msgstr ""
+
+#: admin/options.php:1283
+msgid "Sub Item Hover Background Color"
+msgstr ""
+
+#: admin/options.php:1290
+msgid "Sub Item Hover Text Color"
+msgstr ""
+
+#: admin/options.php:1297
+msgid "Sub Item Active Background Color"
+msgstr ""
+
+#: admin/options.php:1304
+msgid "Sub Item Active Text Color"
+msgstr ""
+
+#: admin/options.php:1315
+msgid "Hot Links"
+msgstr ""
+
+#: admin/options.php:1322
+msgid "Enable Hot Links"
+msgstr ""
+
+#: admin/options.php:1330
+msgid "Hot Links Hide on scroll"
+msgstr ""
+
+#: admin/options.php:1338
+msgctxt "Theme Options"
+msgid "Hot Links Items"
+msgstr ""
+
+#: admin/options.php:1352
+msgctxt "Theme Options"
+msgid "Hot Links"
+msgstr ""
+
+#: admin/options.php:1359
+msgctxt "Theme Options"
+msgid "Hot Link Label"
+msgstr ""
+
+#: admin/options.php:1364
+msgctxt "Theme Options"
+msgid "Hide Label & Keep Icon Only"
+msgstr ""
+
+#: admin/options.php:1370
+msgctxt "Theme Options"
+msgid "Is menu toggle"
+msgstr ""
+
+#: admin/options.php:1376
+msgctxt "Theme Options"
+msgid "Page URL"
+msgstr ""
+
+#: admin/options.php:1383
+msgctxt "Theme Options"
+msgid "Page URL (External)"
+msgstr ""
+
+#: admin/options.php:1389
+msgctxt "Theme Options"
+msgid "Page URL Target)"
+msgstr ""
+
+#: admin/options.php:1399
+msgctxt "Theme Options"
+msgid "Page URL Icon Class"
+msgstr ""
+
+#: admin/options.php:1408
+msgid "Hot Links Background"
+msgstr ""
+
+#: admin/options.php:1415
+msgid "Hot Links Typography"
+msgstr ""
+
+#: admin/options.php:1429
+msgid "Posts Settings"
+msgstr ""
+
+#: admin/options.php:1430
+msgid "These are some post options that you can edit."
+msgstr ""
+
+#: admin/options.php:1436
+msgid "Posts Archive Default Template"
+msgstr ""
+
+#: admin/options.php:1438
+msgid "1-column (list)"
+msgstr ""
+
+#: admin/options.php:1439
+msgid "2-columns (grid)"
+msgstr ""
+
+#: admin/options.php:1446
+msgid "Single Post Featured Image"
+msgstr ""
+
+#: admin/options.php:1449
+msgid "Original"
+msgstr ""
+
+#: admin/options.php:1457
+msgid "Show post date in post archive and single posts"
+msgstr ""
+
+#: admin/options.php:1464
+msgid "Show post author in post archive and single posts"
+msgstr ""
+
+#: admin/options.php:1471
+msgid "Show post categories in post archive and single posts"
+msgstr ""
+
+#: admin/options.php:1478
+msgid "Show post tags in post archive and single posts"
+msgstr ""
+
+#: admin/options.php:1485
+msgid "Single Posts Page Titles"
+msgstr ""
+
+#: admin/options.php:1490
+msgid "Single Post Page Title"
+msgstr ""
+
+#: admin/options.php:1496
+msgid "Single Event Page Title"
+msgstr ""
+
+#: admin/options.php:1502
+msgid "Single Video Page Title"
+msgstr ""
+
+#: admin/options.php:1508
+msgid "Single Discography Page Title"
+msgstr ""
+
+#: admin/options.php:1514
+msgid "Single Shop Page Title"
+msgstr ""
+
+#: admin/options.php:1524
+msgid "Music Player Settings"
+msgstr ""
+
+#: admin/options.php:1525
+#, php-format
+msgid "The music player setting are in the plugin %s"
+msgstr ""
+
+#: admin/options.php:1532
+msgid "Social Media"
+msgstr ""
+
+#: admin/options.php:1533
+msgid "Here are some social settings that you can edit."
+msgstr ""
+
+#: admin/options.php:1538
+msgid "Twitter Feed"
+msgstr ""
+
+#: admin/options.php:1543
+msgid "Twitter Consumer Key (API Key)"
+msgstr ""
+
+#: admin/options.php:1549
+msgid "Twitter Consumer Secret (API Secret)"
+msgstr ""
+
+#: admin/options.php:1555
+msgid "Twitter Access Token"
+msgstr ""
+
+#: admin/options.php:1561
+msgid "Twitter Access Token Secret"
+msgstr ""
+
+#: admin/options.php:1567
+msgid "Facebook Like"
+msgstr ""
+
+#: admin/options.php:1572
+msgid "Facebook App ID"
+msgstr ""
+
+#: admin/options.php:1573
+msgid ""
+"When you <a target=\"_blank\" href=\"https://developers.facebook.com/setup/"
+"\">register your website as an app</a>, you can get detailed analytics about "
+"the demographics of your users and how users are sharing from your website "
+"with <a target=\"_blank\" href=\"https://www.facebook.com/insights/"
+"\">Insights</a>."
+msgstr ""
+
+#: admin/options.php:1579
+msgid "Share buttons"
+msgstr ""
+
+#: admin/options.php:1584
+msgid "Enable share icons"
+msgstr ""
+
+#: admin/options.php:1585
+msgid ""
+"Share buttons will be shown on the single-post, single-event, single-album "
+"and single-video page only."
+msgstr ""
+
+#: admin/options.php:1588
+msgid "Off"
+msgstr ""
+
+#: admin/options.php:1589
+msgid "On"
+msgstr ""
+
+#: admin/options.php:1597
+msgid "Custom Social Buttons"
+msgstr ""
+
+#: admin/options.php:1598
+msgid "Add your favorite drop-in bookmarking and social link-sharing"
+msgstr ""
+
+#: admin/options.php:1600 admin/options.php:1626
+msgid "Facebook"
+msgstr ""
+
+#: admin/options.php:1601 admin/options.php:1633
+msgid "Twitter"
+msgstr ""
+
+#: admin/options.php:1602
+msgid "Google+"
+msgstr ""
+
+#: admin/options.php:1603
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/options.php:1604
+msgid "Pinterest"
+msgstr ""
+
+#: admin/options.php:1617
+msgid "Footer Social Icons"
+msgstr ""
+
+#: admin/options.php:1622
+msgctxt "Theme Options"
+msgid "Social Icons"
+msgstr ""
+
+#: admin/options.php:1623
+msgctxt "Theme Options"
+msgid "Add / update social media icons."
+msgstr ""
+
+#: admin/options.php:1642
+msgctxt "Theme Options"
+msgid "Social Media"
+msgstr ""
+
+#: admin/options.php:1649
+msgctxt "Theme Options"
+msgid "Social Media Name"
+msgstr ""
+
+#: admin/options.php:1654
+msgctxt "Theme Options"
+msgid "Social Media URL"
+msgstr ""
+
+#: admin/options.php:1660
+msgctxt "Theme Options"
+msgid "Social Media Icon Class"
+msgstr ""
+
+#: admin/options.php:1665
+msgctxt "Theme Options"
+msgid "Social Media Icon Image"
+msgstr ""
+
+#: admin/options.php:1678
+msgid "Fav Icons & Metadata"
+msgstr ""
+
+#: admin/options.php:1679
+msgid ""
+"These are some metadata options that you can edit, including favicons and a "
+"short title for mobile home screens.<br>You can use this online tool to "
+"easily generate your favicons. <a href=\"http://iconifier.net\" target="
+"\"_blank\" />http://iconifier.net/</a>"
+msgstr ""
+
+#: admin/options.php:1684
+msgid "Favicon"
+msgstr ""
+
+#: admin/options.php:1685 admin/options.php:1694 admin/options.php:1703
+#: admin/options.php:1712 admin/options.php:1721
+msgid "Upload your shortcut icon"
+msgstr ""
+
+#: admin/options.php:1687
+msgid "Icon Size: 32px x 32px"
+msgstr ""
+
+#: admin/options.php:1693
+msgid "Apple Touch Icon (57×57)"
+msgstr ""
+
+#: admin/options.php:1696
+msgid ""
+"Icon Size: 57px x 57px. For iPhone 3GS, 2011 iPod Touch and older Android "
+"devices."
+msgstr ""
+
+#: admin/options.php:1702
+msgid "Apple Touch Icon (72×72)"
+msgstr ""
+
+#: admin/options.php:1705
+msgid "Icon Size: 72px x 72px. For 1st generation iPad, iPad 2 and iPad mini."
+msgstr ""
+
+#: admin/options.php:1711
+msgid "Apple Touch Icon (114×114)"
+msgstr ""
+
+#: admin/options.php:1714
+msgid "Icon Size: 114px x 114px. For iPhone 4, 4S, 5 and 2012 iPod Touch."
+msgstr ""
+
+#: admin/options.php:1720
+msgid "Apple Touch Icon (144×144)"
+msgstr ""
+
+#: admin/options.php:1723
+msgid "Icon Size: 144px x 144px. For iPad 3rd and 4th generation."
+msgstr ""
+
+#: admin/options.php:1729
+msgid "Apple Mobile Web App Title"
+msgstr ""
+
+#: admin/options.php:1730
+msgid ""
+"Sets a different title for an iOS Home Screen icon. By default, Mobile "
+"Safari crops document titles to 13 characters."
+msgstr ""
+
+#: admin/options.php:1741
+msgid "Custom CSS / JS"
+msgstr ""
+
+#: admin/options.php:1742
+msgid "All the custom CSS goes here"
+msgstr ""
+
+#: admin/options.php:1747
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options.php:1754
+msgid "Custom Javascript"
+msgstr ""
+
+#: admin/options.php:1755
+msgid ""
+"This is for advanced users.<br>The code will be executed within "
+"jQuery(document).ready($);"
+msgstr ""
+
+#: admin/options.php:1769
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/options.php:1770
+msgid "Here are some WooCommerce settings that you can edit."
+msgstr ""
+
+#: admin/options.php:1775
+msgid "Enable WooCommerce Backgrounds"
+msgstr ""
+
+#: admin/options.php:1776
+msgid ""
+"This will add a background to product items and descriptions.<br><b>Primary "
+"Color 2</b> will be used for the background."
+msgstr ""
+
+#: admin/options.php:1805
+msgid "Theme URL: "
+msgstr ""
+
+#: admin/options.php:1806
+msgid "Author: "
+msgstr ""
+
+#: admin/options.php:1807
+msgid "Version: "
+msgstr ""
+
+#: admin/options.php:1808
+msgid "Tags: "
+msgstr ""
+
+#: admin/options.php:1814
+msgid "Theme Information"
+msgstr ""
+
+#: admin/options/defaults.php:45 admin/options/defaults.php:47
+#: includes/advanced-custom-fields/core/controllers/field_group.php:399
+msgid "Options"
+msgstr ""
+
+#: admin/options/defaults.php:58
+#, php-format
+msgid ""
+"<span id=\"footer-thankyou\">Options panel created using <a href=\"%s\" "
+"target=\"_blank\">Redux Framework</a> v%s</span>"
+msgstr ""
+
+#: admin/options/defaults.php:233 admin/options/defaults.php:234
+#: admin/options/defaults.php:667 includes/options.php:366
+msgid "Import / Export"
+msgstr ""
+
+#: admin/options/defaults.php:253 admin/options/defaults.php:254
+#: admin/options/defaults.php:698 admin/options/defaults.php:777
+msgid "Dev Mode Info"
+msgstr ""
+
+#: admin/options/defaults.php:345
+msgid "Are you sure? You will lose all custom values."
+msgstr ""
+
+#: admin/options/defaults.php:625
+msgid "Settings Imported!"
+msgstr ""
+
+#: admin/options/defaults.php:627
+msgid "Settings Saved!"
+msgstr ""
+
+#: admin/options/defaults.php:632
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: admin/options/defaults.php:633
+msgid "error(s) were found!"
+msgstr ""
+
+#: admin/options/defaults.php:634
+msgid "warning(s) were found!"
+msgstr ""
+
+#: admin/options/defaults.php:716
+msgid "Import / Export Options"
+msgstr ""
+
+#: admin/options/defaults.php:717
+msgid "Import Options"
+msgstr ""
+
+#: admin/options/defaults.php:718
+msgid "Import from file"
+msgstr ""
+
+#: admin/options/defaults.php:718
+msgid "Import from URL"
+msgstr ""
+
+#: admin/options/defaults.php:723
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: admin/options/defaults.php:733
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: admin/options/defaults.php:740
+msgid "Import"
+msgstr ""
+
+#: admin/options/defaults.php:740
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
+msgstr ""
+
+#: admin/options/defaults.php:743
+msgid "Export Options"
+msgstr ""
+
+#: admin/options/defaults.php:745
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: admin/options/defaults.php:754
+msgid "Copy"
+msgstr ""
+
+#: admin/options/defaults.php:754
+msgid "Copy Link"
+msgstr ""
+
+#: admin/options/defaults.php:802
+msgid "Reset to Defaults"
+msgstr ""
+
+#: admin/options/fields/background/field_background.php:45
+#: admin/options/fields/upload/field_upload.php:30
+msgid "Upload"
+msgstr ""
+
+#: admin/options/fields/background/field_background.php:46
+#: admin/options/fields/upload/field_upload.php:31
+msgid "Remove Upload"
+msgstr ""
+
+#: admin/options/fields/background/field_background.php:50
+msgid "Upload Background Image"
+msgstr ""
+
+#: admin/options/fields/background/field_background.php:67
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/options/fields/background/field_background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: admin/options/fields/background/field_background.php:125
+msgid "Background Position"
+msgstr ""
+
+#: admin/options/fields/background/field_background.php:161
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/options/fields/color_gradient/field_color_gradient.php:28
+#: admin/options/fields/color_gradient/field_color_gradient.php:33
+msgid "From:"
+msgstr ""
+
+#: admin/options/fields/color_gradient/field_color_gradient.php:29
+msgid "To:"
+msgstr ""
+
+#: admin/options/fields/color_gradient/field_color_gradient.php:35
+msgid " To:"
+msgstr ""
+
+#: admin/options/fields/fontawesome/field_fontawesome.php:29
+msgid ""
+"The icons provided below are free to use custom icons from the <a href="
+"\"http://fontawesome.io/\" target=\"_blank\">Font Awesome icons</a>"
+msgstr ""
+
+#: admin/options/fields/google_webfonts/field_google_webfonts.php:25
+msgid ""
+"The fonts provided below are free to use custom fonts from the <a href="
+"\"http://www.google.com/webfonts\" target=\"_blank\">Google Web Fonts "
+"directory</a>"
+msgstr ""
+
+#: admin/options/fields/group/field_group.php:63
+msgid "New"
+msgstr ""
+
+#: admin/options/fields/group/field_group.php:116
+#: includes/acf-addons/acf-repeater/views/options.php:85
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:110
+msgid "Delete"
+msgstr ""
+
+#: admin/options/fields/group/field_group.php:124
+msgid "Add"
+msgstr ""
+
+#: admin/options/fields/menu_location_select/field_menu_location_select.php:20
+#: admin/options/fields/pages_select/field_pages_select.php:19
+msgid "— Select —"
+msgstr ""
+
+#: admin/options/fields/multi_text/field_multi_text.php:31
+#: admin/options/fields/multi_text/field_multi_text.php:35
+#: admin/options/fields/multi_text/field_multi_text.php:38
+#: includes/advanced-custom-fields/core/fields/image.php:90
+msgid "Remove"
+msgstr ""
+
+#: admin/options/fields/multi_text/field_multi_text.php:40
+msgid "Add More"
+msgstr ""
+
+#: admin/options/fields/typography/field_typography.php:79
+msgid "Text Align"
+msgstr ""
+
+#: admin/options/fields/typography/field_typography.php:103
+msgid "Font Size"
+msgstr ""
+
+#: admin/options/fields/typography/field_typography.php:126
+msgid "Transform"
+msgstr ""
+
+#: admin/options/fields/typography/field_typography.php:152
+msgid "Line Height"
+msgstr ""
+
+#: admin/options/fields/typography/field_typography.php:174
+msgid "Font Weight"
+msgstr ""
+
+#: admin/options/fields/typography/field_typography.php:218
+msgid "Font Color"
+msgstr ""
+
+#: admin/options/fields/widget_area_select/field_widget_area_select.php:21
+msgid "- None -"
+msgstr ""
+
+#: admin/options/validation/color/validation_color.php:13
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: admin/options/validation/comma_numeric/validation_comma_numeric.php:13
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: admin/options/validation/date/validation_date.php:13
+msgid "This field must be a valid date."
+msgstr ""
+
+#: admin/options/validation/email/validation_email.php:13
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: admin/options/validation/no_html/validation_no_html.php:13
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: admin/options/validation/no_special_chars/validation_no_special_chars.php:13
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: admin/options/validation/numeric/validation_numeric.php:13
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: admin/options/validation/url/validation_url.php:13
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: croma-music.php:194
+msgctxt "Countdown label"
+msgid "Years"
+msgstr ""
+
+#: croma-music.php:194
+msgctxt "Countdown label"
+msgid "Months"
+msgstr ""
+
+#: croma-music.php:194
+msgctxt "Countdown label"
+msgid "Weeks"
+msgstr ""
+
+#: croma-music.php:194
+msgctxt "Countdown label"
+msgid "Days"
+msgstr ""
+
+#: croma-music.php:194
+msgctxt "Countdown label"
+msgid "Hours"
+msgstr ""
+
+#: croma-music.php:194
+msgctxt "Countdown label"
+msgid "Minutes"
+msgstr ""
+
+#: croma-music.php:194
+msgctxt "Countdown label"
+msgid "Seconds"
+msgstr ""
+
+#: croma-music.php:195
+msgctxt "Countdown label"
+msgid "Year"
+msgstr ""
+
+#: croma-music.php:195
+msgctxt "Countdown label"
+msgid "Month"
+msgstr ""
+
+#: croma-music.php:195
+msgctxt "Countdown label"
+msgid "Week"
+msgstr ""
+
+#: croma-music.php:195
+msgctxt "Countdown label"
+msgid "Day"
+msgstr ""
+
+#: croma-music.php:195
+msgctxt "Countdown label"
+msgid "Hour"
+msgstr ""
+
+#: croma-music.php:195
+msgctxt "Countdown label"
+msgid "Minute"
+msgstr ""
+
+#: croma-music.php:195
+msgctxt "Countdown label"
+msgid "Second"
+msgstr ""
+
+#: croma-music.php:196
+msgctxt "Countdown label"
+msgid "y"
+msgstr ""
+
+#: croma-music.php:196
+msgctxt "Countdown label"
+msgid "m"
+msgstr ""
+
+#: croma-music.php:196
+msgctxt "Countdown label"
+msgid "w"
+msgstr ""
+
+#: croma-music.php:196
+msgctxt "Countdown label"
+msgid "d"
+msgstr ""
+
+#: croma-music.php:207 includes/widgets.php:161
+msgid "No events scheduled yet. Stay tuned!"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/repeater.php:22
+msgid "Repeater"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/repeater.php:23
+#: includes/acf-addons/acf-repeater/views/options.php:30
+#: includes/acf-addons/acf-repeater/views/options.php:356
+#: includes/advanced-custom-fields/core/fields/checkbox.php:183
+#: includes/advanced-custom-fields/core/fields/message.php:20
+#: includes/advanced-custom-fields/core/fields/radio.php:212
+#: includes/advanced-custom-fields/core/fields/tab.php:20
+msgid "Layout"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/repeater.php:29
+msgid "Add Row"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/repeater.php:32
+msgid "Minimum rows reached ( {min} rows )"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/repeater.php:33
+msgid "Maximum rows reached ( {max} rows )"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:22
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:24
+msgid "New Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:23
+msgid "new_field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:44
+msgid "Repeater Fields"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:52
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:74
+msgid "Field Order"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:53
+#: includes/acf-addons/acf-repeater/views/options.php:101
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:75
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:126
+msgid "Field Label"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:54
+#: includes/acf-addons/acf-repeater/views/options.php:117
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:76
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:142
+msgid "Field Name"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:55
+#: includes/acf-addons/acf-repeater/views/options.php:132
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:464
+#: includes/advanced-custom-fields/core/fields/user.php:298
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:77
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:158
+msgid "Field Type"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:63
+msgid ""
+"No fields. Click the \"+ Add Sub Field button\" to create your first field."
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:79
+#: includes/acf-addons/acf-repeater/views/options.php:82
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:105
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:108
+msgid "Edit this Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:82
+#: includes/advanced-custom-fields/core/fields/image.php:91
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:108
+msgid "Edit"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:83
+msgid "Read documentation for this field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:83
+msgid "Docs"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:84
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:109
+msgid "Duplicate this Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:84
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:109
+msgid "Duplicate"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:85
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:110
+msgid "Delete this Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:102
+msgid "This is the name which will appear on the edit page"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:118
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:143
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:147
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:172
+msgid "Field Instructions"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:166
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:186
+msgid "Required?"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:174
+#: includes/acf-addons/acf-repeater/views/options.php:219
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:74
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:68
+#: includes/advanced-custom-fields/core/controllers/field_group.php:463
+#: includes/advanced-custom-fields/core/fields/page_link.php:137
+#: includes/advanced-custom-fields/core/fields/page_link.php:158
+#: includes/advanced-custom-fields/core/fields/post_object.php:339
+#: includes/advanced-custom-fields/core/fields/post_object.php:360
+#: includes/advanced-custom-fields/core/fields/select.php:223
+#: includes/advanced-custom-fields/core/fields/select.php:242
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:498
+#: includes/advanced-custom-fields/core/fields/user.php:331
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:344
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:194
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:217
+#: includes/vc-extend/vc-map.php:44 includes/vc-extend/vc-map.php:56
+#: includes/vc-extend/vc-map.php:98 includes/vc-extend/vc-map.php:109
+#: includes/vc-extend/vc-map.php:143
+msgid "Yes"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:175
+#: includes/acf-addons/acf-repeater/views/options.php:220
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:75
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:69
+#: includes/advanced-custom-fields/core/controllers/field_group.php:462
+#: includes/advanced-custom-fields/core/fields/page_link.php:138
+#: includes/advanced-custom-fields/core/fields/page_link.php:159
+#: includes/advanced-custom-fields/core/fields/post_object.php:340
+#: includes/advanced-custom-fields/core/fields/post_object.php:361
+#: includes/advanced-custom-fields/core/fields/select.php:224
+#: includes/advanced-custom-fields/core/fields/select.php:243
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:499
+#: includes/advanced-custom-fields/core/fields/user.php:332
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:345
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:195
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:218
+#: includes/vc-extend/vc-map.php:43 includes/vc-extend/vc-map.php:55
+#: includes/vc-extend/vc-map.php:97 includes/vc-extend/vc-map.php:108
+#: includes/vc-extend/vc-map.php:142
+msgid "No"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:184
+msgid "Column Width"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:211
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:209
+msgid "Conditional Logic"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:262
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:260
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:117
+msgid "is equal to"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:263
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:261
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:118
+msgid "is not equal to"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:281
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:279
+msgid "Show this field when"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:287
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:285
+msgid "all"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:288
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:286
+msgid "any"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:291
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:289
+msgid "these rules are met"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:300
+msgid "Save Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:305
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:303
+msgid "Close Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:305
+msgid "Close Sub Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:320
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:316
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:321
+msgid "+ Add Sub Field"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:328
+msgid "Minimum Rows"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:342
+msgid "Maximum Rows"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:366
+msgid "Table"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:367
+msgid "Row"
+msgstr ""
+
+#: includes/acf-addons/acf-repeater/views/options.php:375
+msgid "Button Label"
+msgstr ""
+
+#: includes/acf-addons/acf-widget-area/acf-widget-area.php:90
+#, php-format
+msgid ""
+"ACF Widget Area is missing requirements and has been <a href=\"%s"
+"\">deactivated</a>. Please make sure all requirements are available."
+msgstr ""
+
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:28
+#: includes/advanced-custom-fields/core/fields/file.php:20
+#: includes/advanced-custom-fields/core/fields/image.php:20
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:20
+msgid "Content"
+msgstr ""
+
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:65
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:64
+#: includes/advanced-custom-fields/core/fields/page_link.php:127
+#: includes/advanced-custom-fields/core/fields/post_object.php:329
+#: includes/advanced-custom-fields/core/fields/select.php:214
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:489
+#: includes/advanced-custom-fields/core/fields/user.php:322
+msgid "Allow Null?"
+msgstr ""
+
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:84
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:75
+msgid "Display Widget Area HTML or Return Widget Area Name"
+msgstr ""
+
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:93
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:79
+msgid "Display Widget Area HTML"
+msgstr ""
+
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:94
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:80
+msgid "Return Widget Name"
+msgstr ""
+
+#: includes/acf-addons/acf-widget-area/widget-area-v4.php:119
+#: includes/acf-addons/acf-widget-area/widget-area-v5.php:104
+msgctxt "ACF Widget Area Null Select Option"
+msgid "- Select - "
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:509
+msgid "Field&nbsp;Groups"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:510
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:213
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:511 includes/posttypes.php:41
+#: includes/posttypes.php:91 includes/posttypes.php:155
+msgid "Add New"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:512
+msgid "Add New Field Group"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:513
+msgid "Edit Field Group"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:514
+msgid "New Field Group"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:515
+msgid "View Field Group"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:516
+msgid "Search Field Groups"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:517
+msgid "No Field Groups found"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:518
+msgid "No Field Groups found in Trash"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:607
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:99
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:625
+#: includes/advanced-custom-fields/acf.php:628
+msgid "Field group updated."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:626 includes/posttypes.php:203
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:627 includes/posttypes.php:204
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:630
+#, php-format
+msgid "Field group restored to revision from %s"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:631
+msgid "Field group published."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:632
+msgid "Field group saved."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:633
+msgid "Field group submitted."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:634
+msgid "Field group scheduled for."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:635
+msgid "Field group draft updated."
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:770
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:771
+msgid "Medium"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:772
+msgid "Large"
+msgstr ""
+
+#: includes/advanced-custom-fields/acf.php:773
+msgid "Full"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/actions/export.php:26
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:58
+msgid "Error"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/actions/export.php:33
+msgid "No ACF groups selected"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/api.php:1171
+msgid "Update"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/api.php:1172
+msgid "Post updated"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:42
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:306
+msgid "Add-ons"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:130
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:428
+msgid "Repeater Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:131
+msgid "Create infinite rows of repeatable data with this versatile interface!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:137
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:436
+msgid "Gallery Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:138
+msgid "Create image galleries in a simple and intuitive interface!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:144
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:444
+msgid "Options Page"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:145
+msgid "Create global data to use throughout your website!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:151
+msgid "Flexible Content Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:152
+msgid "Create unique designs with a flexible content layout manager!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:161
+msgid "Gravity Forms Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:162
+msgid "Creates a select field populated with Gravity Forms!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:168
+msgid "Date & Time Picker"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:169
+msgid "jQuery date & time picker"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:175
+msgid "Google Map Extended"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:176
+msgid "Find addresses and coordinates of a desired location"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:182
+msgid "Contact Form 7 Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:183
+msgid "Assign one or more contact form 7 forms to a post"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:193
+msgid "Advanced Custom Fields Add-Ons"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:196
+msgid ""
+"The following Add-ons are available to increase the functionality of the "
+"Advanced Custom Fields plugin."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:197
+msgid ""
+"Each Add-on can be installed as a separate plugin (receives updates) or "
+"included in your theme (does not receive updates)."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:219
+#: includes/advanced-custom-fields/core/controllers/addons.php:240
+msgid "Installed"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:221
+msgid "Purchase & Install"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/addons.php:242
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:421
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:430
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:438
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:446
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:454
+msgid "Download"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:50
+#: includes/advanced-custom-fields/core/controllers/export.php:159
+msgid "Export"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:216
+msgid "Export Field Groups"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:221
+msgid "Field Groups"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:222
+msgid "Select the field groups to be exported"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:239
+#: includes/advanced-custom-fields/core/controllers/export.php:252
+msgid "Export to XML"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:242
+#: includes/advanced-custom-fields/core/controllers/export.php:267
+msgid "Export to PHP"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:253
+msgid ""
+"ACF will create a .xml export file which is compatible with the native WP "
+"import plugin."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:254
+msgid ""
+"Imported field groups <b>will</b> appear in the list of editable field "
+"groups. This is useful for migrating fields groups between Wp websites."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:256
+msgid "Select field group(s) from the list and click \"Export XML\""
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:257
+msgid "Save the .xml file when prompted"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:258
+msgid "Navigate to Tools &raquo; Import and select WordPress"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:259
+msgid "Install WP import plugin if prompted"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:260
+msgid "Upload and import your exported .xml file"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:261
+msgid "Select your user and ignore Import Attachments"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:262
+msgid "That's it! Happy WordPressing"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:268
+msgid "ACF will create the PHP code to include in your theme."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:269
+#: includes/advanced-custom-fields/core/controllers/export.php:310
+msgid ""
+"Registered field groups <b>will not</b> appear in the list of editable field "
+"groups. This is useful for including fields in themes."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:270
+#: includes/advanced-custom-fields/core/controllers/export.php:311
+msgid ""
+"Please note that if you export and register field groups within the same WP, "
+"you will see duplicate fields on your edit screens. To fix this, please move "
+"the original field group to the trash or remove the code from your functions."
+"php file."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:272
+msgid "Select field group(s) from the list and click \"Create PHP\""
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:273
+#: includes/advanced-custom-fields/core/controllers/export.php:302
+msgid "Copy the PHP code generated"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:274
+#: includes/advanced-custom-fields/core/controllers/export.php:303
+msgid "Paste into your functions.php file"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:275
+#: includes/advanced-custom-fields/core/controllers/export.php:304
+msgid "To activate any Add-ons, edit and use the code in the first few lines."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:295
+msgid "Export Field Groups to PHP"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:300
+#: includes/advanced-custom-fields/core/fields/tab.php:65
+msgid "Instructions"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:309
+msgid "Notes"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:316
+msgid "Include in theme"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:317
+msgid ""
+"The Advanced Custom Fields plugin can be included within a theme. To do so, "
+"move the ACF plugin inside your theme and add the following code to your "
+"functions.php file:"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:323
+msgid ""
+"To remove all visual interfaces from the ACF plugin, you can use a constant "
+"to enable lite mode. Add the following code to your functions.php file "
+"<b>before</b> the include_once code:"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:331
+msgid "Back to export"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/export.php:400
+msgid "No field groups were selected"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:359
+msgid "Move to trash. Are you sure?"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:360
+msgid "checked"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:361
+msgid "No toggle fields available"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:362
+msgid "Field group title is required"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:363
+msgid "copy"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:364
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:62
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:159
+msgid "or"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:365
+#: includes/advanced-custom-fields/core/controllers/field_group.php:397
+#: includes/advanced-custom-fields/core/controllers/field_group.php:459
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:148
+msgid "Fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:366
+msgid "Parent fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:367
+msgid "Sibling fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:368
+msgid "Hide / Show All"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:398
+msgid "Location"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:461
+msgid "Show Field Key:"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:635
+msgid "Front Page"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:636
+msgid "Posts Page"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:637
+msgid "Top Level Page (parent of 0)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:638
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:639
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:647
+msgid "Default Template"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:729
+#: includes/posttypes.php:582 includes/posttypes.php:646
+msgid "Published"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:730
+msgid "Pending Review"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:731
+msgid "Draft"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:732
+msgid "Future"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:733
+msgid "Private"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:734
+msgid "Revision"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:735
+msgid "Trash"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:748
+msgid "Super Admin"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_group.php:763
+#: includes/advanced-custom-fields/core/controllers/field_group.php:784
+#: includes/advanced-custom-fields/core/controllers/field_group.php:791
+#: includes/advanced-custom-fields/core/fields/file.php:186
+#: includes/advanced-custom-fields/core/fields/image.php:177
+#: includes/advanced-custom-fields/core/fields/page_link.php:109
+#: includes/advanced-custom-fields/core/fields/post_object.php:286
+#: includes/advanced-custom-fields/core/fields/post_object.php:310
+#: includes/advanced-custom-fields/core/fields/relationship.php:582
+#: includes/advanced-custom-fields/core/fields/relationship.php:606
+#: includes/advanced-custom-fields/core/fields/user.php:276
+msgid "All"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:147
+msgid "Title"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:215
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:252
+msgid "Changelog"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:216
+#, php-format
+msgid "See what's new in %1$sversion %2$s%3$s"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:218
+msgid "Resources"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:221
+msgid "Field Types"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:222
+msgid "Functions"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:223
+msgid "Actions"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:224
+#: includes/advanced-custom-fields/core/fields/relationship.php:625
+msgid "Filters"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:225
+msgid "'How to' guides"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:226
+msgid "Tutorials"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:231
+msgid "Created by"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:243
+msgid "Welcome to Advanced Custom Fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:244
+msgid "Thank you for updating to the latest version!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:244
+#, php-format
+msgid ""
+"ACF %s is more polished and enjoyable than ever before. We hope you like it."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:251
+msgid "What’s New"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:254
+msgid "Download Add-ons"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:308
+msgid "Activation codes have grown into plugins!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:309
+msgid ""
+"Add-ons are now activated by downloading and installing individual plugins. "
+"Although these plugins will not be hosted on the wordpress.org repository, "
+"each Add-on will continue to receive updates in the usual way."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:315
+msgid "All previous Add-ons have been successfully installed"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:319
+msgid "This website uses premium Add-ons which need to be downloaded"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:319
+msgid "Download your activated Add-ons"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:324
+msgid ""
+"This website does not use premium Add-ons and will not be affected by this "
+"change."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:334
+msgid "Easier Development"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:336
+msgid "New Field Types"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:338
+msgid "Taxonomy Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:339
+msgid "User Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:340
+msgid "Email Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:341
+msgid "Password Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:343
+msgid "Custom Field Types"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:344
+msgid ""
+"Creating your own field type has never been easier! Unfortunately, version 3 "
+"field types are not compatible with version 4."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:345
+#, php-format
+msgid ""
+"Migrating your field types is easy, please %sfollow this tutorial%s to learn "
+"more."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:347
+msgid "Actions &amp; Filters"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:348
+#, php-format
+msgid ""
+"All actions & filters have received a major facelift to make customizing ACF "
+"even easier! Please %sread this guide%s to find the updated naming "
+"convention."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:350
+msgid "Preview draft is now working!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:351
+msgid "This bug has been squashed along with many other little critters!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:351
+msgid "See the full changelog"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:357
+msgid "Database Changes"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:358
+msgid ""
+"Absolutely <strong>no</strong> changes have been made to the database "
+"between versions 3 and 4. This means you can roll back to version 3 without "
+"any issues."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:360
+msgid "Potential Issues"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:361
+#, php-format
+msgid ""
+"Due to the sizable changes surrounding Add-ons, field types and action/"
+"filters, your website may not operate correctly. It is important that you "
+"read the full %sMigrating from v3 to v4%s guide to view the full list of "
+"changes."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:364
+msgid "Really Important!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:364
+#, php-format
+msgid ""
+"If you updated the ACF plugin without prior knowledge of such changes, "
+"please roll back to the latest %sversion 3%s of this plugin."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:369
+msgid "Thank You"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:370
+msgid ""
+"A <strong>BIG</strong> thank you to everyone who has helped test the version "
+"4 beta and for all the support I have received."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:371
+msgid "Without you all, this release would not have been possible!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:375
+msgid "Changelog for"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:392
+msgid "Learn more"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:398
+msgid "Overview"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:400
+msgid ""
+"Previously, all Add-ons were unlocked via an activation code (purchased from "
+"the ACF Add-ons store). New to v4, all Add-ons act as separate plugins which "
+"need to be individually downloaded, installed and updated."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:402
+msgid ""
+"This page will assist you in downloading and installing each available Add-"
+"on."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:404
+msgid "Available Add-ons"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:406
+msgid "The following Add-ons have been detected as activated on this website."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:419
+#: includes/advanced-custom-fields/core/fields/file.php:109
+msgid "Name"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:420
+msgid "Activation Code"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:452
+msgid "Flexible Content"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:462
+msgid "Installation"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:464
+msgid "For each Add-on available, please perform the following:"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:466
+msgid "Download the Add-on plugin (.zip file) to your desktop"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:467
+#, php-format
+msgid "Navigate to %sPlugins > Add New > Upload%s"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:468
+msgid "Use the uploader to browse, select and install your Add-on (.zip file)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:469
+msgid ""
+"Once the plugin has been uploaded and installed, click the 'Activate Plugin' "
+"link"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:470
+msgid "The Add-on is now installed and activated!"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/field_groups.php:484
+msgid "Awesome. Let's get to work"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/input.php:63
+msgid "Expand Details"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/input.php:64
+msgid "Collapse Details"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/input.php:67
+msgid "Validation Failed. One or more fields below are required."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/upgrade.php:77
+msgid "Upgrade"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/upgrade.php:599
+msgid "Modifying field group options 'show on page'"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/upgrade.php:653
+msgid "Modifying field option 'taxonomy'"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/controllers/upgrade.php:750
+msgid "Moving user custom fields from wp_options to wp_usermeta"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/_base.php:124
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:74
+msgid "Basic"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:19
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:475
+msgid "Checkbox"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:20
+#: includes/advanced-custom-fields/core/fields/radio.php:19
+#: includes/advanced-custom-fields/core/fields/select.php:19
+#: includes/advanced-custom-fields/core/fields/true_false.php:20
+msgid "Choice"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:146
+#: includes/advanced-custom-fields/core/fields/radio.php:147
+#: includes/advanced-custom-fields/core/fields/select.php:177
+msgid "Choices"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:147
+#: includes/advanced-custom-fields/core/fields/select.php:178
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:148
+#: includes/advanced-custom-fields/core/fields/select.php:179
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:149
+#: includes/advanced-custom-fields/core/fields/radio.php:153
+#: includes/advanced-custom-fields/core/fields/select.php:180
+msgid "red : Red"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:149
+#: includes/advanced-custom-fields/core/fields/radio.php:154
+#: includes/advanced-custom-fields/core/fields/select.php:180
+msgid "blue : Blue"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:166
+#: includes/advanced-custom-fields/core/fields/color_picker.php:89
+#: includes/advanced-custom-fields/core/fields/email.php:106
+#: includes/advanced-custom-fields/core/fields/number.php:116
+#: includes/advanced-custom-fields/core/fields/radio.php:196
+#: includes/advanced-custom-fields/core/fields/select.php:197
+#: includes/advanced-custom-fields/core/fields/text.php:116
+#: includes/advanced-custom-fields/core/fields/textarea.php:103
+#: includes/advanced-custom-fields/core/fields/true_false.php:94
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:287
+msgid "Default Value"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:167
+#: includes/advanced-custom-fields/core/fields/select.php:198
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:194
+#: includes/advanced-custom-fields/core/fields/radio.php:223
+msgid "Vertical"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/checkbox.php:195
+#: includes/advanced-custom-fields/core/fields/radio.php:224
+msgid "Horizontal"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/color_picker.php:19
+msgid "Color Picker"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/color_picker.php:20
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:20
+#: includes/advanced-custom-fields/core/fields/google-map.php:19
+msgid "jQuery"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:19
+msgid "Date Picker"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:55
+msgid "Done"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:56
+msgid "Today"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:59
+msgid "Show a different month"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:126
+msgid "Save format"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:127
+msgid ""
+"This format will determine the value saved to the database and returned via "
+"the API"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+msgid "\"yymmdd\" is the most versatile save format. Read more about"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+msgid "jQuery date formats"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:142
+msgid "Display format"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:143
+msgid "This format will be seen by the user when entering a value"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+msgid ""
+"\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
+"about"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/date_picker/date_picker.php:158
+msgid "Week Starts On"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/dummy.php:19
+msgid "Dummy"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:19
+msgid "Email"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:107
+#: includes/advanced-custom-fields/core/fields/number.php:117
+#: includes/advanced-custom-fields/core/fields/text.php:117
+#: includes/advanced-custom-fields/core/fields/textarea.php:104
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:288
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:123
+#: includes/advanced-custom-fields/core/fields/number.php:133
+#: includes/advanced-custom-fields/core/fields/password.php:105
+#: includes/advanced-custom-fields/core/fields/text.php:131
+#: includes/advanced-custom-fields/core/fields/textarea.php:118
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:124
+#: includes/advanced-custom-fields/core/fields/number.php:134
+#: includes/advanced-custom-fields/core/fields/password.php:106
+#: includes/advanced-custom-fields/core/fields/text.php:132
+#: includes/advanced-custom-fields/core/fields/textarea.php:119
+msgid "Appears within the input"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:138
+#: includes/advanced-custom-fields/core/fields/number.php:148
+#: includes/advanced-custom-fields/core/fields/password.php:120
+#: includes/advanced-custom-fields/core/fields/text.php:146
+msgid "Prepend"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:139
+#: includes/advanced-custom-fields/core/fields/number.php:149
+#: includes/advanced-custom-fields/core/fields/password.php:121
+#: includes/advanced-custom-fields/core/fields/text.php:147
+msgid "Appears before the input"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:153
+#: includes/advanced-custom-fields/core/fields/number.php:163
+#: includes/advanced-custom-fields/core/fields/password.php:135
+#: includes/advanced-custom-fields/core/fields/text.php:161
+msgid "Append"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/email.php:154
+#: includes/advanced-custom-fields/core/fields/number.php:164
+#: includes/advanced-custom-fields/core/fields/password.php:136
+#: includes/advanced-custom-fields/core/fields/text.php:162
+msgid "Appears after the input"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:19
+msgid "File"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:26
+msgid "Select File"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:27
+msgid "Edit File"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:28
+msgid "Update File"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:29
+#: includes/advanced-custom-fields/core/fields/image.php:30
+msgid "Uploaded to this post"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:113
+msgid "Size"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:123
+msgid "No File Selected"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:123
+msgid "Add File"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:153
+#: includes/advanced-custom-fields/core/fields/image.php:125
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:523
+msgid "Return Value"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:164
+msgid "File Object"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:165
+msgid "File URL"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:166
+msgid "File ID"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:175
+#: includes/advanced-custom-fields/core/fields/image.php:165
+msgid "Library"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/file.php:187
+#: includes/advanced-custom-fields/core/fields/image.php:178
+msgid "Uploaded to post"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:18
+msgid "Google Map"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:33
+msgid "Locating"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:34
+msgid "Sorry, this browser does not support geolocation"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:120
+msgid "Clear location"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:125
+msgid "Find current location"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:126
+msgid "Search for address..."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:163
+msgid "Center the initial map"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:199
+msgid "Zoom"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:200
+msgid "Set the initial zoom level"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:217
+msgid "Height"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/google-map.php:218
+msgid "Customise the map height"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:19
+msgid "Image"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:27
+msgid "Select Image"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:28
+msgid "Edit Image"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:29
+msgid "Update Image"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:97
+msgid "No image selected"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:97
+msgid "Add Image"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:126
+#: includes/advanced-custom-fields/core/fields/relationship.php:557
+msgid "Specify the returned value on front end"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:136
+msgid "Image Object"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:137
+msgid "Image URL"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:138
+msgid "Image ID"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:146
+msgid "Preview Size"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:147
+msgid "Shown when entering data"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/image.php:166
+msgid "Limit the media library choice"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/message.php:19
+#: includes/advanced-custom-fields/core/fields/message.php:70
+#: includes/advanced-custom-fields/core/fields/true_false.php:79
+msgid "Message"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/message.php:71
+msgid "Text &amp; HTML entered here will appear inline with the fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/message.php:72
+msgid "Please note that all text will first be passed through the wp function "
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/number.php:19
+msgid "Number"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/number.php:178
+msgid "Minimum Value"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/number.php:194
+msgid "Maximum Value"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/number.php:210
+msgid "Step Size"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/page_link.php:18
+msgid "Page Link"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/page_link.php:19
+#: includes/advanced-custom-fields/core/fields/post_object.php:19
+#: includes/advanced-custom-fields/core/fields/relationship.php:19
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:19
+#: includes/advanced-custom-fields/core/fields/user.php:19
+msgid "Relational"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/page_link.php:103
+#: includes/advanced-custom-fields/core/fields/post_object.php:280
+#: includes/advanced-custom-fields/core/fields/relationship.php:576
+#: includes/advanced-custom-fields/core/fields/relationship.php:655
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:75
+msgid "Post Type"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/page_link.php:148
+#: includes/advanced-custom-fields/core/fields/post_object.php:350
+#: includes/advanced-custom-fields/core/fields/select.php:233
+msgid "Select multiple values?"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/password.php:19
+msgid "Password"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/post_object.php:18
+msgid "Post Object"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/post_object.php:194
+#: includes/advanced-custom-fields/core/fields/relationship.php:164
+msgid "(no title)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/post_object.php:304
+#: includes/advanced-custom-fields/core/fields/relationship.php:600
+msgid "Filter from Taxonomy"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/radio.php:18
+msgid "Radio Button"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/radio.php:105
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:91
+msgid "Other"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/radio.php:148
+msgid "Enter your choices one per line"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/radio.php:150
+msgid "Red"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/radio.php:151
+msgid "Blue"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/radio.php:175
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/radio.php:187
+msgid "Save 'other' values to the field's choices"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:18
+msgid "Relationship"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:29
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:451
+msgid "Search..."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:462
+msgid "Filter by post type"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:556
+msgid "Return Format"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:567
+msgid "Post Objects"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:568
+msgid "Post IDs"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:634
+msgid "Search"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:635
+msgid "Post Type Select"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:643
+msgid "Elements"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:644
+msgid "Selected elements will be displayed in each result"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:653
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:106
+msgid "Featured Image"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:654
+msgid "Post Title"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/relationship.php:666
+msgid "Maximum posts"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/select.php:18
+#: includes/advanced-custom-fields/core/fields/select.php:109
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:480
+#: includes/advanced-custom-fields/core/fields/user.php:313
+msgid "Select"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/tab.php:19
+msgid "Tab"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/tab.php:68
+msgid ""
+"Use \"Tab Fields\" to better organize your edit screen by grouping your "
+"fields together under separate tab headings."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/tab.php:69
+msgid ""
+"All the fields following this \"tab field\" (or until another \"tab field\" "
+"is defined) will be grouped together."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/tab.php:70
+msgid "Use multiple tabs to divide your fields into sections."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:18
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:430
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:474
+#: includes/advanced-custom-fields/core/fields/user.php:307
+msgid "Multiple Values"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:476
+#: includes/advanced-custom-fields/core/fields/user.php:309
+msgid "Multi Select"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:478
+#: includes/advanced-custom-fields/core/fields/user.php:311
+msgid "Single Value"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:479
+msgid "Radio Buttons"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:508
+msgid "Load & Save Terms to Post"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:516
+msgid ""
+"Load value based on the post's terms and update the post's terms on save"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:533
+msgid "Term Object"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/taxonomy.php:534
+msgid "Term ID"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/text.php:19
+msgid "Text"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/text.php:176
+#: includes/advanced-custom-fields/core/fields/textarea.php:164
+msgid "Formatting"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/text.php:177
+#: includes/advanced-custom-fields/core/fields/textarea.php:165
+msgid "Affects value on front end"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/text.php:186
+#: includes/advanced-custom-fields/core/fields/textarea.php:174
+msgid "No formatting"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/text.php:187
+#: includes/advanced-custom-fields/core/fields/textarea.php:176
+msgid "Convert HTML into tags"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/text.php:195
+#: includes/advanced-custom-fields/core/fields/textarea.php:133
+msgid "Character Limit"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/text.php:196
+#: includes/advanced-custom-fields/core/fields/textarea.php:134
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/textarea.php:19
+msgid "Text Area"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/textarea.php:148
+msgid "Rows"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/textarea.php:149
+msgid "Sets the textarea height"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/textarea.php:175
+msgid "Convert new lines into &lt;br /&gt; tags"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/true_false.php:19
+msgid "True / False"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/true_false.php:80
+msgid "eg. Show extra content"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/user.php:18
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:94
+msgid "User"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/user.php:271
+msgid "Filter by role"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:19
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:302
+msgid "Toolbar"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/fields/wysiwyg.php:334
+msgid "Show Media Upload Buttons?"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:58
+msgid "Field type does not exist"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:78
+msgid "Field Key"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:90
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:127
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:173
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_fields.php:317
+msgid "+ Add Field"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:48
+msgid "Rules"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:49
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:60
+msgid "Show this field group if"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:76
+msgid "Logged in User Type"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:78
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:79
+msgid "Post"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:80
+msgid "Post Category"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:81
+msgid "Post Format"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:82
+msgid "Post Status"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:83
+msgid "Post Taxonomy"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:85
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:86
+msgid "Page"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:87
+msgid "Page Type"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:88
+msgid "Page Parent"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:89
+msgid "Page Template"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:92
+msgid "Attachment"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:93
+msgid "Taxonomy Term"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:146
+msgid "and"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_location.php:161
+msgid "Add rule group"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:25
+msgid "Order No."
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:26
+msgid "Field groups are created in order <br />from lowest to highest"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:42
+msgid "Position"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:52
+msgid "High (after title)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:53
+msgid "Normal (after content)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:54
+msgid "Side"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:64
+msgid "Style"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:74
+msgid "Seamless (no metabox)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:75
+msgid "Standard (WP metabox)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:84
+msgid "Hide on screen"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:85
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:86
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used. (the one with the lowest order number)"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:96
+msgid "Permalink"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:97
+msgid "Content Editor"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:98
+msgid "Excerpt"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:100
+msgid "Discussion"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:101
+msgid "Comments"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:102
+msgid "Revisions"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:103
+msgid "Slug"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:104
+msgid "Author"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:105
+msgid "Format"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:107
+#: includes/widgets.php:1217
+msgid "Categories"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:108
+msgid "Tags"
+msgstr ""
+
+#: includes/advanced-custom-fields/core/views/meta_box_options.php:109
+msgid "Send Trackbacks"
+msgstr ""
+
+#: includes/custom-fields.php:431
+msgid "This will override global settings. For classic menu only"
+msgstr ""
+
+#: includes/custom-fields.php:440
+msgid "Set the menu opacity between 0 and 1. For classic menu only"
+msgstr ""
+
+#: includes/custom-fields.php:450
+msgid "This will override global settings"
+msgstr ""
+
+#: includes/custom-fields.php:469
+msgid "This will override global settings. For push menu only"
+msgstr ""
+
+#: includes/custom-fields.php:545
+#, php-format
+msgid "0 for transparent and 1 for 100% solid."
+msgstr ""
+
+#: includes/custom-fields.php:839 includes/custom-fields.php:1189
+msgid ""
+"If you want to redirect the user to an external link instead of this page, "
+"enter the URL below (eg: https://www.your-url.com)."
+msgstr ""
+
+#: includes/custom-fields.php:1054
+msgid "Event Date / Time"
+msgstr ""
+
+#: includes/functions.php:86
+msgid "All artists"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/options.php:11 includes/options.php:12
+msgid "Croma Music"
+msgstr ""
+
+#: includes/options.php:19 includes/options.php:20 includes/posttypes.php:37
+#: includes/posttypes.php:38 includes/posttypes.php:39
+#: includes/posttypes.php:49 includes/widgets.php:48
+msgid "Events"
+msgstr ""
+
+#: includes/options.php:31
+msgid "Events slug name"
+msgstr ""
+
+#: includes/options.php:33
+msgid "eg: http://www.domain.com/SLUG/event-title"
+msgstr ""
+
+#: includes/options.php:39
+msgid "How many events per page ?"
+msgstr ""
+
+#: includes/options.php:40
+msgid "This setting apply on your event page template."
+msgstr ""
+
+#: includes/options.php:47
+msgid "Look and Feel"
+msgstr ""
+
+#: includes/options.php:65 includes/options.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/options.php:66 includes/options.php:181
+msgid "enter value with px (eg: 2px)"
+msgstr ""
+
+#: includes/options.php:73
+msgid "Item Background Color"
+msgstr ""
+
+#: includes/options.php:80
+msgid "Item Hover Background Color"
+msgstr ""
+
+#: includes/options.php:87
+msgid "Item Hover Text Color"
+msgstr ""
+
+#: includes/options.php:94
+msgid "Countdown"
+msgstr ""
+
+#: includes/options.php:99
+msgid "Show countdown on rollover"
+msgstr ""
+
+#: includes/options.php:100
+msgid ""
+"When option is checked, an animated countdown will be shown when user "
+"rollover your event. This global setting may be overridden in each of your "
+"individual events."
+msgstr ""
+
+#: includes/options.php:119
+msgid "enter value with px"
+msgstr ""
+
+#: includes/options.php:133
+msgid "Outline Color"
+msgstr ""
+
+#: includes/options.php:134
+msgid "For separators"
+msgstr ""
+
+#: includes/options.php:140
+msgid "Padding between items"
+msgstr ""
+
+#: includes/options.php:141
+msgid "enter value with px. eg: 5px"
+msgstr ""
+
+#: includes/options.php:148
+msgid "Artist Dropdown"
+msgstr ""
+
+#: includes/options.php:153
+msgid "Show Artist Dropdown"
+msgstr ""
+
+#: includes/options.php:154
+msgid ""
+"Show an artist dropdown selector above your list of events. If you have "
+"multiple artists, this can be usefull to filter your events by artists. This "
+"option only apply in pages that use the \"Event Posts\" template."
+msgstr ""
+
+#: includes/options.php:160
+msgid "Text Label"
+msgstr ""
+
+#: includes/options.php:161
+msgid "eg: Select an artist"
+msgstr ""
+
+#: includes/options.php:167
+msgid "Label Typography"
+msgstr ""
+
+#: includes/options.php:180
+msgid "Label Letter Spacing"
+msgstr ""
+
+#: includes/options.php:195
+msgid "Event filter Outline Color"
+msgstr ""
+
+#: includes/options.php:196
+msgid "For dropdown outlines and arrow color"
+msgstr ""
+
+#: includes/options.php:205 includes/options.php:206
+msgid "Music Player"
+msgstr ""
+
+#: includes/options.php:212
+msgid "Music Player Color Setting"
+msgstr ""
+
+#: includes/options.php:217
+msgid "Music Player Song Title"
+msgstr ""
+
+#: includes/options.php:230
+msgid "Music Player Album Title"
+msgstr ""
+
+#: includes/options.php:243
+msgid "Playlist"
+msgstr ""
+
+#: includes/options.php:256
+msgid "Playlist active text color"
+msgstr ""
+
+#: includes/options.php:263
+msgid "Playlist hover"
+msgstr ""
+
+#: includes/options.php:270
+msgid "Player control color"
+msgstr ""
+
+#: includes/options.php:277 includes/options.php:318
+msgid "Timeline background"
+msgstr ""
+
+#: includes/options.php:284 includes/options.php:325
+msgid "Progress bar"
+msgstr ""
+
+#: includes/options.php:292
+msgid "Continuous Music Player Color Setting"
+msgstr ""
+
+#: includes/options.php:297
+msgid "Music Player Label Color"
+msgstr ""
+
+#: includes/options.php:304
+msgid "Footer music player background"
+msgstr ""
+
+#: includes/options.php:311
+msgid "Player Control Color"
+msgstr ""
+
+#: includes/options.php:336 includes/options.php:337
+msgid "Discography"
+msgstr ""
+
+#: includes/options.php:343
+msgid "Discography Features"
+msgstr ""
+
+#: includes/options.php:348
+msgid "Discography Slug Name"
+msgstr ""
+
+#: includes/options.php:350
+msgid "eg: http://www.domain.com/SLUG-NAME/album-title"
+msgstr ""
+
+#: includes/options.php:373
+msgid ""
+"This gives you the option move all the dynamic css that lives in the head by "
+"default into its own file for aesthetic & caching purposes"
+msgstr ""
+
+#: includes/options.php:378
+msgid "Data to import"
+msgstr ""
+
+#: includes/options.php:384
+msgid "Data to export"
+msgstr ""
+
+#: includes/posttypes.php:40
+msgid "New events"
+msgstr ""
+
+#: includes/posttypes.php:42
+msgid "Add New events"
+msgstr ""
+
+#: includes/posttypes.php:43
+msgid "Edit events"
+msgstr ""
+
+#: includes/posttypes.php:44
+msgid "View events"
+msgstr ""
+
+#: includes/posttypes.php:45
+msgid "Search events"
+msgstr ""
+
+#: includes/posttypes.php:46
+msgid "No events found"
+msgstr ""
+
+#: includes/posttypes.php:47
+msgid "No events found in trash"
+msgstr ""
+
+#: includes/posttypes.php:48
+msgid "Parent events"
+msgstr ""
+
+#: includes/posttypes.php:86 includes/posttypes.php:89
+msgid "Discographies"
+msgstr ""
+
+#: includes/posttypes.php:87
+msgid "Album"
+msgstr ""
+
+#: includes/posttypes.php:88
+msgctxt "add new on admin bar"
+msgid "Album"
+msgstr ""
+
+#: includes/posttypes.php:90
+msgid "All Albums"
+msgstr ""
+
+#: includes/posttypes.php:92
+msgid "Add New album"
+msgstr ""
+
+#: includes/posttypes.php:93
+msgid "Edit album"
+msgstr ""
+
+#: includes/posttypes.php:94
+msgid "New album"
+msgstr ""
+
+#: includes/posttypes.php:95
+msgid "View album"
+msgstr ""
+
+#: includes/posttypes.php:96
+msgid "Search Discography"
+msgstr ""
+
+#: includes/posttypes.php:97
+msgid "No albums found."
+msgstr ""
+
+#: includes/posttypes.php:98
+msgid "No albums found in the Trash."
+msgstr ""
+
+#: includes/posttypes.php:99
+msgid "Parent album:"
+msgstr ""
+
+#: includes/posttypes.php:118 includes/posttypes.php:121
+msgid "Artists"
+msgstr ""
+
+#: includes/posttypes.php:119
+msgid "Artist"
+msgstr ""
+
+#: includes/posttypes.php:120
+msgctxt "add new on admin bar"
+msgid "Artist"
+msgstr ""
+
+#: includes/posttypes.php:122
+msgid "All Artists"
+msgstr ""
+
+#: includes/posttypes.php:123
+msgid "Add Artist"
+msgstr ""
+
+#: includes/posttypes.php:124
+msgid "Add New Artist"
+msgstr ""
+
+#: includes/posttypes.php:125
+msgid "Edit Artist"
+msgstr ""
+
+#: includes/posttypes.php:126
+msgid "New Project"
+msgstr ""
+
+#: includes/posttypes.php:127
+msgid "View Artist"
+msgstr ""
+
+#: includes/posttypes.php:128
+msgid "Search Artist"
+msgstr ""
+
+#: includes/posttypes.php:129
+msgid "No artists found."
+msgstr ""
+
+#: includes/posttypes.php:130
+msgid "No artists found in the Trash."
+msgstr ""
+
+#: includes/posttypes.php:131
+msgid "Parent Artist:"
+msgstr ""
+
+#: includes/posttypes.php:139
+msgid "artist"
+msgstr ""
+
+#: includes/posttypes.php:150 includes/posttypes.php:153
+#: includes/widgets.php:1708
+msgid "Videos"
+msgstr ""
+
+#: includes/posttypes.php:151
+msgid "Video"
+msgstr ""
+
+#: includes/posttypes.php:152
+msgctxt "add new on admin bar"
+msgid "Video"
+msgstr ""
+
+#: includes/posttypes.php:154
+msgid "All Videos"
+msgstr ""
+
+#: includes/posttypes.php:156
+msgid "Add New Video"
+msgstr ""
+
+#: includes/posttypes.php:157
+msgid "Edit Video"
+msgstr ""
+
+#: includes/posttypes.php:158
+msgid "New Video"
+msgstr ""
+
+#: includes/posttypes.php:159
+msgid "View Video"
+msgstr ""
+
+#: includes/posttypes.php:160
+msgid "Search Video"
+msgstr ""
+
+#: includes/posttypes.php:161
+msgid "No videos found."
+msgstr ""
+
+#: includes/posttypes.php:162
+msgid "No videos found in the Trash."
+msgstr ""
+
+#: includes/posttypes.php:163
+msgid "Parent Video:"
+msgstr ""
+
+#: includes/posttypes.php:179
+msgid "videos"
+msgstr ""
+
+#: includes/posttypes.php:202
+#, php-format
+msgid "Events updated. <a target=\"_blank\" href=\"%s\">View events</a>"
+msgstr ""
+
+#: includes/posttypes.php:205
+msgid "Events updated."
+msgstr ""
+
+#: includes/posttypes.php:207
+#, php-format
+msgid "Events restored to revision from %s"
+msgstr ""
+
+#: includes/posttypes.php:208
+#, php-format
+msgid "Events published. <a href=\"%s\">View events</a>"
+msgstr ""
+
+#: includes/posttypes.php:209
+msgid "Events saved."
+msgstr ""
+
+#: includes/posttypes.php:210
+#, php-format
+msgid "Events submitted. <a target=\"_blank\" href=\"%s\">Preview events</a>"
+msgstr ""
+
+#: includes/posttypes.php:211
+#, php-format
+msgid ""
+"Events scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview events</a>"
+msgstr ""
+
+#: includes/posttypes.php:213
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/posttypes.php:214
+#, php-format
+msgid ""
+"Events draft updated. <a target=\"_blank\" href=\"%s\">Preview events</a>"
+msgstr ""
+
+#: includes/posttypes.php:455
+msgid "Date"
+msgstr ""
+
+#: includes/posttypes.php:456
+msgid "City"
+msgstr ""
+
+#: includes/posttypes.php:457
+msgid "Venue"
+msgstr ""
+
+#: includes/posttypes.php:458
+msgid "Artist(s)"
+msgstr ""
+
+#: includes/posttypes.php:468
+msgid "Event"
+msgstr ""
+
+#: includes/posttypes.php:489
+msgid "Unpublished"
+msgstr ""
+
+#: includes/posttypes.php:491
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: includes/posttypes.php:504 includes/posttypes.php:514
+#: includes/posttypes.php:527 includes/posttypes.php:604
+#: includes/posttypes.php:611
+msgid "N/A"
+msgstr ""
+
+#: includes/posttypes.php:563
+msgid "# Tracks"
+msgstr ""
+
+#: includes/posttypes.php:564
+msgid "# Stores"
+msgstr ""
+
+#: includes/posttypes.php:616 includes/posttypes.php:663
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/posttypes.php:715
+msgctxt "Taxonomy : name"
+msgid "Video Categories"
+msgstr ""
+
+#: includes/posttypes.php:716 includes/posttypes.php:733
+#: includes/posttypes.php:751 includes/posttypes.php:768
+msgctxt "Taxonomy : all_items"
+msgid "All Categories"
+msgstr ""
+
+#: includes/posttypes.php:717 includes/posttypes.php:734
+#: includes/posttypes.php:752 includes/posttypes.php:769
+msgctxt "Taxonomy : singular_name"
+msgid "Category"
+msgstr ""
+
+#: includes/posttypes.php:718 includes/posttypes.php:735
+#: includes/posttypes.php:753 includes/posttypes.php:770
+msgctxt "Taxonomy : add_new_item"
+msgid "Add New Category"
+msgstr ""
+
+#: includes/posttypes.php:719 includes/posttypes.php:736
+#: includes/posttypes.php:754 includes/posttypes.php:771
+msgctxt "Taxonomy : not_found"
+msgid "No categories found."
+msgstr ""
+
+#: includes/posttypes.php:732
+msgctxt "Taxonomy : name"
+msgid "Discography Categories"
+msgstr ""
+
+#: includes/posttypes.php:750
+msgctxt "Taxonomy : name"
+msgid "Artists Categories"
+msgstr ""
+
+#: includes/posttypes.php:767
+msgctxt "Taxonomy : name"
+msgid "Events Categories"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:26
+msgid "Stretch Row"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:28
+msgid "Do you want the row spreads fullwidth or keep in boxed ?"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:31
+msgid "Boxed"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:32
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:39
+msgid "Remove Padding On Medium & Small Screens (1024px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:51
+msgid "Remove Padding On Small Screens Only (700px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:62
+msgid "ID Name for Navigation"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:64
+msgid ""
+"If this row wraps the content of one of your sections, set an ID. You can "
+"then use it for navigation.<br>Ex: if you enter \"work\" then you can add a "
+"custom link to the menu as follow: \"#work\". Once this link is clicked, the "
+"page will be scrolled to that specific section."
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:68
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:70
+msgid ""
+"You can set a color over the background image. You can make it more or less "
+"opaque, by using the next setting. Default: white "
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:74
+msgid "Overlay Pattern"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:76
+msgid "You can set an overlay pattern over the background image"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:79
+msgid "Brick"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:80
+msgid "Dot"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:81
+msgid "Zig Zag"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:82
+msgid "45 Degrees Dash"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:83
+msgid "45 Degrees Grid"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:84
+msgid "45 Degrees Line Small"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:85
+msgid "45 Degrees Line Medium"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:86
+msgid "45 Degrees Line Large"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:92
+msgid "Activate Parallax"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:94
+msgid "You will need to add a background image within the design tab."
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:104 includes/vc-extend/vc-map.php:138
+msgid "Activate Background Video"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:115 includes/vc-extend/vc-map.php:149
+msgid "Video Url (Self Hosted MP4)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:121 includes/vc-extend/vc-map.php:155
+msgid "Video Url (Self Hosted WebM)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:127 includes/vc-extend/vc-map.php:161
+msgid "Video Image Fallback"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:128 includes/vc-extend/vc-map.php:162
+msgid "This image will replace video if its not supported by device."
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:212
+msgid "Fit background color to text"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:215 includes/vc-extend/vc-map.php:246
+#: includes/vc-extend/vc-map.php:304 includes/vc-extend/vc-map.php:317
+#: includes/vc-extend/vc-map.php:670 includes/vc-extend/vc-map.php:1178
+#: includes/vc-extend/vc-map.php:1192 includes/vc-extend/vc-map.php:1206
+#: includes/vc-extend/vc-map.php:1220 includes/vc-extend/vc-map.php:1234
+#: includes/vc-extend/vc-map.php:1248
+msgctxt "VC"
+msgid "No"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:216 includes/vc-extend/vc-map.php:247
+#: includes/vc-extend/vc-map.php:305 includes/vc-extend/vc-map.php:318
+#: includes/vc-extend/vc-map.php:671 includes/vc-extend/vc-map.php:1179
+#: includes/vc-extend/vc-map.php:1193 includes/vc-extend/vc-map.php:1207
+#: includes/vc-extend/vc-map.php:1221 includes/vc-extend/vc-map.php:1235
+#: includes/vc-extend/vc-map.php:1249
+msgctxt "VC"
+msgid "Yes"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:243
+msgid "Force Full Width"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:259
+msgctxt "VC"
+msgid "Choose an album"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:262
+msgctxt "VC"
+msgid "Which album do you want to play when user clicks on your button ?"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:272
+msgctxt "VC"
+msgid "Audio Player"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:276 includes/vc-extend/vc-map.php:362
+#: includes/vc-extend/vc-map.php:431 includes/vc-extend/vc-map.php:489
+#: includes/vc-extend/vc-map.php:602 includes/vc-extend/vc-map.php:727
+#: includes/vc-extend/vc-map.php:769 includes/vc-extend/vc-map.php:976
+#: includes/vc-extend/vc-map.php:1026 includes/vc-extend/vc-map.php:1157
+msgctxt "VC"
+msgid "IRON Widgets"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:282 includes/vc-extend/vc-map.php:368
+#: includes/vc-extend/vc-map.php:437 includes/vc-extend/vc-map.php:495
+#: includes/vc-extend/vc-map.php:608 includes/vc-extend/vc-map.php:733
+#: includes/vc-extend/vc-map.php:782
+msgctxt "VC"
+msgid "Title"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:292 includes/vc-extend/vc-map.php:378
+msgctxt "VC"
+msgid "Albums"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:301
+msgctxt "VC"
+msgid "Auto Play"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:314
+msgctxt "VC"
+msgid "Show Playlist"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:327 includes/vc-extend/vc-map.php:396
+#: includes/vc-extend/vc-map.php:455 includes/vc-extend/vc-map.php:567
+#: includes/vc-extend/vc-map.php:681
+msgctxt "VC"
+msgid "Call To Action Title"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:337 includes/vc-extend/vc-map.php:406
+#: includes/vc-extend/vc-map.php:465 includes/vc-extend/vc-map.php:577
+#: includes/vc-extend/vc-map.php:691
+msgctxt "VC"
+msgid "Call To Action Page"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:346 includes/vc-extend/vc-map.php:415
+#: includes/vc-extend/vc-map.php:474 includes/vc-extend/vc-map.php:586
+#: includes/vc-extend/vc-map.php:700
+msgctxt "VC"
+msgid "Call To Action External Link"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:358
+msgctxt "VC"
+msgid "Discography"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:388 includes/vc-extend/vc-map.php:532
+msgctxt "VC"
+msgid "Filter by Artists"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:427
+msgctxt "VC"
+msgid "Twitter"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:446
+msgctxt "VC"
+msgid "Screen Name (ex: @IronTemplates)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:485
+msgctxt "VC"
+msgid "Videos"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:504
+msgctxt "VC"
+msgid "Number of videos to show (*apply only for categories):"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:514
+msgctxt "VC"
+msgid "Select one or multiple categories"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:523
+msgctxt "VC"
+msgid "Select Videos"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:540
+msgctxt "VC"
+msgid "What happens when you click the video's thumbnails ?"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:543
+msgctxt "VC"
+msgid "Go to detailed video page"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:544
+msgctxt "VC"
+msgid "Open video in a LightBox"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:545
+msgctxt "VC"
+msgid "Replace image by video"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:554
+msgctxt "VC"
+msgid "View As"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:557
+msgctxt "VC"
+msgid "List"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:558
+msgctxt "VC"
+msgid "Grid"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:598
+msgctxt "VC"
+msgid "Events"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:616
+msgctxt "VC"
+msgid "Number of events to show"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:625
+msgctxt "VC"
+msgid "Filter by"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:628
+msgctxt "VC"
+msgid "Upcoming Events"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:629
+msgctxt "VC"
+msgid "Past Events"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:638
+msgctxt "VC"
+msgid "Display Events for:"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:641
+msgctxt "VC"
+msgid "Show All"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:642
+msgctxt "VC"
+msgid "Choose Specific Artist(s)..."
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:652
+msgctxt "VC"
+msgid "Select One or Multiple Artist(s)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:667
+msgctxt "VC"
+msgid "Enable Artist Dropdown Filter on the front-end "
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:723
+msgctxt "VC"
+msgid "Newsletter"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:735 includes/vc-extend/vc-map.php:744
+msgctxt "VC"
+msgid ""
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:742
+msgctxt "VC"
+msgid "Description"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:751
+msgctxt "VC"
+msgid "Newsletters"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:765
+msgctxt "VC"
+msgid "Promotion"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:774
+msgctxt "VC"
+msgid "Image"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:789
+msgctxt "VC"
+msgid "Title Tag Name"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:803
+msgctxt "VC"
+msgid "Title Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:812
+msgctxt "VC"
+msgid "Subtitle"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:819
+msgctxt "VC"
+msgid "Subtitle Tag Name"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:833
+msgctxt "VC"
+msgid "Subtitle Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:840
+msgctxt "VC"
+msgid "Title Align"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:842 includes/vc-extend/vc-map.php:995
+#: includes/vc-extend/vc-map.php:1042 includes/vc-extend/vc-map.php:1312
+msgctxt "VC"
+msgid "Left"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:843 includes/vc-extend/vc-map.php:996
+#: includes/vc-extend/vc-map.php:1043 includes/vc-extend/vc-map.php:1313
+msgctxt "VC"
+msgid "Center"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:844 includes/vc-extend/vc-map.php:997
+#: includes/vc-extend/vc-map.php:1044 includes/vc-extend/vc-map.php:1314
+msgctxt "VC"
+msgid "Right"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:852
+msgctxt "VC"
+msgid "Line height"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:859
+msgctxt "VC"
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:869 includes/vc-extend/vc-map.php:1053
+msgctxt "VC"
+msgid "Link Page"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:879 includes/vc-extend/vc-map.php:1063
+msgctxt "VC"
+msgid "Link Product"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:888 includes/vc-extend/vc-map.php:1072
+msgctxt "VC"
+msgid "Link External"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:895
+msgctxt "VC"
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:897
+msgctxt "VC"
+msgid "Slide"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:898
+msgctxt "VC"
+msgid "Zoom"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:972
+msgctxt "VC"
+msgid "Image Divider"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:981
+msgctxt "VC"
+msgid "Divider Image"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:987
+msgctxt "VC"
+msgid "Divider Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:993
+msgctxt "VC"
+msgid "Divider Align"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1006
+msgctxt "VC"
+msgid "Divider Padding Top"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1015
+msgctxt "VC"
+msgid "Divider Padding Bottom"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1023
+msgid "Button"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1032
+msgctxt "VC"
+msgid "Text"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1040
+msgctxt "VC"
+msgid "Text Align"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1081
+msgctxt "VC"
+msgid "Border Width (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1090
+msgctxt "VC"
+msgid "Border Radius (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1099
+msgctxt "VC"
+msgid "Horizontal Padding (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1108
+msgctxt "VC"
+msgid "Vertical Padding (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1115
+msgctxt "VC"
+msgid "Border Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1121
+msgctxt "VC"
+msgid "Background Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1127
+msgctxt "VC"
+msgid "Text Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1133
+msgctxt "VC"
+msgid "Hover Border Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1139
+msgctxt "VC"
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1145
+msgctxt "VC"
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1153
+msgctxt "VC"
+msgid "Countdown"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1165
+msgctxt "VC"
+msgid "End Time"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1168 includes/vc-extend/vc-map.php:1182
+#: includes/vc-extend/vc-map.php:1196 includes/vc-extend/vc-map.php:1210
+#: includes/vc-extend/vc-map.php:1224 includes/vc-extend/vc-map.php:1238
+#: includes/vc-extend/vc-map.php:1252
+msgctxt "VC"
+msgid "General"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1176
+msgctxt "VC"
+msgid "Show Months"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1190
+msgctxt "VC"
+msgid "Show Days"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1204
+msgctxt "VC"
+msgid "Show Hours"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1218
+msgctxt "VC"
+msgid "Show Minutes"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1232
+msgctxt "VC"
+msgid "Show Seconds"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1246
+msgctxt "VC"
+msgid "Show labels under countdown"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1272
+msgctxt "VC"
+msgid "Numbers Font Style"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1275 includes/vc-extend/vc-map.php:1285
+#: includes/vc-extend/vc-map.php:1293 includes/vc-extend/vc-map.php:1303
+#: includes/vc-extend/vc-map.php:1317
+msgctxt "VC"
+msgid "Design"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1282
+msgctxt "VC"
+msgid "Labels Font Style"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1289
+msgctxt "VC"
+msgid "Font Color"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1300
+msgctxt "VC"
+msgid "Countdown Separator"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1310
+msgctxt "VC"
+msgid "Align labels"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1328 includes/vc-extend/vc-map.php:1409
+#: includes/vc-extend/vc-map.php:1490
+msgctxt "VC"
+msgid "Numbers Font Size (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1331 includes/vc-extend/vc-map.php:1341
+#: includes/vc-extend/vc-map.php:1351 includes/vc-extend/vc-map.php:1361
+#: includes/vc-extend/vc-map.php:1371 includes/vc-extend/vc-map.php:1381
+#: includes/vc-extend/vc-map.php:1391 includes/vc-extend/vc-map.php:1401
+msgctxt "VC"
+msgid "Desktop"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1338 includes/vc-extend/vc-map.php:1419
+#: includes/vc-extend/vc-map.php:1500
+msgctxt "VC"
+msgid "Numbers Line Height (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1348 includes/vc-extend/vc-map.php:1429
+#: includes/vc-extend/vc-map.php:1510
+msgctxt "VC"
+msgid "Numbers Letter Spacing (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1358 includes/vc-extend/vc-map.php:1439
+#: includes/vc-extend/vc-map.php:1521
+msgctxt "VC"
+msgid "Labels Font Size (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1368 includes/vc-extend/vc-map.php:1449
+#: includes/vc-extend/vc-map.php:1531
+msgctxt "VC"
+msgid "Labels Line Height (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1378 includes/vc-extend/vc-map.php:1459
+#: includes/vc-extend/vc-map.php:1541
+msgctxt "VC"
+msgid "Labels Letter Spacing (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1388 includes/vc-extend/vc-map.php:1469
+#: includes/vc-extend/vc-map.php:1551
+msgctxt "VC"
+msgid "Spacing between Numbers (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1398 includes/vc-extend/vc-map.php:1479
+#: includes/vc-extend/vc-map.php:1561
+msgctxt "VC"
+msgid "Margin between Numbers and sub labels (px)"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1412 includes/vc-extend/vc-map.php:1422
+#: includes/vc-extend/vc-map.php:1432 includes/vc-extend/vc-map.php:1442
+#: includes/vc-extend/vc-map.php:1452 includes/vc-extend/vc-map.php:1462
+#: includes/vc-extend/vc-map.php:1472 includes/vc-extend/vc-map.php:1482
+msgctxt "VC"
+msgid "Tablet"
+msgstr ""
+
+#: includes/vc-extend/vc-map.php:1493 includes/vc-extend/vc-map.php:1503
+#: includes/vc-extend/vc-map.php:1513 includes/vc-extend/vc-map.php:1524
+#: includes/vc-extend/vc-map.php:1534 includes/vc-extend/vc-map.php:1544
+#: includes/vc-extend/vc-map.php:1554 includes/vc-extend/vc-map.php:1564
+msgctxt "VC"
+msgid "Mobile"
+msgstr ""
+
+#: includes/widgets.php:33
+msgctxt "Widget"
+msgid "List upcoming or past events on your site."
+msgstr ""
+
+#: includes/widgets.php:159
+msgid "No upcoming events scheduled yet. Stay tuned!"
+msgstr ""
+
+#: includes/widgets.php:219 includes/widgets.php:1216 includes/widgets.php:1432
+#: includes/widgets.php:1707
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets.php:220
+msgid "Upcoming Events"
+msgstr ""
+
+#: includes/widgets.php:224
+msgid "Number of events to show:"
+msgstr ""
+
+#: includes/widgets.php:229
+msgid "Filter By:"
+msgstr ""
+
+#: includes/widgets.php:231
+msgctxt "Widget"
+msgid "Upcoming Events"
+msgstr ""
+
+#: includes/widgets.php:232
+msgctxt "Widget"
+msgid "Past Events"
+msgstr ""
+
+#: includes/widgets.php:236 includes/widgets.php:430 includes/widgets.php:1727
+msgid "Filter By Artists:"
+msgstr ""
+
+#: includes/widgets.php:242 includes/widgets.php:436 includes/widgets.php:789
+#: includes/widgets.php:1022 includes/widgets.php:1463
+#: includes/widgets.php:1750
+msgctxt "Widget"
+msgid "Call To Action Title:"
+msgstr ""
+
+#: includes/widgets.php:243 includes/widgets.php:437 includes/widgets.php:790
+#: includes/widgets.php:1023 includes/widgets.php:1464
+#: includes/widgets.php:1751
+msgid "View More"
+msgstr ""
+
+#: includes/widgets.php:246 includes/widgets.php:440 includes/widgets.php:793
+#: includes/widgets.php:1026 includes/widgets.php:1468
+#: includes/widgets.php:1754
+msgctxt "Widget"
+msgid "Call To Call To Action Page:"
+msgstr ""
+
+#: includes/widgets.php:252 includes/widgets.php:446 includes/widgets.php:799
+#: includes/widgets.php:1032 includes/widgets.php:1475
+#: includes/widgets.php:1760
+msgctxt "Widget"
+msgid "Call To Action External Link:"
+msgstr ""
+
+#: includes/widgets.php:282
+msgctxt "Widget"
+msgid "A grid view of your selected albums."
+msgstr ""
+
+#: includes/widgets.php:294
+msgctxt "Widget"
+msgid "Discography"
+msgstr ""
+
+#: includes/widgets.php:416 includes/widgets.php:765 includes/widgets.php:1013
+#: includes/widgets.php:2001
+msgctxt "Widget"
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets.php:417
+msgid "Popular Albums"
+msgstr ""
+
+#: includes/widgets.php:420 includes/widgets.php:769
+msgctxt "Widget"
+msgid "Album:"
+msgstr ""
+
+#: includes/widgets.php:456 includes/widgets.php:806
+#, php-format
+msgctxt "Widget"
+msgid "No albums have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: includes/widgets.php:488 includes/widgets.php:562
+msgctxt "Widget"
+msgid "croma: Radio Player"
+msgstr ""
+
+#: includes/widgets.php:489 includes/widgets.php:948
+msgctxt "Widget"
+msgid "croma: Twitter"
+msgstr ""
+
+#: includes/widgets.php:490
+msgctxt "Widget"
+msgid "croma: Terms"
+msgstr ""
+
+#: includes/widgets.php:491 includes/widgets.php:1286
+msgctxt "Widget"
+msgid "croma: News"
+msgstr ""
+
+#: includes/widgets.php:492 includes/widgets.php:1528
+msgctxt "Widget"
+msgid "croma: Videos"
+msgstr ""
+
+#: includes/widgets.php:544
+msgctxt "Widget"
+msgid "A simple radio that plays a list of songs from selected albums."
+msgstr ""
+
+#: includes/widgets.php:593
+msgctxt "Widget"
+msgid "Loading tracks..."
+msgstr ""
+
+#: includes/widgets.php:595
+msgctxt "Widget"
+msgid "No tracks founds..."
+msgstr ""
+
+#: includes/widgets.php:694
+msgid "By"
+msgstr ""
+
+#: includes/widgets.php:696
+msgid "Release date"
+msgstr ""
+
+#: includes/widgets.php:766 includes/widgets.php:2002
+msgid "Popular Songs"
+msgstr ""
+
+#: includes/widgets.php:781
+msgid "Auto Play"
+msgstr ""
+
+#: includes/widgets.php:786
+msgid "Show Playlist"
+msgstr ""
+
+#: includes/widgets.php:937
+msgctxt "Widget"
+msgid "The most recent tweet."
+msgstr ""
+
+#: includes/widgets.php:1014
+msgid "Live from Twitter"
+msgstr ""
+
+#: includes/widgets.php:1017
+msgctxt "Widget"
+msgid "Screen Name:"
+msgstr ""
+
+#: includes/widgets.php:1080
+msgctxt "Widget"
+msgid "A list or dropdown of terms"
+msgstr ""
+
+#: includes/widgets.php:1091
+msgid "croma: Terms"
+msgstr ""
+
+#: includes/widgets.php:1135
+msgid "Select Term"
+msgstr ""
+
+#: includes/widgets.php:1211
+msgid "No taxonomies have been created yet."
+msgstr ""
+
+#: includes/widgets.php:1220
+msgid "Select Taxonomy:"
+msgstr ""
+
+#: includes/widgets.php:1232
+msgid "Display as dropdown"
+msgstr ""
+
+#: includes/widgets.php:1235
+msgid "Show post counts"
+msgstr ""
+
+#: includes/widgets.php:1270
+msgctxt "Widget"
+msgid "The most recent posts on your site."
+msgstr ""
+
+#: includes/widgets.php:1433
+msgid "Latest News"
+msgstr ""
+
+#: includes/widgets.php:1435
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets.php:1440
+msgid "Display excerpts?"
+msgstr ""
+
+#: includes/widgets.php:1444
+msgid "Display post date?"
+msgstr ""
+
+#: includes/widgets.php:1447 includes/widgets.php:1714
+msgctxt "Widget"
+msgid "Select one or multiple categories:"
+msgstr ""
+
+#: includes/widgets.php:1454 includes/widgets.php:1742
+msgid "View As:"
+msgstr ""
+
+#: includes/widgets.php:1456 includes/widgets.php:1744
+msgctxt "Widget"
+msgid "List"
+msgstr ""
+
+#: includes/widgets.php:1457 includes/widgets.php:1745
+msgctxt "Widget"
+msgid "Grid"
+msgstr ""
+
+#: includes/widgets.php:1458
+msgctxt "Widget"
+msgid "Simple"
+msgstr ""
+
+#: includes/widgets.php:1511
+msgctxt "Widget"
+msgid "The most recent videos on your site."
+msgstr ""
+
+#: includes/widgets.php:1710
+msgid "Number of videos to show (*apply only for categories):"
+msgstr ""
+
+#: includes/widgets.php:1721
+msgctxt "Widget"
+msgid "Or Manually Select Videos:"
+msgstr ""
+
+#: includes/widgets.php:1733
+msgid "What happens when you click the video's thumbnails ?"
+msgstr ""
+
+#: includes/widgets.php:1735
+msgctxt "Widget"
+msgid "Go to detailed video page"
+msgstr ""
+
+#: includes/widgets.php:1736
+msgctxt "Widget"
+msgid "Open video in a LightBox"
+msgstr ""
+
+#: includes/widgets.php:1737
+msgctxt "Widget"
+msgid "Replace image by video"
+msgstr ""
+
+#: includes/widgets.php:1794
+msgctxt "Widget"
+msgid "Touch Enabled, Responsive jQuery Horizontal Image Slider/Carousel."
+msgstr ""
+
+#: includes/widgets.php:1805
+msgctxt "Widget"
+msgid "croma: IOS Slider"
+msgstr ""
+
+#: includes/widgets.php:2005
+msgctxt "Widget"
+msgid "IOS Sliders:"
+msgstr ""
+
+#: includes/widgets.php:2020
+#, php-format
+msgctxt "Widget"
+msgid "No photo albums have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: templates/event.php:52
+msgid "D"
+msgstr ""
+
+#: templates/event.php:52
+msgid "H"
+msgstr ""
+
+#: templates/event.php:52
+msgid "M"
+msgstr ""
+
+#: templates/event.php:52
+msgid "S"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://irontemplates.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Music manager for the themes Croma by IronTemplates"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "IronTemplates"
+msgstr ""

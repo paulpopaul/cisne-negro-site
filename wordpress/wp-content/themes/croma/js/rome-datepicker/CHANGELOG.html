@@ -1,0 +1,281 @@
+<h1 id="2-1-17-bull-run">2.1.17 Bull Run</h1>
+<ul>
+<li>Updated <code>bullseye@1.4.3</code></li>
+</ul>
+<h1 id="2-1-14-we-the-people">2.1.14 We The People</h1>
+<ul>
+<li>Fixed regression caused by <code>2.1.10</code> where you could no longer enter a valid date typing manually</li>
+</ul>
+<h1 id="2-1-13-bugcatcher">2.1.13 Bugcatcher</h1>
+<ul>
+<li>Bumped <code>crossvent@1.2.0</code>, fixing a bug removing <code>focus</code> event listener</li>
+</ul>
+<h1 id="2-1-12-now-is-not-the-time">2.1.12 Now is not the Time</h1>
+<ul>
+<li>Replaced use of <code>Date.now</code> with <code>new Date()</code> because browser support</li>
+<li>Bumped <code>bullseye@1.0.5</code></li>
+<li>Bumped <code>crossvent@1.1.0</code></li>
+</ul>
+<h1 id="2-1-9-eye-of-the-tiger">2.1.9 Eye of the Tiger</h1>
+<ul>
+<li>Extracted positioning API into <code>bullseye</code></li>
+<li>Fixed a bug where inline calendars couldn&#39;t be instantiated</li>
+</ul>
+<h1 id="2-1-8-cross-ventures">2.1.8 Cross Ventures</h1>
+<ul>
+<li>Replaced <code>./events</code> with <code>crossvent</code> for code reuse</li>
+</ul>
+<h1 id="2-1-5-rat-s-nest">2.1.5 Rat&#39;s Nest</h1>
+<ul>
+<li>Fixed a bug where inline date pickers would blink for a brief moment on the screen, when initialized</li>
+</ul>
+<h1 id="2-1-1-life-raft">2.1.1 Life Raft</h1>
+<ul>
+<li>Removed dependency on <code>raf</code></li>
+</ul>
+<h1 id="2-1-0-garage-band">2.1.0 Garage Band</h1>
+<ul>
+<li>Added the ability to set <code>autoClose</code> to <code>&#39;time&#39;</code>, which only automatically hides the calendar when and if a time is picked</li>
+</ul>
+<h1 id="2-0-4-strictosaur">2.0.4 Strictosaur</h1>
+<ul>
+<li>Added <code>strictParse</code> option to avoid partial matches against <code>inputFormat</code></li>
+</ul>
+<h1 id="2-0-3-full-throttle">2.0.3 Full Throttle</h1>
+<ul>
+<li>Remove dependency on <code>lodash.throttle</code></li>
+</ul>
+<h1 id="2-0-2-terror">2.0.2 Terror</h1>
+<ul>
+<li>Removed unnecessary <code>&#39;ready&#39;</code> event listener from inline calendars</li>
+</ul>
+<h1 id="2-0-1-reset-mayhem">2.0.1 Reset Mayhem</h1>
+<ul>
+<li>Fixed an issue where input calendars wouldn&#39;t be hidden upon initialization</li>
+<li>Fixed an issue where <code>.options()</code> would forget an internal setting that identifies inputs</li>
+<li>Fixed an issue where <code>.options.reset()</code> would forget the container for an inline calendar</li>
+<li>Fixed an issue where <code>.options.reset()</code> would hide an inline calendar</li>
+</ul>
+<h1 id="2-0-0-invasion">2.0.0 Invasion</h1>
+<ul>
+<li>Removed necessity to wait until <code>&#39;ready&#39;</code> event was fired in order to interact with calendar</li>
+<li>Event listeners registered on a <code>&#39;destroy&#39;</code> event handler will no longer be immediately removed</li>
+<li>Introduced ability to pass <code>weekdayFormat</code> as an array with 7 strings</li>
+</ul>
+<h1 id="1-2-4-tunnel-vision">1.2.4 Tunnel Vision</h1>
+<ul>
+<li>Fixed <a href="https://github.com/bevacqua/rome/issues/30">an issue</a> where <code>autoHideOnBlur</code> wouldn&#39;t work on Firefox</li>
+</ul>
+<h1 id="1-2-3-park-bully">1.2.3 Park Bully</h1>
+<ul>
+<li>Fixed an issue where you couldn&#39;t navigate months if the calendar was out of range</li>
+</ul>
+<h1 id="1-2-2-fill-form-at-the-counter">1.2.2 Fill Form at the Counter</h1>
+<ul>
+<li>Added ability to change weekdays format</li>
+</ul>
+<h1 id="1-2-1-time-matters">1.2.1 Time Matters</h1>
+<ul>
+<li>Changed navigation buttons to <code>button</code> type</li>
+</ul>
+<h1 id="1-2-0-week-starts">1.2.0 Week Starts</h1>
+<ul>
+<li>Changed <code>weekStart</code> default value to <code>moment().weekday(0).day()</code></li>
+</ul>
+<h1 id="1-1-6-warner-brothers">1.1.6 Warner Brothers</h1>
+<ul>
+<li>Circumvented a deprecation warning from <code>moment</code></li>
+</ul>
+<h1 id="1-1-5-moment-of-truth">1.1.5 Moment of Truth</h1>
+<ul>
+<li>Bumped <code>moment</code> to <code>v2.8.2</code></li>
+</ul>
+<h1 id="1-1-4-show-time">1.1.4 Show Time</h1>
+<ul>
+<li>API methods now allow for chaining even when the operation is a no-op</li>
+<li>Fixed an issue (<a href="https://github.com/bevacqua/rome/issues/27">#27</a>) where inline calendars wouldn&#39;t get positioned using the <code>.show</code> API method</li>
+<li>Created a <code>&#39;show&#39;</code> event, emitted whenever the calendar is displayed</li>
+<li>Created a <code>&#39;hide&#39;</code> event, emitted whenever the calendar is hidden</li>
+</ul>
+<h1 id="1-1-3-time-sieve">1.1.3 Time Sieve</h1>
+<ul>
+<li>Fixed an issue (<a href="https://github.com/bevacqua/rome/issues/25">#25</a>) which prevented you from using <code>min</code> and <code>max</code> when <code>date</code> is <code>false</code></li>
+</ul>
+<h1 id="1-1-2-internet-savvy">1.1.2 Internet Savvy</h1>
+<ul>
+<li>Fixed an issue in old IE browsers</li>
+</ul>
+<h1 id="1-1-1-first-date">1.1.1 First Date</h1>
+<ul>
+<li>Fixed an issue where date validation resulted in the wrong dates being disabled</li>
+</ul>
+<h1 id="1-1-0-calendar-press">1.1.0 Calendar Press</h1>
+<ul>
+<li>Introduced ability to display months side-by-side in a single calendar</li>
+</ul>
+<h1 id="1-0-3-happy-pony">1.0.3 Happy Pony</h1>
+<ul>
+<li>Fixed issues when setting an initial value on calendars that also validate their inputs</li>
+</ul>
+<h1 id="1-0-2-clock-tick">1.0.2 Clock Tick</h1>
+<ul>
+<li>Fixed a bug where you couldn&#39;t set <code>appendTo: &#39;parent&#39;</code> for calendar associated to input fields</li>
+</ul>
+<h1 id="1-0-1-wasteland">1.0.1 Wasteland</h1>
+<ul>
+<li>Fixed a bug where calendars would be cached but never found again</li>
+<li><code>rome.find</code> returns <code>null</code> if no calendar is found</li>
+</ul>
+<h1 id="1-0-0-roman-empire">1.0.0 Roman Empire</h1>
+<ul>
+<li>Fixed an issue where tapping the input field wouldn&#39;t re-open the calendar on mobile (<a href="https://github.com/bevacqua/rome/commit/fb8fc070fd4bc8b49009bff4b34c1b904f80a025">fb8fc070</a>)</li>
+</ul>
+<h1 id="0-14-0-rome-for-export">0.14.0 Rome For Export</h1>
+<ul>
+<li>Fixed an issue where the standalone version didn&#39;t export an API</li>
+</ul>
+<h1 id="0-13-0-dora-the-explorer">0.13.0 Dora the Explorer</h1>
+<ul>
+<li>Fixed <code>scrollTop</code> issues in IE8</li>
+<li>Fixed click-to-hide issues in IE8</li>
+<li>Improved demo conformance by adding a <code>DOCTYPE</code></li>
+<li>When destroying a calendar, API methods become a no-op instead of getting deleted</li>
+</ul>
+<h1 id="0-12-1-dig-deeper">0.12.1 Dig Deeper</h1>
+<ul>
+<li>Fixed internal clone method</li>
+</ul>
+<h1 id="0-12-internet-surfer">0.12 Internet Surfer</h1>
+<ul>
+<li>Fixed a myriad of issues in IE8, enabling basic support</li>
+</ul>
+<h1 id="0-11-2-king-of-sweaters">0.11.2 King of Sweaters</h1>
+<ul>
+<li>Fixed an issue where reference errors occured when setting an <code>initialValue</code> or an <code>input</code>&#39;s <code>value</code></li>
+</ul>
+<h1 id="0-11-1-unthrown-exception">0.11.1 Unthrown Exception</h1>
+<ul>
+<li>Introduced <code>except</code> and <code>only</code> validators</li>
+</ul>
+<h1 id="0-11-0-refurbished-products">0.11.0 Refurbished Products</h1>
+<ul>
+<li>Refactored validator factories so that the consumer doesn&#39;t need to bind <code>&#39;data&#39;</code> events to <code>refresh</code> inline calendars</li>
+</ul>
+<h1 id="0-10-0-brand-management">0.10.0 Brand Management</h1>
+<ul>
+<li>Renamed validator factories</li>
+</ul>
+<h1 id="0-9-0-factory-unlocked">0.9.0 Factory Unlocked</h1>
+<ul>
+<li>Calendars are rendered when shown</li>
+<li>Validation occurs whenever a calendar is shown</li>
+<li>Fixed a bug where inline calendars couldn&#39;t be retrieved with <code>rome.find</code></li>
+<li>Introduced validator factories for common date comparison use cases</li>
+<li>Introduced <code>calendar.refresh</code> method to refresh a calendar on demand</li>
+</ul>
+<h1 id="0-8-1-market-positioning">0.8.1 Market Positioning</h1>
+<ul>
+<li>Fixed a bug where positioning would fail if the container had <code>position: relative</code></li>
+</ul>
+<h1 id="0-8-0-small-contraption">0.8.0 Small Contraption</h1>
+<ul>
+<li>Replaced <code>contra</code> with <code>contra.emitter</code>, shaving bytes</li>
+</ul>
+<h1 id="0-7-1-treasure-goblin">0.7.1 Treasure Goblin</h1>
+<ul>
+<li><code>rome.find</code> operates on both inputs and inline calendars</li>
+<li>Fixed a minor bug when showing and hiding calendars on <code>&#39;ready&#39;</code></li>
+</ul>
+<h1 id="0-6-1-diminishing-returns">0.6.1 Diminishing Returns</h1>
+<ul>
+<li>Where possible, API methods return the Rome instance for chaining</li>
+</ul>
+<h1 id="0-6-0-moving-target">0.6.0 Moving Target</h1>
+<ul>
+<li>Merged <code>rome.inline</code> with <code>rome(elem, options?)</code></li>
+</ul>
+<h1 id="0-5-0-split-second">0.5.0 Split Second</h1>
+<ul>
+<li>Changed the way how <code>moment</code> should be passed to <code>rome</code>, because architecture</li>
+<li>Introduced ability to set an <code>initialValue</code> for the calendar</li>
+<li>Published internal method <code>setValue(value)</code> to set a date on the calendar</li>
+<li>Published internal method <code>emitValues()</code> to emit data through the calendar</li>
+<li>Initialization happens in the next frame, meaning you can easily listen for <code>&#39;ready&#39;</code> events</li>
+<li>Split functionality between calendar and input field<ul>
+<li>Ability to create inline calendars that don&#39;t depend on an input field</li>
+<li>Original method doesn&#39;t change its public API</li>
+</ul>
+</li>
+</ul>
+<h1 id="0-4-2-time-frame">0.4.2 Time Frame</h1>
+<ul>
+<li>Fixed an issue where the date <em>closest to an invalid one</em> wouldn&#39;t be selected</li>
+</ul>
+<h1 id="0-4-0-tinder">0.4.0 Tinder</h1>
+<ul>
+<li>Introduced <code>dateValidator</code> and <code>timeValidator</code> options</li>
+</ul>
+<h1 id="0-3-14-foo-fighters">0.3.14 Foo Fighters</h1>
+<ul>
+<li>Fixed an issue when <code>required</code> was set to <code>false</code></li>
+</ul>
+<h1 id="0-3-12-optional-overload">0.3.12 Optional Overload</h1>
+<ul>
+<li>Published alternative distribution <code>rome.standalone.js</code> which doesn&#39;t bundle <code>moment</code></li>
+<li>Implemented <code>required</code> option that allows the input field to be cleared</li>
+</ul>
+<h1 id="0-3-11-time-obsession">0.3.11 Time Obsession</h1>
+<ul>
+<li>Fixed a bug where the calendar would break if <code>time</code> was set to <code>false</code></li>
+</ul>
+<h1 id="0-3-10-texas-ranger">0.3.10 Texas Ranger</h1>
+<ul>
+<li>Fixed a bug where you weren&#39;t able to navigate to the month if it was visible in the current calendar view</li>
+</ul>
+<h1 id="0-3-9-day-of-the-week">0.3.9 Day of the Week</h1>
+<ul>
+<li>Implemented <code>weekStart</code> to choose the starting day of the week</li>
+</ul>
+<h1 id="0-3-8-kamasutra">0.3.8 Kamasutra</h1>
+<ul>
+<li>Made it easier to overwrite the absolute positioning of the calendar by only setting it once, on the stylesheet</li>
+</ul>
+<h1 id="0-3-6-web-starter-kit">0.3.6 Web Starter Kit</h1>
+<ul>
+<li>Fixed a bug where closing the calendar, with the time list open, triggered a rendering bug in WebKit <a href="https://github.com/bevacqua/rome/commit/952e714b4e818bd6261621b53fe1f24c01aeba96">(952e714)</a></li>
+</ul>
+<h1 id="0-3-5-pick-up">0.3.5 Pick Up</h1>
+<ul>
+<li>Cloned options objects return proper clones of the <code>min</code> and <code>max</code> moments instead of references</li>
+</ul>
+<h1 id="0-3-1-pack-up">0.3.1 Pack Up</h1>
+<ul>
+<li>Consumer only gets copies of the configuration object, never the original</li>
+<li>Introduced <code>.options.reset()</code> to reset options to their default values like <code>.options()</code> used to do</li>
+</ul>
+<p>Changes</p>
+<ul>
+<li><code>.options()</code> API changed, now returns copy of options if no arguments are provided</li>
+</ul>
+<h1 id="0-2-8-shower-time">0.2.8 Shower Time</h1>
+<ul>
+<li>Fixed a bug where the calendar wasn&#39;t being absolutely positioned</li>
+</ul>
+<h1 id="0-2-7-cat-trap">0.2.7 Cat Trap</h1>
+<ul>
+<li>Fixed bug when setting <code>appendTo: &#39;parent&#39;</code></li>
+</ul>
+<h1 id="0-2-6-mouse-trap">0.2.6 Mouse Trap</h1>
+<ul>
+<li>Fixed support for <code>min</code> and <code>max</code> time settings</li>
+</ul>
+<h1 id="0-2-5-cat-and-mouse">0.2.5 Cat and Mouse</h1>
+<ul>
+<li>Added the ability to choose a minimum date</li>
+<li>Added the ability to choose a maximum date</li>
+<li>Added the ability to click on days in neighboring months</li>
+</ul>
+<h1 id="0-2-0-ipo">0.2.0 IPO</h1>
+<ul>
+<li>Initial Public Release</li>
+</ul>

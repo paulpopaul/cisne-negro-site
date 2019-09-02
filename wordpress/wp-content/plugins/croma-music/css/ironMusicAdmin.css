@@ -1,0 +1,48 @@
+.font-select{
+	top: 8px;
+}
+
+
+.tab-container-single{
+
+}
+#toplevel_page_iron-music .wp-submenu,
+#toplevel_page_iron-music.opensub .wp-submenu,
+#toplevel_page_iron-music .wp-submenu-wrap{
+	/*display: none!important;*/
+}
+
+textarea.import,
+textarea.export{
+	width: 100%;
+	height: 200px;
+}
+
+th.acf-th-stream_link.field_key-stream_link:before {
+    content: "OR";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc( 50% - 10px );
+    left: -11px;
+    background: #f7f7f7;
+    border-radius: 100%;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 -1px 0 #ccc;
+    text-align: center;
+    line-height: 18px;
+    font-size: 8px;
+    color: #999;
+    font-weight: bold;
+}
+th.acf-th-track_mp3.field_key-field_51b8c637cc849 {
+    text-align: right;
+    padding-right: 20px;
+}
+th.acf-th-stream_link.field_key-stream_link {
+    padding-left: 20px;
+}
+
+.field_key-artist_social_icon select{
+    font-family: Font Awesome\ 5 Free, Font Awesome\ 5 Brands, sans-serif;
+}

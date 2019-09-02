@@ -1,0 +1,1844 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,700,600);
+#overlay { 
+	background-attachment: initial;
+	background-color: #000000;
+}
+#overlay .perspective { 
+	background-attachment: initial;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+a,
+code,
+.blockquote-block,
+.tab-circle,
+.wpb_content_element.circle a,
+a.button-more,.pages a,
+.pages .current,
+.iron_widget_newsletter input[type="submit"]:hover,
+.iron_widget_twitter .twitter-logo,
+.iron_widget_twitter .twitter-logo-small,
+.blockquote-block,
+.tab-circle,
+a.meta-author-link,
+.post-categories a,
+.post-tags a,
+.comment-content a,
+.comment-author .fn,
+.comment-author .url,
+.comment-reply-link,
+.comment-reply-login,
+.comment-meta a:hover,
+.comment-reply-title small a:hover,
+.comments-title,
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a,
+.iron_widget_recent_tweets .meta .time a,
+.carousel .datetime,
+.article .datetime,
+.single-post time,
+.meta .datetime,
+.blockquote-block .title,
+.blockquote-block figcaption,
+span.wpcf7-not-valid-tip-no-ajax,
+.wpcf7-response-output,
+.photos-list .hover-text span,
+.contact-box .phone,
+.error,
+.success span,
+.concerts-list .title-row .date,
+.concerts-list .expanded .title-row .link,
+.iron_widget_newsletter label span,
+.concerts-list .title-row .link,
+.icon-concert-dropdown,
+li.expanded .title-row .icon-concert-dropdown,
+.media-block a:hover .media-decoration.media-audio,
+.media-block a:hover .media-decoration.media-audio,
+.media-decoration.media-video,
+.carousel .video-box .btn-play,
+.terms-list small,
+.terms-list [class^="icon-"],
+.terms-list [class*=" icon-"],
+.nm_mc_form .nm_mc_button:hover,
+.footer-wrapper-backtotop:hover,
+#sidebar .panel-action,
+.tweet_text a,
+.iron_widget_newsletter .nm_mc_button input[type="submit"]:hover,
+#footer .iron_widget_newsletter input[type="submit"]:hover,
+#footer .nm_mc_form input[type="submit"]:hover,
+.iron_widget_newsletter input[type="submit"],
+.nm_mc_form input[type="submit"],
+.event-more-button,
+.nav-menu li:hover > a,
+ul.nav-menu li.menu-item ul.sub-menu li:hover a,
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+.nav-menu .has-drop-down ul a:hover,
+.nav-menu li a.backbtn:hover,
+.wpb_content_element a,
+#sidebar .textwidget a,
+blockquote p,
+.footer__widgets ul a,
+.wooprice ins,
+.woocommerce ul.products li.product .price,
+.woocommerce-page ul.products li.product .price,
+.woocommerce div.product span.price,
+.woocommerce div.product p.price,
+.woocommerce #content div.product span.price,
+.woocommerce #content div.product p.price,
+.woocommerce-page div.product span.price,
+.woocommerce-page div.product p.price,
+.woocommerce-page #content div.product span.price,
+.woocommerce-page #content div.product p.price,
+.wooprice,
+.woocommerce .star-rating,
+.woocommerce-page .star-rating,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.woocommerce #content nav.woocommerce-pagination ul li a,
+.woocommerce #content nav.woocommerce-pagination ul li span,
+.woocommerce-page nav.woocommerce-pagination ul li a,
+.woocommerce-page nav.woocommerce-pagination ul li span,
+.woocommerce-page #content nav.woocommerce-pagination ul li a,
+.woocommerce-page #content nav.woocommerce-pagination ul li span,
+.woocommerce table.cart a.remove,
+.woocommerce #content table.cart a.remove,
+.woocommerce-page table.cart a.remove,
+.woocommerce-page #content table.cart a.remove,
+.woocommerce .woocommerce-product-rating .star-rating,
+.woocommerce-page .woocommerce-product-rating .star-rating,
+.woo-thanks,
+.infobox-icon,
+.menu-toggle-off,
+a.back-btn,
+.playlist_enabled .player-box .jp-playlist ul li .button,
+.button.add_to_cart_button.product_type_simple,
+.post-password-form input[type="submit"],
+li:hover .has-drop-down-a .sub-arrow i,
+.social-networks a i:hover,
+.side-menu .social-networks a i:hover,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce-page #content input.button.alt,
+.shipping-calculator-button,
+.articles-classic .text-box a:hover h2,
+.articles-classic a.readmore-classic:hover,
+article a.more-link:hover,
+#commentform .form-submit #submit,
+.stickypost i,
+.simple-post-txt-wrap a:hover h2,
+.portfolio .portfolio-prev:hover .prev-text,
+.portfolio .portfolio-next:hover .next-text,
+.portfolio .portfolio-prev:hover i.fa-long-arrow-left,
+.portfolio .portfolio-next:hover i.fa-long-arrow-right,
+.portfolio .portfolio-mid-wrap i.fa-th:hover,
+.player-title-box .track-name,
+.audio-holder .jp-playlist ul.tracks-list li.jp-playlist-current div a, .articles-classic .post-categories a:hover, .articles-classic .post-tags a:hover  { 
+	color: #d96e34;
+}
+
+.store-list a.button:hover,
+.panel-action:hover,
+.album-overlay,
+.pages .current,
+.media-block a:hover,
+.pages a:hover,
+a.button-more:hover,
+.type-album .tracks-block .player-box,
+.iron_widget_newsletter,
+.iron_widget_newsletter input[type="email"],
+.nm_mc_form input[type="text"],
+#footer .newsletter-wrap,
+.concerts-list .title-row:hover .buttons .button,
+.store-list a.button:hover,
+.album-overlay,
+.marquee .tp-leftarrow,
+.marquee .tp-rightarrow,
+.marquee .more,
+.carousel .btn-prev:hover,
+.carousel .btn-next:hover,
+.carousel .slide a:hover,
+.concert-box .hover-box,
+.article a:hover,
+.pages .current,
+.pages a:hover,
+.button-more:hover,
+a.button,
+.comment-form #submit,
+.wpcf7-submit,
+.filters-block a.active,
+.form input[type="submit"],
+.concerts-list .title-row .time,
+.concerts-list .title-row.has_countdown:hover .buttons,
+.concerts-list .expanded .title-row .button,
+.concerts-list .expanded .title-row:after,
+.iron_widget_newsletter input[type="submit"]:focus,
+.iron_widget_newsletter input[type="submit"]:hover,
+.select-options .item-selected a,
+.concerts-list .expanded .title-row .opener:hover:after,
+.concerts-list .title-row .button,
+.media-decoration.media-audio,
+.tracks-list .btn-play [class^="icon-"],
+.tracks-list .btn-play [class*=" icon-"],
+.tracks-list .btn-pause [class^="icon-"],
+.tracks-list .btn-pause [class*=" icon-"],
+.player-box a:hover [class^="icon-"],
+.player-box a:hover [class*=" icon-"],
+.social-networks a:hover [class^="icon-"],
+.social-networks a:hover [class*=" icon-"],
+.carousel .video-box .icon-play,
+#searchform input[type="submit"],
+.news-grid-wrap a:hover,
+.iron_widget_videos .video-list article a:hover,
+a.back-btn:hover,
+.photo-wrap:hover .tab-text,
+.videogrid:hover .text-box,
+.page-template-archive-video .media-block:hover .text-box,
+.playlist_enabled .player-box .jp-playlist ul li .button:hover,
+.button.add_to_cart_button.product_type_simple:hover,
+.post-password-form input[type="submit"]:hover,
+.title-row.no-countdown:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce #content input.button:hover,
+.woocommerce-page a.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce-page input.button:hover,
+.woocommerce-page #respond input#submit:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce #content input.button.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce table.cart a.remove:hover,
+.woocommerce #content table.cart a.remove:hover,
+.woocommerce-page table.cart a.remove:hover,
+.woocommerce-page #content table.cart a.remove:hover,
+.shipping-calculator-button:hover,
+.woocommerce #content nav.woocommerce-pagination ul li a:focus,
+.woocommerce #content nav.woocommerce-pagination ul li a:hover,
+.woocommerce #content nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce-page #content nav.woocommerce-pagination ul li a:focus,
+.woocommerce-page #content nav.woocommerce-pagination ul li a:hover,
+.woocommerce-page #content nav.woocommerce-pagination ul li span.current,
+.woocommerce-page nav.woocommerce-pagination ul li a:focus,
+.woocommerce-page nav.woocommerce-pagination ul li a:hover,
+.woocommerce-page nav.woocommerce-pagination ul li span.current,
+.playlist_enabled .player-box .jp-playlist ul li:hover,
+.woocommerce-message .button.wc-forward:hover,
+#commentform .form-submit #submit:hover,
+.news-grid-wrap a.sticky,
+.news-grid-wrap.isotope-item a.sticky,
+ins { 
+	background-color: #d96e34;
+}
+
+.tab-circle,a.button-more,
+.tab-circle,
+input.error,
+.event-more-button,
+.woocommerce .woocommerce-info,
+.woocommerce-page .woocommerce-info,
+.woocommerce .woocommerce-message,
+.woocommerce-page .woocommerce-message,
+.chosen-container-active .chosen-single,
+a.back-btn,
+.playlist_enabled .player-box .jp-playlist ul li .button,
+.button.add_to_cart_button.product_type_simple,
+.post-password-form input[type="submit"],
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce-page #content input.button.alt
+.shipping-calculator-button,
+.articles-classic a.readmore-classic:hover,
+article a.more-link:hover,
+#commentform .form-submit #submit,
+.page-template-archive-posts-classic-php .media-block.sticky  .holder,
+blockquote,
+.portfolio .portfolio-rightside a.portfolio-button { 
+	border-color: #d96e34;
+}
+
+.footer__widgets > .iron_widget_newsletter input[type="submit"],
+.carousel .btn-prev,
+.carousel .btn-next,
+.panel .opener,
+.blockquote-box figcaption:before,
+.concerts-list .title-row .time,
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form textarea,
+.comment-form input,
+.comment-form textarea,
+.select-options,
+.jp-no-solution,
+.nav-menu li:hover > a,
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+.nav-menu .has-drop-down ul a:hover,
+.nm_mc_form .nm_mc_button:hover,
+.comment-text,
+#footer .iron_widget_newsletter .nm_mc_button:hover { 
+	background-color: #ffffff;
+}
+
+#footer .iron_widget_newsletter input[type="email"],
+#footer .nm_mc_form input[type="text"],
+#footer .iron_widget_newsletter input[type="submit"],
+#footer .nm_mc_form input[type="submit"],
+.concerts-list .title-row:hover .buttons .button,
+.vc_span4 .concerts-list .title-row .datetime,
+.vc_span3 .concerts-list .title-row .datetime,
+.vc_span2 .concerts-list .title-row .datetime,
+#sidebar .concerts-list .title-row .datetime,
+.footer__widgets .panel__heading,
+.footer__widgets > .iron_widget_newsletter .control-append,
+.concerts-list .title-row .datetime,
+.event-row .datetime,
+.pages.full li a,
+.pages.full li span,
+.comment-reply-title small a,
+#footer .widget-area label.control-label,
+.page-numbers.dots { 
+	border-color: #ffffff;
+}
+
+	.media-block a,
+	.blockquote-block,
+	.store-list a.button,
+	.event-row,
+	.type-album .text-box,
+	.tracks-list > li,
+	.panel-action,
+	.iron_widget_twitter .panel__body,
+	.iron_widget_twitter .panel-action,
+	.iron_widget_radio .panel__body,
+	.photo-wrap .photo-album-tab,
+	.news-grid-wrap a,
+	.container .iron_widget_newsletter,
+	.container .newsletter-wrap,
+	.videogrid,
+	.iron_widget_videos .video-list article a,
+	blockquote,
+	.articles-classic .media-block .holder,
+	.pages a { 
+	background-color: #000;
+}
+
+#sidebar .panel-action:hover,
+.iron_widget_newsletter .newsletter-wrap nm_mc_button,
+.iron_widget_newsletter input[type="submit"]:hover,
+a.button:hover,
+.wpb_accordion_section a,
+.ui-tabs-anchor { 
+	background-color: #ffffff;
+}
+
+.comment-respond,
+.container .iron_widget_newsletter input[type="email"],
+.container .nm_mc_form input[type="text"],
+.container .iron_widget_newsletter input[type="submit"],
+.container .nm_mc_form input[type="submit"],
+.post-password-form input[type="password"],
+.wpb_tabs_nav { 
+	border-color: #ffffff;
+}
+.footer-block.share { 
+	background-color: #000000;
+}
+
+.iron_widget_newsletter input[type="email"],
+.nm_mc_form input[type="text"],
+.nm_mc_form label,
+#footer .iron_widget_newsletter input[type="submit"],
+#footer .nm_mc_form input[type="submit"],
+.countdown-section,
+.countdown-amount,
+.countdown-period,
+.footer-block .social-networks a,
+.footer__widgets,
+.footer-row,
+.footer__widgets > .iron_widget_newsletter .control-label,
+.footer__widgets > .iron_widget_newsletter .form-control,
+.footer-row ul,
+.footer-row ul a,
+.concerts-list .title-row .open-link,
+.concerts-list .title-row .button:hover,
+.panel__heading,
+.panel__footer,
+.title-box,
+.title-box h2,
+.carousel .btn-prev:hover,
+.carousel .btn-next:hover,
+.media-decoration.media-audio,
+#header,
+.nav-menu li a,
+ul.nav-menu ul a,
+.nav-menu ul ul a,
+.iosSlider .slider .item .inner .text1 span,
+.iosSlider .slider .item .inner .text2 span,
+a.button:hover,
+.store-list a.button:hover,
+.concerts-list,
+.title-row:hover .icon-concert-dropdown,
+.concerts-list .title-row:hover .button:hover,
+.concerts-list .expanded .title-row .button:hover,
+.concerts-list .title-row .opener,
+.album-listen,
+.circle,
+.tracks-list,
+.tracks-list .button,
+.tracks-list .btn-play,
+.tracks-list .btn-pause,
+.gallery-caption,
+.pages .current,
+.pages a:hover,
+a.button-more:hover,
+.pages .current,
+.form input[type="submit"]:hover,
+.comment-form #submit,
+.wpcf7-submit,
+.comment-form #submit:hover,
+.wpcf7-submit:hover,
+.concert-box .time,
+.video-box .hover-box,
+.video-box h2,
+.video-box .icon-play,
+.marquee .more,
+.pages .current,
+.pages a:hover,
+.button-more:hover,
+.concerts-list .title-row.has_countdown:hover .button:hover,
+.concerts-list .title-row.has_countdown:hover .buttons .button,
+.iron_widget_newsletter .form-status,
+.concerts-list .title-row .button,
+.footer__widgets .iron_widget_radio .info-box,
+#footer .tweet_text,
+#footer .nm_mc_error
+#footer .textwidget,
+#footer .newsletter-title-wrap h3,
+#footer .newsletter-description-wrap,
+#footer .newsletter-description-wrap p,
+a.button,
+play-button,
+.darker-overlay h1,
+.darker-overlay h2,
+.darker-overlay h3,
+.darker-overlay h4,
+.darker-overlay h5,
+.darker-overlay h6,
+#footer .wp-calendar,
+#footer p,
+#footer ul,
+#footer li,
+#footer dl,
+#footer dt,
+#footer dd,
+#footer ol,
+#footer pre,
+#footer tr,
+#footer td,
+#footer th,
+#sidebar .button.wc-forward,
+.post-password-form input[type="password"],
+#footer .iron_widget_newsletter .newsletter-wrap .control-description,
+#footer .iron_widget_newsletter .nm_mc_button:hover { 
+	color: #ffffff;
+}
+#footer ::-webkit-input-placeholder { 
+	color: #ffffff;
+}
+#footer :-moz-placeholder { 
+	color: #ffffff;
+}
+#footer ::-moz-placeholder { 
+	color: #ffffff;
+}
+#footer :-ms-input-placeholder { 
+	color: #ffffff;
+}
+.photo-wrap:hover .tab-circle, .comment-list > li:after, .comment-list .children > li:before, .comment-reply-title, .woocommerce-page.single-product div.product .woocommerce-Tabs-panel--additional_information.panel, .single-product table.shop_attributes, .woocommerce-page #reviews #comments ol.commentlist li .comment-text { 
+	border-color: #d96e34;
+}
+
+body,
+.video-post,
+.single-post h2,
+.concerts-list .title-row .datetime,
+.event-row .datetime,
+.type-album .text-box h2,
+.tab-title,
+.tab-title .excerpt,
+.tracks-list .name,
+.comment-reply-title,
+h2.widgettitle,
+#sidebar .panel__heading,
+#sidebar .panel__heading h3,
+.media-block .datetime,
+.media-block .meta-simple,
+.media-block .category,
+.form input[type="submit"],
+.concerts-list .title-row .time,
+.concerts-list .expanded .title-row .button,
+.post_grid .tab-text time.datetime,
+h1,
+h3.widgettitle,
+.excerpt p,
+.tweet_text,
+.content-box,
+.available-now,
+.release-date,
+.store-list a.button,
+.container .nm_mc_form input[type="text"],
+.container .nm_mc_form label,
+.container .nm_mc_error,
+#sidebar .nm_mc_error,
+.event-row .button,
+.media-block h2,
+.tracks-list > li:before,
+.tab-date,
+.videogrid .text-box h2,
+.control-description,
+.wpb_content_element,
+.photo-wrap:hover .tab-circle,
+.lighter-overlay h1,
+.lighter-overlay h2,
+.lighter-overlay h3,
+.lighter-overlay h4,
+.lighter-overlay h5,
+.lighter-overlay h6,
+.news-grid-wrap a:hover time,
+.news-grid-wrap a:hover .meta-author-link,
+.news-grid-tab .datetime,
+.news-grid-tab .meta-author-link,
+.news-grid-tab .post-categories,
+.news-grid-tab .post-tags,
+.news-grid-wrap a:hover .post-categories,
+.news-grid-wrap a:hover .post-tags,
+#sidebar .textwidget,
+ul,
+li,
+dl,
+dt,
+dd,
+ol,
+pre,
+tr,
+td,
+th,
+.wooprice del,
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce-page .woocommerce-message,
+.woocommerce-page .woocommerce-error,
+.woocommerce-page .woocommerce-info,
+.description_tab,
+.reviews_tab,
+h3,
+.news-grid-wrap a.sticky,
+.news-grid-wrap.isotope-item a.sticky,
+.portfolio-sidetitle,
+.portfolio-sidelist,
+.portfolio .portfolio-prev .prev-text,
+.portfolio .portfolio-next .next-text,
+.portfolio .portfolio-prev i.fa-long-arrow-left,
+.portfolio .portfolio-next i.fa-long-arrow-right,
+.portfolio .portfolio-mid-wrap i.fa-th,
+.panel-action:hover { 
+	color: #d96e34;
+}
+::-webkit-input-placeholder { 
+	color: #d96e34;
+}
+:-moz-placeholder { 
+	color: #d96e34;
+}
+::-moz-placeholder { 
+	color: #d96e34;
+}
+:-ms-input-placeholder { 
+	color: #d96e34;
+}
+
+.side-menu,
+.nav-menu .sub-menu,
+.nav-menu .children { 
+	background-attachment: initial;
+	background-color: #ffffff;
+}
+ul.header-top-menu { 
+	background-color: #ffffff;
+}
+.fill-menuicon { 
+	fill: #c8ffc3;
+}
+.fill-closemenu { 
+	fill: #c8ffc3;
+}
+.menu-toggle-off i { 
+	color: #c8ffc3;
+}
+.responsive-header a.sandwich-icon { 
+	color: #ffffff;
+}
+.responsive-header a.sandwich-icon:hover { 
+	color: #ffffff;
+}
+.sub-arrow i, .side-menu .social-networks a i { 
+	color: #000000;
+}
+body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text { 
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ffffff;
+}
+.nav-menu li a, ul.nav-menu li.menu-item ul.sub-menu li a { 
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #000000;
+}
+h1 { 
+	font-family: Open Sans;
+	font-weight: 600;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+h2, .single-post h2, .text-box h2, .video-box h2, .title-box h2, .news .media-block h2, .iron_widget_recent_posts .news .media-block h2, .type-album .text-box h2 { 
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+h3, h3.widgettitle, .cr_it-playlist-title { 
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 43px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+h4 { 
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	letter-spacing: 1px;
+	border-color: #ffffff;
+}
+h5 { 
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+h6 { 
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+a.panel-action.panel-action__label { 
+	font-family: Open Sans;
+	font-size: 17px;
+	line-height: 17px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+a.button-widget { 
+	letter-spacing: 1px;
+}
+h2 { 
+	letter-spacing: 1px;
+}
+h3 { 
+	letter-spacing: 0px;
+}
+span.heading-t, span.heading-b { 
+	background-color: #ffffff;
+}
+span.heading-t3, span.heading-b3 { 
+	background-color: #ffffff;
+}
+.lighter-overlay span.heading-t, .lighter-overlay span.heading-b { 
+	background-color: #d96e34;
+}
+.lighter-overlay span.heading-t3, .lighter-overlay span.heading-b3 { 
+	background-color: #d96e34;
+}
+.darker-overlay span.heading-t, .darker-overlay span.heading-b { 
+	background-color: #ffffff;
+}
+.darker-overlay span.heading-t3, .darker-overlay span.heading-b3 { 
+	background-color: #ffffff;
+}
+.classic-menu { 
+	width: calc( 100% - 40px - 40px );
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+	margin-bottom: 8px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.classic-menu > ul > li { 
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.classic-menu > ul > li a { 
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.classic-menu > ul > li.logo { 
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.responsive-header { 
+	background-color: #000000;
+}
+.listing-section .holder:hover h2 { 
+	color: #ffffff;
+}
+.news-grid-wrap a:hover .tab-title { 
+	color: #ffffff;
+}
+.classic-menu.mini { 
+	background-color: #000000;
+}
+.classic-menu > ul > li a, .classic-menu > ul > li.languages-selector > ul > li a { 
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.classic-menu > ul > li > ul > li a { 
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+}
+.classic-menu > ul > li a:hover, .classic-menu > ul > li.languages-selector > ul > li a:hover { 
+	background-color: rgb(217, 110, 52);
+	color: #ffffff;
+}
+.classic-menu > ul > li.current-menu-item > a { 
+	background-color: rgba(115, 173, 155, 0);
+	color: #ffffff;
+}
+.classic-menu > ul > li.current-menu-ancestor > a { 
+	background-color: rgba(115, 173, 155, 0);
+	color: #ffffff;
+}
+.classic-menu > ul > li > ul > li a:hover { 
+	background-color: rgb(217, 110, 52);
+	color: #ffffff;
+}
+.classic-menu > ul > li > ul > li.current-menu-item > a { 
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #ffffff;
+}
+.classic-menu > ul > li > a, .classic-menu > ul > li.languages-selector a { 
+	letter-spacing: 3px;
+}
+.classic-menu ul.sub-menu li a { 
+	letter-spacing: 3px;
+}
+.menu-item a:hover { 
+	text-decoration: none;
+}
+.color1_txt, .color1_txt p { 
+	color: #d96e34;
+}
+.color1_bg { 
+	background-color: #d96e34;
+}
+.color2_txt, .color2_txt p { 
+	color: #ffffff;
+}
+.color2_bg { 
+	background-color: #ffffff;
+}
+.color3_txt, .color3_txt p { 
+	color: #ffffff;
+}
+.color3_bg { 
+	background-color: #ffffff;
+}
+.color4_txt, .color4_txt p { 
+	color: #ffffff;
+}
+.color4_bg { 
+	background-color: #ffffff;
+}
+.color5_txt { 
+	color: #ffffff;
+}
+.color5_bg { 
+	background-color: #ffffff;
+}
+.color6_txt { 
+	color: #d96e34;
+}
+.color6_bg { 
+	background-color: #d96e34;
+}
+#footer, .footer-row { 
+	background-color: #000000;
+}
+.footer-row { 
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+/*-------------------------------------------------------------*\
+          #GENERAL
+\*-------------------------------------------------------------*/
+
+
+li.hotlink.pull-right {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+body p{ 
+	letter-spacing: 2px;
+}
+
+a.button-widget:hover {
+	border-color: rgb(217, 110, 52) !important;
+	transition: all 0.35s ease 0s, color 0.35s ease 0s;
+}
+
+/*--MENU--*/
+.classic-menu.fixed.mini.mini-fullwidth-active>ul>li.logo img {
+    max-height: 50px;
+}
+.classic-menu>ul>li.hotlink a{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.classic-menu.responsive > ul > li.current-menu-item > a {
+	color: #000;
+}
+
+@media only screen and (max-width: 1600px) {
+	li.logo.pull-left,
+	li.hotlink.pull-right { display: none; }
+}
+
+@media only screen and (max-width: 1520px) {
+	.classic-menu > ul > li a {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 1367px) {
+	.classic-menu > ul > li.logo.pull-left { display: none; }
+}
+
+@media only screen and (max-width: 1143px) {
+	.classic-menu > ul > li.logo.pull-left { display: inherit; }
+}
+
+@media only screen and (max-width: 768px) { 
+	.artist_sidebar h1 {
+	    margin-top: 85px;
+	}
+}
+
+
+
+@media screen and (max-width: 480px) { 
+	[style*="font-size: 36px"], h3{
+	    font-size: 23px !important;
+	    line-height: 23px !important;
+	} 
+}
+
+
+a.back-btn {
+    text-transform: uppercase;
+}
+
+.widget-title{
+color:#fff!important;
+}
+
+a.button-widget{
+font-size: 17px;
+font-family: 17px;
+font-weight: 400;
+}
+a.button-widget.center{
+ text-align: center; 
+}
+a.button {
+color:#000;
+}
+a.button:hover {
+color:#000;
+    background-color: rgb(200, 255, 195);
+}
+
+
+/*--Audio Player--*/
+.iron-audioplayer .track-title, .continuousPlayer .track-name {
+    letter-spacing: -1px;
+}
+
+
+/*--Divider image transition--*/
+@keyframes divider {
+0% {-webkit-transform: scale(0); transform: scaleX(0);}
+    90% {-webkit-transform: scale(0); transform: scaleX(0);}
+    100% {-webkit-transform: scale(1);transform: scaleX(1);}
+}
+.page-title img, .imagedivider img{
+    animation-name: divider;
+    animation-duration: 1s;
+	animation-timing-function: ease;
+}
+
+
+
+
+/*--social networks------------------------------------------*/
+
+div.social {
+text-align: center;
+}
+.social-networks {
+display: block;
+}
+
+ul.social-network a {
+background-color: transparent;
+border: 1px solid orange;
+text-align: center !important;
+}
+
+.social-circle li a {
+width: 50px;
+height: 50px;
+display: inline-block;
+position: relative;
+margin: 0 auto 0 auto;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+font-size: 20px;
+text-align: center;
+}
+
+
+/* ----------- iPhone 4 5 SE ----------- */
+@media (min-width: 320px) and (max-width:374px) {
+.classic-menu.responsive ul li.logo a img {
+max-height: 38px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 22px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top: 280px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top: 70px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:240px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 36px;
+height: 36px;
+line-height: 36px;
+text-align: center;
+margin: 0;
+}
+
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+.social-circle li a { 
+width: 36px;
+height: 36px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 16px;
+line-height: 36px !important;
+
+}
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 14px !important;
+padding-top: 28px;
+padding-bottom: 24px;
+}
+}
+
+
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media (min-width:375px) and (max-width: 413px) and (-webkit-min-device-pixel-ratio: 2) {
+.classic-menu.responsive ul li.logo a img {
+max-height: 38px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 22px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top: 330px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top: 100px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:280px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 42px;
+height: 42px;
+line-height: 42px;
+text-align: center;
+margin: 0;
+}
+
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+.social-circle li a { 
+width: 42px;
+height: 42px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 16px;
+line-height: 42px !important;
+
+}
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 16px !important;
+padding-top: 32px;
+padding-bottom: 20px;
+}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media (min-width: 413px) and (max-width: 768px) {
+.classic-menu.responsive ul li.logo a img {
+max-height: 38px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 26px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top: 360px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top: 120px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:300px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 44px;
+height: 44px;
+line-height: 44px;
+text-align: center;
+margin: 0;
+}
+.social-circle li a { 
+width: 44px;
+height: 44px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 16px;
+line-height: 44px !important;
+
+}
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 16px !important;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media (min-width: 768px) and (max-width: 799px) {
+.classic-menu.responsive ul li.logo a img {
+max-height: 42px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 26px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top: 480px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top: 180px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:400px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 52px;
+height: 52px;
+line-height: 52px;
+text-align: center;
+margin: 0;
+}
+.social-circle li a { 
+width: 52px;
+height: 52px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 20px;
+line-height: 52px !important;
+
+}
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 22px !important;
+padding-top: 70px;
+padding-bottom: 20px;
+}
+}
+
+
+/* ----------- 800 / 1024  ----------- */
+@media (min-width:800px) and (max-width:1023px){
+.classic-menu.responsive ul li.logo a img {
+max-height: 32px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 26px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top: 360px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top: 80px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:320px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 44px;
+height: 44px;
+line-height: 44px;
+text-align: center;
+margin: 0;
+}
+.social-circle li a { 
+width: 44px;
+height: 44px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 20px;
+line-height: 44px !important;
+
+}
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 16px !important;
+padding-top: 24px;
+padding-bottom: 20px;
+}
+}
+
+
+
+/* ----------- 1024 / 1366 ----------- */
+@media (min-width:1024px) and (max-width:1399px){
+.classic-menu.responsive ul li.logo a img {
+max-height: 32px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 26px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top: 380px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top:140px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:340px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 50px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+margin: 0;
+}
+.social-circle li a { 
+width: 50px;
+height: 50px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 22px;
+line-height: 50px !important;
+
+}
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 18px !important;
+padding-top: 34px;
+padding-bottom: 20px;
+}
+}
+
+/* ----------- 1400 x 1920  RETRO ----------- */
+@media (min-width:1400px) and (max-width:1919px){
+.classic-menu.responsive ul li.logo a img {
+max-height: 32px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 26px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top: 460px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top:220px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:400px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 52px;
+height: 52px;
+line-height: 52px;
+text-align: center;
+margin: 0;
+}
+.social-circle li a { 
+width: 52px;
+height: 52px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 20px;
+line-height: 52px !important;
+
+}
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 20px !important;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+}
+
+/* ----------- 1920 x 2560  PC NORMAL ----------- */
+@media (min-width:1920px) and (max-width:2559px){
+.classic-menu.responsive ul li.logo a img {
+max-height: 32px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 26px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top:620px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top:220px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:560px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 70px;
+height: 70px;
+line-height: 70px;
+text-align: center;
+margin: 0;
+}
+.social-circle li a { 
+width: 70px;
+height: 70px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 32px;
+line-height: 70px !important;
+
+}
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 24px !important;
+padding-top: 48px;
+padding-bottom: 20px;
+}
+}
+
+/* ----------- 2560 x 2560  RETRO ----------- */
+@media (min-width:2560px) and (max-width:4096px){
+.classic-menu.responsive ul li.logo a img {
+max-height: 32px;
+}
+
+.classic-menu.responsive .responsive-header a.sandwich-icon {
+float: right;
+font-size: 26px;
+line-height: 59px;
+padding: auto 10px;
+width: 22px;
+height: 30px;
+-webkit-transition: 0s all !important;
+transition: 0s all !important;
+}
+div.social {
+text-align: center;
+margin-top:650px;
+}
+
+.tp-parallax-wrap {
+position: relative;
+display: inline-block;
+visibility: visible;
+left: 110px;
+top:300px !important;
+bottom: 0px !important;
+z-index: 5;
+}
+
+.tp-mask-wrap .tp-caption img{
+padding-top: 0;
+padding-bottom: 0;
+width:550px !important;
+height: auto !important;
+}
+
+.social-circle li i {
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+margin: 0;
+}
+.social-circle li a { 
+width: 60px;
+height: 60px;
+display: inline-block;
+position: relative;
+margin: 0 auto 10px auto;
+font-size: 24px;
+line-height: 60px !important;
+
+}
+ul.social-network a {
+border: 1px solid #fff;
+text-align: center !important;
+}
+
+
+.text {
+/* color: #fff; */
+text-align: center !important;
+font-weight: 200 !important;
+font-style: normal;
+font-size: 30px !important;
+padding-top: 90px;
+padding-bottom: 20px;
+}
+}
+
+/*--footer--*/
+.footer__widgets .widget {
+    float: none;
+    width:100%;
+}
+.social-networks a i {
+    font-size: 28px;
+    line-height: 50px !important;
+}
+
+#footer h3 {
+    font-weight: 700;
+}
+
+
+#footer ul,
+#footer li {
+    color: inherit;
+}
+
+#footer .footer-author a:link,
+#footer .footer-author a:link:visited {
+	/*color: #1fbda2;*/
+}
+
+#footer .social-networks li {
+	margin: 0 20px 40px 20px;
+}
+
+.social-networks a {
+    display: inline-block;
+    font-size: 20px !important;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.social-networks a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.footer-wrapper-backtotop.active {
+	/*bottom: 60px !important;*/
+}
+
+/*--social networks responsive --*/
+@media only screen and (max-width: 640px) {
+	#footer .social-networks li { 
+		margin: 0; 
+	}
+}
+
+/*-------------------------------------------------------------*\
+          #POST TYPE
+\*-------------------------------------------------------------*/
+
+/*--Events--*/
+.single-event td {
+    color: #fff;
+}
+.event-line-wrap{
+	text-transform: uppercase;
+}
+
+
+/*--News--*/
+.media-block .meta-author-link, .media-block .post-categories a, .media-block .meta-author-link a:hover {
+    background-color: rgba(0,0,0,0)!important;
+}
+.single-post .datetime, .articles-classic .datetime {
+    color: #FFF!important;
+}
+.single-post .media-block a{
+    background-color: rgba(0,0,0,0)!important;
+}
+.news .media-block h2 {
+    color: #000!important;
+}
+.single-post h2 {
+    font-size: 32px;
+    line-height: 31px;
+}
+.articles-classic .media-block .holder {
+    background-color: #000000;
+}
+
+
+/*--Albums--*/
+.single-album .single-post.featured {
+    background: #000;
+}
+.single-album .content-box h4 {
+    letter-spacing: -0px!important;
+    margin-bottom: -17px!important;
+}
+.single-album .content-box .blockquote-block blockquote {
+    color: #FFF;
+}
+.media-block .datetime, .media-block .meta-simple, .media-block .category, .tab-title, .news-grid-wrap a:hover time, .news-grid-wrap a:hover .meta-author-link, .news-grid-tab .datetime, .news-grid-tab .meta-author-link, .news-grid-tab .post-categories, .news-grid-tab .post-tags, .news-grid-wrap a:hover .post-categories, .news-grid-wrap a:hover .post-tags{
+    color: #000;
+}
+
+/*-------------------------------------------------------------*\
+          #REVOLUTION SLIDER
+\*-------------------------------------------------------------*/
+.tp-caption a{
+	color:inherit;
+}
+
+/*-------------------------------------------------------------*\
+          #WOOCOMMERCE
+\*-------------------------------------------------------------*/
+.entry .woocommerce-checkout-payment p{
+	color:#000;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs:before{
+	border-color: #FFF;
+}
+
+/*-------------------------------------------------------------*\
+          #MÚSICA
+\*-------------------------------------------------------------*/
+.iron-audioplayer a.audio-track:hover .tracklist-item-title {
+	color: #fff;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+}
+
+.iron-audioplayer .playlist li.current.playing .audio-track {
+	color: #D96E34;
+	font-weight: 600;
+}
+
+.iron-audioplayer .playlist li.current.playing .audio-track:hover .tracklist-item-title {
+	color: #D96E34;
+}
+
+.cr_it-playlist-release-date {
+	color: #999;
+}
+
+.iron-audioplayer .track-number svg {
+	top: 5px !important;
+}
+
+.iron-audioplayer .playlist .track-number svg path,
+.iron-audioplayer .playlist .track-number svg rect {
+	fill: #D96E34;
+}
+
+.iron-audioplayer a.button:hover {
+	background-color: #454545;
+	color: #fff;
+}
+
+.iron-audioplayer .playlist {
+	padding-right: 20px;
+}
+
+/*-------------------------------------------------------------*\
+          #VIDEO
+\*-------------------------------------------------------------*/
+@media only screen and (max-width: 639px) {
+	.videogrid {
+		margin-bottom: 15px;
+	}
+}
+
+/*-------------------------------------------------------------*\
+          #CONTACTO
+\*-------------------------------------------------------------*/
+.wpcf7-form-control:not(.wpcf7-submit),
+.wpcf7-textarea {
+	background-color: #454545 !important;
+	color: #fff;
+}
+.menu-toggle rect{
+	fill:#c8ffc3;
+}
+
+ul.header-top-menu li a { color:#c8ffc3; }
+
+.menu-toggle-off polygon {
+	fill: #c8ffc3;
+}
+
+@media only screen and (max-width: 768px) {
+	.after-wpcf7-contact .vc_column-inner {
+		margin-bottom: 40px !important;
+	}
+
+	.vc_empty_space.contact-details {
+		margin-bottom: 70px !important;
+	}
+}
+

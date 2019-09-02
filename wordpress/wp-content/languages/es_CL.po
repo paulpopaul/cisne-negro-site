@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-06-06 15:53:48+0000\n"
+"PO-Revision-Date: 2019-07-22 16:47:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -86,6 +86,10 @@ msgstr "number_format_thousands_sep"
 #: wp-includes/class-wp-locale.php:213
 msgid "number_format_decimal_point"
 msgstr "number_format_decimal_point"
+
+#: wp-includes/customize/class-wp-customize-theme-control.php:97
+msgid "New version available."
+msgstr "Nueva versión disponible."
 
 #: wp-includes/load.php:152
 msgid "Insufficient Requirements"
@@ -532,7 +536,7 @@ msgstr "Detalles del Error"
 msgid "A recovery link was already sent %1$s ago. Please wait another %2$s before requesting a new email."
 msgstr "Un enlace de recuperación ya se envió hace %1$s. Por favor, espera %2$s antes de solicitar un nuevo correo electrónico."
 
-#: wp-includes/class-wp-recovery-mode-email-service.php:65
+#: wp-login.php:429 wp-includes/class-wp-recovery-mode-email-service.php:65
 msgid "The email could not be sent. Possible reason: your host may have disabled the mail() function."
 msgstr "No se ha podido enviar el correo electrónico. Posible razón: es posible que el hosting haya desactivado la función mail()."
 
@@ -557,31 +561,31 @@ msgid "Recovery Mode not initialized."
 msgstr "Modo de recuperación no inicializado."
 
 #. translators: user role for subscriber
-#: wp-includes/capabilities.php:994
+#: wp-includes/capabilities.php:1019
 msgctxt "User role"
 msgid "Subscriber"
 msgstr "Suscriptor"
 
 #. translators: user role for contributors
-#: wp-includes/capabilities.php:992
+#: wp-includes/capabilities.php:1017
 msgctxt "User role"
 msgid "Contributor"
 msgstr "Colaborador"
 
 #. translators: user role for authors
-#: wp-includes/capabilities.php:990
+#: wp-includes/capabilities.php:1015
 msgctxt "User role"
 msgid "Author"
 msgstr "Autor"
 
 #. translators: user role for editors
-#: wp-includes/capabilities.php:988
+#: wp-includes/capabilities.php:1013
 msgctxt "User role"
 msgid "Editor"
 msgstr "Editor"
 
 #. translators: user role for administrators
-#: wp-includes/capabilities.php:986
+#: wp-includes/capabilities.php:1011
 msgctxt "User role"
 msgid "Administrator"
 msgstr "Administrador"
@@ -1073,7 +1077,7 @@ msgstr "%s (abrir en una nueva pestaña)"
 
 #: wp-includes/js/dist/format-library.js:1360
 msgid "Link removed."
-msgstr "Enlace removido."
+msgstr "Enlace eliminado."
 
 #: wp-includes/js/dist/format-library.js:652
 msgid "Inline Image"
@@ -4210,8 +4214,8 @@ msgctxt "customizer changeset status"
 msgid "Scheduled"
 msgstr "Programado"
 
-#: wp-includes/customize/class-wp-customize-theme-control.php:115
-#: wp-includes/customize/class-wp-customize-theme-control.php:123
+#: wp-includes/customize/class-wp-customize-theme-control.php:122
+#: wp-includes/customize/class-wp-customize-theme-control.php:130
 msgctxt "theme"
 msgid "Installed"
 msgstr "Instalado"
@@ -4389,7 +4393,7 @@ msgstr "Tu tema puede mostrar menús en una sola ubicación. Selecciona el menú
 #. translators: %s: site name
 #: wp-login.php:391
 msgid "Site Name: %s"
-msgstr "Nombre del sitio: %s"
+msgstr "Nombre del Sitio: %s"
 
 #. translators: Login screen title. 1: Login screen name, 2: Network or site
 #. name
@@ -4995,7 +4999,7 @@ msgstr "Volver a las fuentes de temas"
 msgid "Search WordPress.org themes"
 msgstr "Buscar temas en WordPress.org"
 
-#: wp-includes/customize/class-wp-customize-theme-control.php:128
+#: wp-includes/customize/class-wp-customize-theme-control.php:135
 msgid "Install &amp; Preview"
 msgstr "Instalar &amp; previsualizar"
 
@@ -6453,7 +6457,7 @@ msgstr "+ %s"
 #: wp-includes/l10n.php:1467
 msgctxt "default site language"
 msgid "Site Default"
-msgstr "Sitio Predeterminado"
+msgstr "Por defecto del sitio"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:470
 msgid "HTML description for the object, transformed for display."
@@ -7487,13 +7491,12 @@ msgstr "Filtrar temas"
 msgid "Change theme"
 msgstr "Cambiar el tema"
 
-#. translators: %s: "Update now" button
-#: wp-includes/customize/class-wp-customize-theme-control.php:97
+#: wp-includes/customize/class-wp-customize-theme-control.php:102
 msgid "Update now"
 msgstr "Actualizar ahora"
 
 #. translators: %s: "Update now" button
-#: wp-includes/customize/class-wp-customize-theme-control.php:97
+#: wp-includes/customize/class-wp-customize-theme-control.php:101
 msgid "New version available. %s"
 msgstr "Nueva versión disponible. %s"
 
@@ -9793,7 +9796,7 @@ msgstr[0] "%1$s respuesta a %2$s"
 msgstr[1] "%1$s repuestas a %2$s"
 
 #. translators: %s: theme name
-#: wp-includes/customize/class-wp-customize-theme-control.php:108
+#: wp-includes/customize/class-wp-customize-theme-control.php:115
 msgid "<span>Previewing:</span> %s"
 msgstr "<span>Previsualizando:</span> %s"
 
@@ -10004,7 +10007,7 @@ msgid "Theme Details"
 msgstr "Detalles del tema"
 
 #: wp-includes/script-loader.php:1767
-#: wp-includes/customize/class-wp-customize-theme-control.php:120
+#: wp-includes/customize/class-wp-customize-theme-control.php:127
 msgid "Live Preview"
 msgstr "Previsualizar en vivo"
 
@@ -11680,10 +11683,6 @@ msgstr "No se puede utilizar el navegador web de tu dispositivo para subir archi
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>ERROR</strong>: No pudimos registrarte&hellip; por favor contacta al <a href=\"mailto:%s\">webmaster</a> !"
 
-#: wp-login.php:429
-msgid "Possible reason: your host may have disabled the mail() function."
-msgstr "Razón posible: Tu host podría tener deshabilitada la función mail()"
-
 #: wp-includes/post-template.php:298
 msgid "(more&hellip;)"
 msgstr "(más&hellip;)"
@@ -12242,7 +12241,7 @@ msgid "Select file"
 msgstr "Seleccionar archivo"
 
 #: wp-includes/admin-bar.php:434
-#: wp-includes/customize/class-wp-customize-theme-control.php:112
+#: wp-includes/customize/class-wp-customize-theme-control.php:119
 msgid "Customize"
 msgstr "Personalizar"
 
@@ -12323,7 +12322,7 @@ msgstr "Color de fondo"
 #: wp-includes/js/dist/block-library.js:17504
 #: wp-includes/js/dist/block-library.js:19349
 msgid "Text Color"
-msgstr "Color del Texto"
+msgstr "Color de Texto"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:241
 msgid "Change image"
@@ -14117,10 +14116,6 @@ msgstr "<strong>ERROR</strong>: por favor, ingresa tu dirección de correo elect
 #: wp-includes/user.php:3621
 msgid "Invalid key."
 msgstr "Clave inválida."
-
-#: wp-login.php:429
-msgid "The email could not be sent."
-msgstr "No se pudo enviar el correo electrónico."
 
 #. translators: Password reset notification email subject. %s: Site title
 #: wp-login.php:399
