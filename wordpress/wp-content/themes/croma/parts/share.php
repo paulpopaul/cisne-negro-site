@@ -8,7 +8,7 @@ $thumb_url = $thumb_url_array[0];
 
 ?>
 <aside class="links-block">
-	<a href="#" onclick="window.history.back(); return false;" class="back-btn"><?php echo esc_html__("Back", 'croma'); ?></a>
+	<a href="#" onclick="window.history.back(); return false;" class="back-btn"><?php echo esc_html__("Volver", 'croma'); ?></a>
 	<div class="buttons">
 		<div class="sharing_toolbox" data-image-social="<?php echo esc_url( $thumb_url ) ?>"></div>
 	</div>

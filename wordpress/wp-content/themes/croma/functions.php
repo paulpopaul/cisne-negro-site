@@ -34,50 +34,56 @@ function noticias_inicio_shortcode ( $atts ) {
 
 
 <?
-    foreach ( $ultimas_noticias as $post ) {
-    	setup_postdata( $post );
+	if ( $ultimas_noticias ) :
+	    foreach ( $ultimas_noticias as $post ) :
+	    	setup_postdata( $post );
 
-    	/*
-    	
-    		Para título: the_title()
-    		Para contenido: the_content()
-    		Para imágen destacada: the_post_thumbnail()
+	    	/*
+	    	
+	    		Para título: the_title()
+	    		Para contenido: the_content()
+	    		Para imágen destacada: the_post_thumbnail()
 
-    	 */
+	    	 */
 
-
-    ?>
-
-
-		<!-- EL CÓDIGO HTML -->
+?>
    
     <div class="carousel-cell">
         <div class="news-grid-wrap iso4 isotope-item">
-            <a href="<? the_permalink() ?>" class=""> <? the_post_thumbnail( 'medium') ?>
-                <div class="news-grid-tab">
+            <a href="<? the_permalink() ?>">
+            	<? the_post_thumbnail( 'medium' ) ?>
 
+                <div class="news-grid-tab">
                     <div class="tab-text">
-                        <div class="tab-title" style="color:white;"> <? the_title() ?></div>
+                        <div class="tab-title" style="color:white"> <? the_title() ?> </div>
                         <br>
-                        <time class="datetime"> <?= get_the_date('d F, Y') ?> </time>
+                        <time class="datetime"> <?= get_the_date( 'd F, Y' ) ?> </time>
 
                     </div>
-
-                </div>
+                </div> <!-- news-grid-tab -->
             </a>
+
             <div class="clear"></div>
-        </div>
-    </div>
+        </div> <!-- isotope-item -->
+    </div>  <!-- carousel-cell -->
 
-
-
-    <?
-    }
-
-
-    ?>
-</div>
 <?
+
+	    endforeach;
+
+	else:
+		echo 'No hay noticias.';
+
+	endif;
+
+?>
+
+</div> <!-- main-carousel -->
+
+<?
+
     wp_reset_postdata();
 
 }
+
+?>
