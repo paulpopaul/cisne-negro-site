@@ -58,7 +58,7 @@ list( $iron_croma_has_sidebar, $iron_croma_sidebar_position, $iron_croma_sidebar
 				<?php endif; ?>
 
 				<?php if ( $iron_croma_show_post_author ): ?>
-						<?php echo esc_html__('by', 'croma'); ?> <a class="meta-author-link" href="<?php echo esc_url( get_author_posts_url(get_the_author_meta('ID'))) ?>"><?php the_author(); ?></a>
+						<?php echo esc_html__('-', 'croma'); ?> <a class="meta-author-link" href="<?php echo esc_url( get_author_posts_url(get_the_author_meta('ID'))) ?>"><?php the_author(); ?></a>
 				<?php endif;
 
 				$iron_croma_categories_list = get_the_category_list( ', ',get_the_ID() );
