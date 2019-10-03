@@ -69,5 +69,6 @@
 	<?php endif;?>
 	</div>
  <?php wp_footer(); ?>
+ <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

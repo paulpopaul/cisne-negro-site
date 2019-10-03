@@ -1842,3 +1842,31 @@ ul.header-top-menu li a { color:#c8ffc3; }
 	}
 }
 
+
+
+/*-------------------------------------------------------------*\
+          #POST LIST
+\*-------------------------------------------------------------*/
+#post-list.listing-section.news{}
+
+#post-list.listing-section.news article:after{
+	content:'';
+	display: table;
+	clear:both;
+}
+#post-list.listing-section.news article .holder{
+	background: #f7f7f7;
+	margin-bottom: 60px;
+}
+#post-list.listing-section.news article .text-box.empty{
+	padding:35px!important;
+}
+.media-block .datetime, .media-block .category{
+	text-transform: none;
+}
+#post-list.listing-section.news .classic-meta, article.single-post .meta {
+	font-size:12px;
+	background: red;
+	line-height:14px;
+	margin-bottom:17px;
+}

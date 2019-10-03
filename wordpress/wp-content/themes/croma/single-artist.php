@@ -137,7 +137,7 @@ if ($banner_background_type) {
 				<?php the_content(); ?>
 			</div>
 			<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'croma' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-		</div>
+		</div>hola
 		</article>
 	</div>
 </div>

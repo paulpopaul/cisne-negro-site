@@ -28,6 +28,12 @@ function noticias_inicio_shortcode ( $atts ) {
     	'posts_per_page' => $atts['max']
     ) );
 
+?>
+
+<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+
+
+<?
     foreach ( $ultimas_noticias as $post ) {
     	setup_postdata( $post );
 
@@ -39,13 +45,39 @@ function noticias_inicio_shortcode ( $atts ) {
 
     	 */
 
+
     ?>
 
+
 		<!-- EL CÓDIGO HTML -->
+   
+    <div class="carousel-cell">
+        <div class="news-grid-wrap iso4 isotope-item">
+            <a href="<? the_permalink() ?>" class=""> <? the_post_thumbnail( 'medium') ?>
+                <div class="news-grid-tab">
+
+                    <div class="tab-text">
+                        <div class="tab-title" style="color:white;"> <? the_title() ?></div>
+                        <br>
+                        <time class="datetime"> <?= get_the_date('d F, Y') ?> </time>
+
+                    </div>
+
+                </div>
+            </a>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
 
     <?
     }
 
+
+    ?>
+</div>
+<?
     wp_reset_postdata();
 
 }

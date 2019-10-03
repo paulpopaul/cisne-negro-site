@@ -3,7 +3,9 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body <?php body_class() ?>>
 	<div id="overlay"><div class="perspective"></div></div>
