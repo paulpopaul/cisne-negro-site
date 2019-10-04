@@ -1870,3 +1870,12 @@ ul.header-top-menu li a { color:#c8ffc3; }
 	line-height:14px;
 	margin-bottom:17px;
 }
+
+
+/*-------------------------------------------------------------*\
+          #NOTICIAS SLIDER (HOME)
+\*-------------------------------------------------------------*/
+.flickity-slider {  }
+.carousel-cell { min-height: 100%; display: flex; }
+.carousel-cell .news-grid-wrap { min-height: 100%; }
+
