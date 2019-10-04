@@ -30,7 +30,7 @@ function noticias_inicio_shortcode ( $atts ) {
 
 ?>
 
-<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 1500 }'>
+<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3500 }'>
 
 
 <?
