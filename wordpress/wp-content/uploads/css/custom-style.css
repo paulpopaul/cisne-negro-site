@@ -1977,25 +1977,6 @@ font-size: 20px;
 color: #ffffff;
 }
 
-
-@media only screen and (max-width: 1600px) {
-
-}
-
-@media only screen and (max-width: 1520px) {
-
-}
-
-@media only screen and (max-width: 1367px) {
-}
-
-@media only screen and (max-width: 1143px) {
-}
-
-
-
-
-
 @media screen and (max-width: 480px) { 
 .heading-space {
     padding-top: 20px;
@@ -2013,11 +1994,5 @@ font-size: 16px;
 color: #ffffff;
 padding-top: 10px;
 
-}
-}
-
-@media only screen and (max-width: 768px) { 
-body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
-font-size: 18px;
 }
 }
