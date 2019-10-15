@@ -1855,8 +1855,8 @@ ul.header-top-menu li a { color:#c8ffc3; }
 	clear:both;
 }
 #post-list.listing-section.news article .holder{
-	background: #f7f7f7;
-	margin-bottom: 60px;
+	background: red;
+	margin-bottom: 20px;
 }
 #post-list.listing-section.news article .text-box.empty{
 	padding:35px!important;
@@ -1883,7 +1883,6 @@ body, .entry p, .single-product th, .single-product td, .single-product tr, .com
           #NOTICIAS SLIDER (HOME)
 \*-------------------------------------------------------------*/
 .flickity-slider {  
-
 }
 .carousel-cell { 
 min-height: 100%; 
@@ -1896,19 +1895,25 @@ background: #000 !important;
 padding: 4px;
 }
 
+.carousel-cell .news-grid-wrap:hover { 
+min-height: 100%;
+background: orange !important; 
+padding: 4px;
+}
+
 .carousel-cell .news-grid-tab { 
 justify-content: center;
 text-align: center;
+background: black;
 }
 
 .carousel-cell .news-grid-tab .tab-text{ 
-background: black !important; 
 padding: 4px;
 }
 
 .carousel-cell .news-grid-tab .tab-title{ 
 font-size: 18px; 
-font-weight: 600;
+font-weight: 800;
 margin:6px 0 10px;
 padding: 6px;
 height: 50px;
@@ -1931,7 +1936,88 @@ font-weight: 600;
 }
 
 .sharing_toolbox{
-	display: none;
+display: none;
 }
 /*b16d00  rgb(217,110,52)*/
+/*-------------------------------------------------------------*\
+          #NOTICIAS SLIDER (DETALLE)
+\*-------------------------------------------------------------*/
+.single-post h2 {
+    font-size: 30px;
+    line-height: 31px;
+    font-weight: 800;
+}
 
+body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+/*b16d00  rgb(217,110,52)*/
+/*-------------------------------------------------------------*\
+          #NOTICIAS SLIDER (DETALLE)
+\*-------------------------------------------------------------*/
+.heading-space {
+padding-top: 60px;
+}
+.single-post h2 {
+font-size: 30px;
+line-height: 31px;
+font-weight: 800;
+
+}
+
+body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
+font-family: Open Sans;
+font-weight: 600;
+font-size: 20px;
+color: #ffffff;
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1520px) {
+
+}
+
+@media only screen and (max-width: 1367px) {
+}
+
+@media only screen and (max-width: 1143px) {
+}
+
+
+
+
+
+@media screen and (max-width: 480px) { 
+.heading-space {
+    padding-top: 20px;
+}
+.single-post h2 {
+font-size: 24px;
+line-height: 31px;
+font-weight: 800;
+margin-top: 10px;
+}
+body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
+font-family: Open Sans;
+font-weight: 600;
+font-size: 16px;
+color: #ffffff;
+padding-top: 10px;
+
+}
+}
+
+@media only screen and (max-width: 768px) { 
+body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
+font-size: 18px;
+}
+}
