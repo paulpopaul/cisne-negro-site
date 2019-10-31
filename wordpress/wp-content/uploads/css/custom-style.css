@@ -1874,8 +1874,8 @@ ul.header-top-menu li a { color:#c8ffc3; }
 
 body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
     font-family: Open Sans;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 14px;
     line-height: 20px;
     color: #ffffff;
 }
@@ -1939,24 +1939,7 @@ font-weight: 600;
 display: none;
 }
 /*b16d00  rgb(217,110,52)*/
-/*-------------------------------------------------------------*\
-          #NOTICIAS SLIDER (DETALLE)
-\*-------------------------------------------------------------*/
-.single-post h2 {
-    font-size: 30px;
-    line-height: 31px;
-    font-weight: 800;
-}
 
-body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
-    font-family: Open Sans;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
-}
-
-/*b16d00  rgb(217,110,52)*/
 /*-------------------------------------------------------------*\
           #NOTICIAS SLIDER (DETALLE)
 \*-------------------------------------------------------------*/
@@ -1970,12 +1953,7 @@ font-weight: 800;
 
 }
 
-body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text {
-font-family: Open Sans;
-font-weight: 600;
-font-size: 20px;
-color: #ffffff;
-}
+
 
 @media screen and (max-width: 480px) { 
 .heading-space {
