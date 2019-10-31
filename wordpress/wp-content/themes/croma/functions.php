@@ -9,6 +9,22 @@ Iron_Croma::setup();
 // CUSTOM
 // -----------------------------------------------------
 
+/**
+*
+*	Agrega [estilo] en Admin
+*
+*/
+add_action('wp_enqueue_scripts', 'flickity_dependencies');
+
+function flickity_dependencies ( ) {
+	wp_register_style('flickity-css','https://unpkg.com/flickity@2/dist/flickity.min.css');
+    wp_enqueue_style('flickity-css');
+
+    wp_register_script('flickity-js','https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array('jquery'),'', true);
+    wp_enqueue_script('flickity-js');
+}
+
+
 add_shortcode( 'noticias', 'noticias_inicio_shortcode' );
 // Shortcode para Noticias en Inicio
 function noticias_inicio_shortcode ( $atts ) {
@@ -30,7 +46,7 @@ function noticias_inicio_shortcode ( $atts ) {
 
 ?>
 
-<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3500 }'>
+<div class="main-carousel" >
 
 
 <?
@@ -79,6 +95,17 @@ function noticias_inicio_shortcode ( $atts ) {
 ?>
 
 </div> <!-- main-carousel -->
+
+<script type="text/javascript">
+	jQuery(document).on('ready', function() {
+		jQuery('.main-carousel').flickity({
+
+			cellAlign: 'center',
+			contain: true,
+			autoPlay: 3500,
+		});
+	});
+</script>
 
 <?
 
