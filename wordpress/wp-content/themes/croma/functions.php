@@ -97,14 +97,25 @@ function noticias_inicio_shortcode ( $atts ) {
 </div> <!-- main-carousel -->
 
 <script type="text/javascript">
-	jQuery(document).on('ready', function() {
-		jQuery('.main-carousel').flickity({
 
-			cellAlign: 'center',
-			contain: true,
-			autoPlay: 3500,
+	var flickity_options = {
+		"cellAlign": "center",
+		"contain": true,
+		"autoPlay": 3500
+	}
+	
+	try {
+
+		jQuery(".main-carousel").flickity( flickity_options );
+
+	} catch( $e ) {
+
+		jQuery(document).on('ready', function() {
+			jQuery('.main-carousel').flickity( flickity_options );
 		});
-	});
+
+	}
+	
 </script>
 
 <?
