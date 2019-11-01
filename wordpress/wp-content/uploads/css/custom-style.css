@@ -1885,8 +1885,12 @@ body, .entry p, .single-product th, .single-product td, .single-product tr, .com
 .flickity-slider {  
 }
 .carousel-cell { 
-min-height: 100%; 
+/*min-height: 100%; */
 display: flex; 
+}
+
+@media only screen and (max-width: 500px) {
+	.carousel-cell { width: 100%; }
 }
 
 .carousel-cell .news-grid-wrap { 
