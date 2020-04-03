@@ -34,6 +34,7 @@ cisne-site
 --
 
 URL: http://www.cisnenegrostudio.com/
+<img src="home-cisnenegro.jpg">
 --
 
 Ensambler® 2019. Ingeniería de Software para Soluciones Empresariales Integradas.
